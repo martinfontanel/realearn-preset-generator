@@ -1,0 +1,51 @@
+{
+  "vstName": "MJUCjr",
+  "parameters": [
+    {
+      "name": "Compress",
+      "type": "knob",
+      "category": "Threshold"
+    },
+    {
+      "name": "Makeup",
+      "type": "knob",
+      "category": "Makeup Gain"
+    },
+    {
+      "name": "Timing",
+      "type": "indent",
+      "category": ""
+    },
+    {
+      "name": "VuMode",
+      "type": "button",
+      "category": "VU/GR"
+    },
+    {
+      "name": "Bypass",
+      "type": "button",
+      "category": "Bypass"
+    },
+    {
+      "name": "Bypass",
+      "type": "button",
+      "category": "Bypass"
+    },
+    {
+      "name": "Bypass",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Wet",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Delta",
+      "type": "",
+      "category": ""
+    }
+  ],
+  "type": "dyn"
+}

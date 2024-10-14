@@ -1,0 +1,37 @@
+{
+    "vstName": "DD Tremolo",
+    "parameters": [
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Sync",
+        "type": ""
+      },
+      {
+        "name": "Shape",
+        "type": ""
+      },
+      {
+        "name": "Rate",
+        "type": ""
+      },
+      {
+        "name": "Depth",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

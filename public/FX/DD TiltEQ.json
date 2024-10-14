@@ -1,0 +1,33 @@
+{
+    "vstName": "DD TiltEQ",
+    "parameters": [
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Input",
+        "type": ""
+      },
+      {
+        "name": "Freq",
+        "type": ""
+      },
+      {
+        "name": "Gain",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

@@ -1,0 +1,121 @@
+{
+  "vstName": "Limited-Z_v2",
+  "parameters": [
+    {
+      "name": "Preset",
+      "type": "indent",
+      "category": ""
+    },
+    {
+      "name": "Bypass",
+      "type": "button",
+      "category": "Bypass"
+    },
+    {
+      "name": "Input Trim",
+      "type": "knob",
+      "category": "Input"
+    },
+    {
+      "name": "Amount",
+      "type": "knob",
+      "category": ""
+    },
+    {
+      "name": "Margin Level",
+      "type": "knob",
+      "category": ""
+    },
+    {
+      "name": "Margin Setting",
+      "type": "indent",
+      "category": ""
+    },
+    {
+      "name": "Meter Type",
+      "type": "indent",
+      "category": ""
+    },
+    {
+      "name": "Meter View",
+      "type": "indent",
+      "category": ""
+    },
+    {
+      "name": "Auto Gain Compare",
+      "type": "button",
+      "category": "Auto Gain"
+    },
+    {
+      "name": "History",
+      "type": "knob",
+      "category": ""
+    },
+    {
+      "name": "dB Scale",
+      "type": "knob",
+      "category": ""
+    },
+    {
+      "name": "Oversample Mode",
+      "type": "button",
+      "category": "Oversample"
+    },
+    {
+      "name": "Oversample Rate",
+      "type": "indent",
+      "category": ""
+    },
+    {
+      "name": "ISP Protect",
+      "type": "button",
+      "category": ""
+    },
+    {
+      "name": "Meter View",
+      "type": "button",
+      "category": "VU/GR"
+    },
+    {
+      "name": "Show Input Wave",
+      "type": "button",
+      "category": "VU/GR"
+    },
+    {
+      "name": "Show Output Wave",
+      "type": "button",
+      "category": "VU/GR"
+    },
+    {
+      "name": "Limiter",
+      "type": "knob",
+      "category": ""
+    },
+    {
+      "name": "Limit Character",
+      "type": "knob",
+      "category": ""
+    },
+    {
+      "name": "Transient Character",
+      "type": "knob",
+      "category": ""
+    },
+    {
+      "name": "Bypass",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Wet",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Delta",
+      "type": "",
+      "category": ""
+    }
+  ],
+  "type": "dyn"
+}

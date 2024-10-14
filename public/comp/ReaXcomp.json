@@ -1,0 +1,318 @@
+{
+  "vstName": "ReaXcomp",
+  "parameters": [
+    {
+      "name": "1-Band top frequency",
+      "type": "knob",
+      "category": "LPF",
+      "part": "Band - 1"
+    },
+    {
+      "name": "1-Gain",
+      "type": "knob",
+      "category": "Makeup Gain",
+      "part": "Band - 1"
+    },
+    {
+      "name": "1-Threshold",
+      "type": "knob",
+      "category": "Threshold",
+      "part": "Band - 1"
+    },
+    {
+      "name": "1-Ratio",
+      "type": "knob",
+      "category": "Ratio",
+      "part": "Band - 1"
+    },
+    {
+      "name": "1-Knee",
+      "type": "knob",
+      "category": "Knee",
+      "part": "Band - 1"
+    },
+    {
+      "name": "1-Attack",
+      "type": "knob",
+      "category": "Attack",
+      "part": "Band - 1"
+    },
+    {
+      "name": "1-Release",
+      "type": "knob",
+      "category": "Release",
+      "part": "Band - 1"
+    },
+    {
+      "name": "1-RMS",
+      "type": "knob",
+      "category": "RMS",
+      "part": "Band - 1"
+    },
+    {
+      "name": "1-Make Up Gain",
+      "type": "button",
+      "category": "",
+      "part": "Band - 1"
+    },
+    {
+      "name": "1-Auto Release",
+      "type": "button",
+      "category": "Auto Release",
+      "part": "Band - 1"
+    },
+    {
+      "name": "1-FeedBack Detector",
+      "type": "button",
+      "category": "",
+      "part": "Band - 1"
+    },
+    {
+      "name": "1-Active",
+      "type": "button",
+      "category": "Bypass",
+      "part": "Band - 1"
+    },
+    {
+      "name": "2-Band top frequency",
+      "type": "knob",
+      "category": "LPF",
+      "part": "Band - 2"
+    },
+    {
+      "name": "2-Gain",
+      "type": "knob",
+      "category": "Makeup Gain",
+      "part": "Band - 2"
+    },
+    {
+      "name": "2-Threshold",
+      "type": "knob",
+      "category": "Threshold",
+      "part": "Band - 2"
+    },
+    {
+      "name": "2-Ratio",
+      "type": "knob",
+      "category": "Ratio",
+      "part": "Band - 2"
+    },
+    {
+      "name": "2-Knee",
+      "type": "knob",
+      "category": "Hold",
+      "part": "Band - 2"
+    },
+    {
+      "name": "2-Attack",
+      "type": "knob",
+      "category": "Attack",
+      "part": "Band - 2"
+    },
+    {
+      "name": "2-Release",
+      "type": "knob",
+      "category": "Release",
+      "part": "Band - 2"
+    },
+    {
+      "name": "2-RMS",
+      "type": "knob",
+      "category": "RMS",
+      "part": "Band - 2"
+    },
+    {
+      "name": "2-Make Up Gain",
+      "type": "button",
+      "category": "",
+      "part": "Band - 2"
+    },
+    {
+      "name": "2-Auto Release",
+      "type": "button",
+      "category": "Auto Release",
+      "part": "Band - 2"
+    },
+    {
+      "name": "2-FeedBack Detector",
+      "type": "button",
+      "category": "",
+      "part": "Band - 2"
+    },
+    {
+      "name": "2-Active",
+      "type": "button",
+      "category": "Bypass",
+      "part": "Band - 2"
+    },
+    {
+      "name": "3-Band top frequency",
+      "type": "knob",
+      "category": "LPF",
+      "part": "Band - 3"
+    },
+    {
+      "name": "3-Gain",
+      "type": "knob",
+      "category": "Makeup Gain",
+      "part": "Band - 3"
+    },
+    {
+      "name": "3-Threshold",
+      "type": "knob",
+      "category": "Threshold",
+      "part": "Band - 3"
+    },
+    {
+      "name": "3-Ratio",
+      "type": "knob",
+      "category": "Ratio",
+      "part": "Band - 3"
+    },
+    {
+      "name": "3-Knee",
+      "type": "knob",
+      "category": "Knee",
+      "part": "Band - 3"
+    },
+    {
+      "name": "3-Attack",
+      "type": "knob",
+      "category": "Attack",
+      "part": "Band - 3"
+    },
+    {
+      "name": "3-Release",
+      "type": "knob",
+      "category": "Release",
+      "part": "Band - 3"
+    },
+    {
+      "name": "3-RMS",
+      "type": "knob",
+      "category": "RMS",
+      "part": "Band - 3"
+    },
+    {
+      "name": "3-Make Up Gain",
+      "type": "button",
+      "category": "",
+      "part": "Band - 3"
+    },
+    {
+      "name": "3-Auto Release",
+      "type": "button",
+      "category": "Auto Release",
+      "part": "Band - 3"
+    },
+    {
+      "name": "3-FeedBack Detector",
+      "type": "button",
+      "category": "",
+      "part": "Band - 3"
+    },
+    {
+      "name": "3-Active",
+      "type": "button",
+      "category": "Bypass",
+      "part": "Band - 3"
+    },
+    {
+      "name": "4-Band top frequency",
+      "type": "knob",
+      "category": "HPF",
+      "part": "Band - 4"
+    },
+    {
+      "name": "4-Gain",
+      "type": "knob",
+      "category": "Makeup Gain",
+      "part": "Band - 4"
+    },
+    {
+      "name": "4-Threshold",
+      "type": "knob",
+      "category": "Threshold",
+      "part": "Band - 4"
+    },
+    {
+      "name": "4-Ratio",
+      "type": "knob",
+      "category": "Ratio",
+      "part": "Band - 4"
+    },
+    {
+      "name": "4-Knee",
+      "type": "knob",
+      "category": "Knee",
+      "part": "Band - 4"
+    },
+    {
+      "name": "4-Attack",
+      "type": "knob",
+      "category": "Attack",
+      "part": "Band - 4"
+    },
+    {
+      "name": "4-Release",
+      "type": "knob",
+      "category": "Release",
+      "part": "Band - 4"
+    },
+    {
+      "name": "4-RMS",
+      "type": "knob",
+      "category": "RMS",
+      "part": "Band - 4"
+    },
+    {
+      "name": "4-Make Up Gain",
+      "type": "button",
+      "category": "",
+      "part": "Band - 4"
+    },
+    {
+      "name": "4-Auto Release",
+      "type": "button",
+      "category": "Auto Release",
+      "part": "Band - 4"
+    },
+    {
+      "name": "4-FeedBack Detector",
+      "type": "button",
+      "category": "",
+      "part": "Band - 4"
+    },
+    {
+      "name": "4-Active",
+      "type": "button",
+      "category": "Bypass",
+      "part": "Band - 4"
+    },
+    {
+      "name": "Bypass",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Wet",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Delta",
+      "type": "",
+      "category": "",
+      "part": ""
+    }
+  ],
+  "type": "dyn",
+  "parts": [
+    "Band - 1",
+    "Band - 2",
+    "Band - 3",
+    "Band - 4"
+  ]
+}

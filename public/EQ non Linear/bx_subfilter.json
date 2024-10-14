@@ -1,0 +1,49 @@
+{
+    "vstName": "bx_subfilter",
+    "parameters": [
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Setting",
+        "type": ""
+      },
+      {
+        "name": "Input Gain",
+        "type": ""
+      },
+      {
+        "name": "Tight Punch Filter",
+        "type": ""
+      },
+      {
+        "name": "Resonance",
+        "type": ""
+      },
+      {
+        "name": "Low End",
+        "type": ""
+      },
+      {
+        "name": "Output Gain",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

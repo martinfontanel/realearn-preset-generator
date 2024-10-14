@@ -1,0 +1,201 @@
+{
+  "vstName": "DD Channel",
+  "parameters": [
+    {
+      "name": "Bypass",
+      "type": "button",
+      "category": "Bypass"
+    },
+    {
+      "name": "Input",
+      "type": "knob",
+      "category": "Input"
+    },
+    {
+      "name": "HPFOn",
+      "type": "button",
+      "category": ""
+    },
+    {
+      "name": "HPFCut",
+      "type": "knob",
+      "category": "HPF"
+    },
+    {
+      "name": "LPFOn",
+      "type": "button",
+      "category": ""
+    },
+    {
+      "name": "LPFCut",
+      "type": "knob",
+      "category": "LPF"
+    },
+    {
+      "name": "GCEOrder",
+      "type": "indent",
+      "category": ""
+    },
+    {
+      "name": "EQOn",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "LFFreq",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "LFQ",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "LFGain",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "LMFFreq",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "LMFQ",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "LMFGain",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "HMFFreq",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "HMFQ",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "HMFGain",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "HFFreq",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "HFGain",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "GateOn",
+      "type": "button",
+      "category": "Bypass"
+    },
+    {
+      "name": "GTThresh",
+      "type": "knob",
+      "category": "Threshold"
+    },
+    {
+      "name": "GTAtt",
+      "type": "knob",
+      "category": "Attack"
+    },
+    {
+      "name": "GTHold",
+      "type": "knob",
+      "category": "Hold"
+    },
+    {
+      "name": "GTRel",
+      "type": "knob",
+      "category": "Release"
+    },
+    {
+      "name": "CompOn",
+      "type": "button",
+      "category": "Bypass"
+    },
+    {
+      "name": "CPThresh",
+      "type": "knob",
+      "category": "Threshold"
+    },
+    {
+      "name": "CPRatio",
+      "type": "knob",
+      "category": "Ratio"
+    },
+    {
+      "name": "CPAtt",
+      "type": "knob",
+      "category": "Attack"
+    },
+    {
+      "name": "CPRel",
+      "type": "knob",
+      "category": "Release"
+    },
+    {
+      "name": "CPMakeup",
+      "type": "knob",
+      "category": "Makeup Gain"
+    },
+    {
+      "name": "CPMix",
+      "type": "knob",
+      "category": "Wet"
+    },
+    {
+      "name": "Output",
+      "type": "knob",
+      "category": "Output"
+    },
+    {
+      "name": "LimitOn",
+      "type": "button",
+      "category": "Bypass"
+    },
+    {
+      "name": "LMThresh",
+      "type": "knob",
+      "category": "Threshold"
+    },
+    {
+      "name": "LMRel",
+      "type": "knob",
+      "category": "Release"
+    },
+    {
+      "name": "LMClip",
+      "type": "knob",
+      "category": "Clip"
+    },
+    {
+      "name": "Bypass",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Wet",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Delta",
+      "type": "",
+      "category": ""
+    }
+  ],
+  "type": "channel"
+}

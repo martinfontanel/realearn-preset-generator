@@ -1,0 +1,49 @@
+{
+    "vstName": "ReaVerb",
+    "parameters": [
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Dry",
+        "type": ""
+      },
+      {
+        "name": "Pre-verb",
+        "type": ""
+      },
+      {
+        "name": "Max FFT size",
+        "type": ""
+      },
+      {
+        "name": "Width",
+        "type": ""
+      },
+      {
+        "name": "Pan",
+        "type": ""
+      },
+      {
+        "name": "ZL mode",
+        "type": ""
+      },
+      {
+        "name": "LL mode",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

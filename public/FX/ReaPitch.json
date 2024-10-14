@@ -1,0 +1,65 @@
+{
+    "vstName": "ReaPitch",
+    "parameters": [
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Dry",
+        "type": ""
+      },
+      {
+        "name": "1: Enabled",
+        "type": ""
+      },
+      {
+        "name": "1: Shift (full range)",
+        "type": ""
+      },
+      {
+        "name": "1: Shift (cents)",
+        "type": ""
+      },
+      {
+        "name": "1: Shift (semitones)",
+        "type": ""
+      },
+      {
+        "name": "1: Shift (oct)",
+        "type": ""
+      },
+      {
+        "name": "1: Formant adjust (full range)",
+        "type": ""
+      },
+      {
+        "name": "1: Formant adjust (cents)",
+        "type": ""
+      },
+      {
+        "name": "1: Formant adjust (semitones)",
+        "type": ""
+      },
+      {
+        "name": "1: Volume",
+        "type": ""
+      },
+      {
+        "name": "1: Pan",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

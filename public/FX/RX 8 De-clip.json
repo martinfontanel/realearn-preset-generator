@@ -1,0 +1,57 @@
+{
+    "vstName": "RX 8 De-clip",
+    "parameters": [
+      {
+        "name": "Clipping threshold",
+        "type": ""
+      },
+      {
+        "name": "Makeup gain",
+        "type": ""
+      },
+      {
+        "name": "Quality",
+        "type": ""
+      },
+      {
+        "name": "Post-limiter",
+        "type": ""
+      },
+      {
+        "name": "Input Gain",
+        "type": ""
+      },
+      {
+        "name": "Output Gain",
+        "type": ""
+      },
+      {
+        "name": "Global bypass",
+        "type": ""
+      },
+      {
+        "name": "Positive threshold",
+        "type": ""
+      },
+      {
+        "name": "Negative threshold",
+        "type": ""
+      },
+      {
+        "name": "Enable Asymmetric",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

@@ -1,0 +1,36 @@
+{
+  "vstName": "ReaLimit",
+  "parameters": [
+    {
+      "name": "Threshold",
+      "type": "knob",
+      "category": "Threshold"
+    },
+    {
+      "name": "Ceiling",
+      "type": "knob",
+      "category": "Ceiling"
+    },
+    {
+      "name": "Release",
+      "type": "knob",
+      "category": "Release"
+    },
+    {
+      "name": "Bypass",
+      "type": "button",
+      "category": "Bypass"
+    },
+    {
+      "name": "Wet",
+      "type": "knob",
+      "category": "Wet"
+    },
+    {
+      "name": "Delta",
+      "type": "",
+      "category": ""
+    }
+  ],
+  "type": "dyn"
+}

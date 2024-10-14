@@ -1,0 +1,49 @@
+{
+    "vstName": "Classic Flanger",
+    "parameters": [
+      {
+        "name": "Delay",
+        "type": ""
+      },
+      {
+        "name": "Rate",
+        "type": ""
+      },
+      {
+        "name": "Depth",
+        "type": ""
+      },
+      {
+        "name": "Feedback",
+        "type": ""
+      },
+      {
+        "name": "Mix",
+        "type": ""
+      },
+      {
+        "name": "Level",
+        "type": ""
+      },
+      {
+        "name": "Spread",
+        "type": ""
+      },
+      {
+        "name": "Sync",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

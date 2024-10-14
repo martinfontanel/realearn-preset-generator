@@ -1,0 +1,15 @@
+@if (value === undefined || value === '' || valueModifiy){ @if(!optionList){
+<input [(ngModel)]="value" (change)="change($event)" />
+} @else {
+<list-select
+  [optionList]="optionList"
+  (valueEmit)="change($event)"
+  [inputSelect]="value"
+/>
+} } @else {
+<span
+  (dblclick)="valueModifiy = true"
+  title="{{ toolTipText ? toolTipText : 'double cliquez pour modifier' }}"
+  >{{ value }}</span
+>
+}

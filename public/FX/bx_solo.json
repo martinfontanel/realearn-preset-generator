@@ -1,0 +1,45 @@
+{
+    "vstName": "bx_solo",
+    "parameters": [
+      {
+        "name": "L <-> R",
+        "type": ""
+      },
+      {
+        "name": "Solo L",
+        "type": ""
+      },
+      {
+        "name": "Solo R",
+        "type": ""
+      },
+      {
+        "name": "Solo M",
+        "type": ""
+      },
+      {
+        "name": "Solo S",
+        "type": ""
+      },
+      {
+        "name": "Stereo Width",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

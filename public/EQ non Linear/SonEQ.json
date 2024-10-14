@@ -1,0 +1,85 @@
+{
+    "vstName": "SonEQ",
+    "parameters": [
+      {
+        "name": "Preset",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Low Freq.",
+        "type": ""
+      },
+      {
+        "name": "boost low",
+        "type": ""
+      },
+      {
+        "name": "Atten low",
+        "type": ""
+      },
+      {
+        "name": "Mid Gain",
+        "type": ""
+      },
+      {
+        "name": "Mid Freq",
+        "type": ""
+      },
+      {
+        "name": "Mid Q",
+        "type": ""
+      },
+      {
+        "name": "Hi Gain",
+        "type": ""
+      },
+      {
+        "name": "Hi Freq.",
+        "type": ""
+      },
+      {
+        "name": "LS Drive",
+        "type": ""
+      },
+      {
+        "name": "LS Woow",
+        "type": ""
+      },
+      {
+        "name": "LS on/off",
+        "type": ""
+      },
+      {
+        "name": "Input gain",
+        "type": ""
+      },
+      {
+        "name": "Output gain",
+        "type": ""
+      },
+      {
+        "name": "High Pass",
+        "type": ""
+      },
+      {
+        "name": "Low Pass",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

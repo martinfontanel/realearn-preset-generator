@@ -1,0 +1,86 @@
+{
+  "vstName": "RoughRider3",
+  "parameters": [
+    {
+      "name": "SC HPF",
+      "type": "knob",
+      "category": "HPF"
+    },
+    {
+      "name": "Input Lvl",
+      "type": "knob",
+      "category": "Input"
+    },
+    {
+      "name": "Sensitivity",
+      "type": "knob",
+      "category": "Threshold"
+    },
+    {
+      "name": "Ratio",
+      "type": "knob",
+      "category": "Ratio"
+    },
+    {
+      "name": "Attack",
+      "type": "knob",
+      "category": "Attack"
+    },
+    {
+      "name": "Release",
+      "type": "knob",
+      "category": "Release"
+    },
+    {
+      "name": "Makeup",
+      "type": "knob",
+      "category": "Makeup Gain"
+    },
+    {
+      "name": "Mix",
+      "type": "knob",
+      "category": "Wet"
+    },
+    {
+      "name": "Output Lvl",
+      "type": "knob",
+      "category": "Output"
+    },
+    {
+      "name": "SC Active",
+      "type": "button",
+      "category": "Ext Sidechain"
+    },
+    {
+      "name": "Full Bandwidth",
+      "type": "button",
+      "category": ""
+    },
+    {
+      "name": "Bypass",
+      "type": "button",
+      "category": "Bypass"
+    },
+    {
+      "name": "Program",
+      "type": "indent",
+      "category": ""
+    },
+    {
+      "name": "Bypass",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Wet",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Delta",
+      "type": "",
+      "category": ""
+    }
+  ],
+  "type": "dyn"
+}

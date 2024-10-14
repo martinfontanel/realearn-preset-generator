@@ -1,0 +1,66 @@
+{
+  "vstName": "Supercharger",
+  "parameters": [
+    {
+      "name": "Default",
+      "type": "indent",
+      "category": ""
+    },
+    {
+      "name": "Input Trim",
+      "type": "knob",
+      "category": "Input"
+    },
+    {
+      "name": "Sidechain",
+      "type": "button",
+      "category": "Ext Sidechain"
+    },
+    {
+      "name": "Compress",
+      "type": "knob",
+      "category": "Threshold"
+    },
+    {
+      "name": "Punch",
+      "type": "button",
+      "category": ""
+    },
+    {
+      "name": "Dirt",
+      "type": "button",
+      "category": ""
+    },
+    {
+      "name": "Mix",
+      "type": "knob",
+      "category": "Wet"
+    },
+    {
+      "name": "Output",
+      "type": "knob",
+      "category": "Output"
+    },
+    {
+      "name": "Bypass",
+      "type": "button",
+      "category": "Bypass"
+    },
+    {
+      "name": "Bypass",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Wet",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Delta",
+      "type": "",
+      "category": ""
+    }
+  ],
+  "type": "dyn"
+}

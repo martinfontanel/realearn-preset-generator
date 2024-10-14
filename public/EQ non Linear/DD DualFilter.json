@@ -1,0 +1,37 @@
+{
+    "vstName": "DD DualFilter",
+    "parameters": [
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "HPFCut",
+        "type": ""
+      },
+      {
+        "name": "HPFRes",
+        "type": ""
+      },
+      {
+        "name": "LPFCut",
+        "type": ""
+      },
+      {
+        "name": "LPFRes",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

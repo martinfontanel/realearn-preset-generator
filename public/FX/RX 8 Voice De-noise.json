@@ -1,0 +1,73 @@
+{
+    "vstName": "RX 8 Voice De-noise",
+    "parameters": [
+      {
+        "name": "Threshold 1",
+        "type": ""
+      },
+      {
+        "name": "Threshold 2",
+        "type": ""
+      },
+      {
+        "name": "Threshold 3",
+        "type": ""
+      },
+      {
+        "name": "Threshold 4",
+        "type": ""
+      },
+      {
+        "name": "Threshold 5",
+        "type": ""
+      },
+      {
+        "name": "Threshold 6",
+        "type": ""
+      },
+      {
+        "name": "Master threshold",
+        "type": ""
+      },
+      {
+        "name": "Reduction",
+        "type": ""
+      },
+      {
+        "name": "Adaptive Mode",
+        "type": ""
+      },
+      {
+        "name": "Optimize for",
+        "type": ""
+      },
+      {
+        "name": "Filter type",
+        "type": ""
+      },
+      {
+        "name": "Input Gain",
+        "type": ""
+      },
+      {
+        "name": "Output Gain",
+        "type": ""
+      },
+      {
+        "name": "Global bypass",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

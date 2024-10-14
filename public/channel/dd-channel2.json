@@ -1,0 +1,241 @@
+{
+  "vstName": "DD Channel2",
+  "parameters": [
+    {
+      "name": "Bypass",
+      "type": "button",
+      "category": "Bypass",
+      "part": "General"
+    },
+    {
+      "name": "Input",
+      "type": "knob",
+      "category": "Input",
+      "part": "General"
+    },
+    {
+      "name": "HPFOn",
+      "type": "button",
+      "category": "",
+      "part": "Filter"
+    },
+    {
+      "name": "HPFCut",
+      "type": "knob",
+      "category": "HPF",
+      "part": "Filter"
+    },
+    {
+      "name": "LPFOn",
+      "type": "button",
+      "category": "",
+      "part": "Filter"
+    },
+    {
+      "name": "LPFCut",
+      "type": "knob",
+      "category": "LPF",
+      "part": "Filter"
+    },
+    {
+      "name": "GCEOrder",
+      "type": "indent",
+      "category": "",
+      "part": "General"
+    },
+    {
+      "name": "EQOn",
+      "type": "button",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "LFFreq",
+      "type": "knob",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "LFQ",
+      "type": "knob",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "LFGain",
+      "type": "knob",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "LMFFreq",
+      "type": "knob",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "LMFQ",
+      "type": "knob",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "LMFGain",
+      "type": "knob",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "HMFFreq",
+      "type": "knob",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "HMFQ",
+      "type": "knob",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "HMFGain",
+      "type": "knob",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "HFFreq",
+      "type": "knob",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "HFGain",
+      "type": "knob",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "GateOn",
+      "type": "button",
+      "category": "Bypass",
+      "part": "Gate"
+    },
+    {
+      "name": "GTThresh",
+      "type": "knob",
+      "category": "Threshold",
+      "part": "Gate"
+    },
+    {
+      "name": "GTAtt",
+      "type": "knob",
+      "category": "Attack",
+      "part": "Gate"
+    },
+    {
+      "name": "GTHold",
+      "type": "knob",
+      "category": "Hold",
+      "part": "Gate"
+    },
+    {
+      "name": "GTRel",
+      "type": "knob",
+      "category": "Release",
+      "part": "Gate"
+    },
+    {
+      "name": "CompOn",
+      "type": "button",
+      "category": "Bypass",
+      "part": "Comp"
+    },
+    {
+      "name": "CPThresh",
+      "type": "knob",
+      "category": "Threshold",
+      "part": "Comp"
+    },
+    {
+      "name": "CPRatio",
+      "type": "knob",
+      "category": "Ratio",
+      "part": "Comp"
+    },
+    {
+      "name": "CPAtt",
+      "type": "knob",
+      "category": "Attack",
+      "part": "Comp"
+    },
+    {
+      "name": "CPRel",
+      "type": "knob",
+      "category": "Release",
+      "part": "Comp"
+    },
+    {
+      "name": "CPMakeup",
+      "type": "knob",
+      "category": "Makeup Gain",
+      "part": "Comp"
+    },
+    {
+      "name": "CPMix",
+      "type": "knob",
+      "category": "Wet",
+      "part": "Comp"
+    },
+    {
+      "name": "Output",
+      "type": "knob",
+      "category": "Output",
+      "part": "General"
+    },
+    {
+      "name": "InMode",
+      "type": "indent",
+      "category": "",
+      "part": "General"
+    },
+    {
+      "name": "Invert L",
+      "type": "button",
+      "category": "",
+      "part": "General"
+    },
+    {
+      "name": "Invert R",
+      "type": "button",
+      "category": "",
+      "part": "General"
+    },
+    {
+      "name": "Bypass",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Wet",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Delta",
+      "type": "",
+      "category": "",
+      "part": ""
+    }
+  ],
+  "type": "channel",
+  "parts": [
+    "Gate",
+    "Comp",
+    "EQ",
+    "Filter",
+    "General"
+  ]
+}

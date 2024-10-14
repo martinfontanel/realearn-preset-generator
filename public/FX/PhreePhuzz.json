@@ -1,0 +1,61 @@
+{
+    "vstName": "PhreePhuzz",
+    "parameters": [
+      {
+        "name": "Preset",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "In Gain",
+        "type": ""
+      },
+      {
+        "name": "Out Gain",
+        "type": ""
+      },
+      {
+        "name": "Saturation",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Saturation Mode",
+        "type": ""
+      },
+      {
+        "name": "Undo",
+        "type": ""
+      },
+      {
+        "name": "Redo",
+        "type": ""
+      },
+      {
+        "name": "AB Compare",
+        "type": ""
+      },
+      {
+        "name": "AB Copy",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

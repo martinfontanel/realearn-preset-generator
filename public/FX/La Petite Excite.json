@@ -1,0 +1,49 @@
+{
+    "vstName": "La Petite Excite",
+    "parameters": [
+      {
+        "name": "Preset",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Input",
+        "type": ""
+      },
+      {
+        "name": "CV",
+        "type": ""
+      },
+      {
+        "name": "Low",
+        "type": ""
+      },
+      {
+        "name": "High",
+        "type": ""
+      },
+      {
+        "name": "Noise Floor",
+        "type": ""
+      },
+      {
+        "name": "Output",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

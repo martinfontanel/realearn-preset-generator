@@ -1,0 +1,136 @@
+{
+  "vstName": "DynaRide",
+  "parameters": [
+    {
+      "name": "Preset",
+      "type": "indent",
+      "category": ""
+    },
+    {
+      "name": "Bypass",
+      "type": "button",
+      "category": "Bypass"
+    },
+    {
+      "name": "Out:Gain",
+      "type": "knob",
+      "category": ""
+    },
+    {
+      "name": "Power Off/On",
+      "type": "button",
+      "category": "Power"
+    },
+    {
+      "name": "Link A/R Off/On",
+      "type": "button",
+      "category": "Link"
+    },
+    {
+      "name": "Attack ms",
+      "type": "knob",
+      "category": "Attack"
+    },
+    {
+      "name": "Release ms",
+      "type": "knob",
+      "category": "Release"
+    },
+    {
+      "name": "Auto Release Off/On",
+      "type": "button",
+      "category": "Auto Release"
+    },
+    {
+      "name": "Target Level dB",
+      "type": "knob",
+      "category": "Input"
+    },
+    {
+      "name": "Output Gain dB",
+      "type": "knob",
+      "category": "Output"
+    },
+    {
+      "name": "VUMeter Mode",
+      "type": "button",
+      "category": "VU/GR"
+    },
+    {
+      "name": "Noise Level dB",
+      "type": "knob",
+      "category": ""
+    },
+    {
+      "name": "Link Min/Max Off/On",
+      "type": "button",
+      "category": ""
+    },
+    {
+      "name": "Min Gain dB",
+      "type": "knob",
+      "category": ""
+    },
+    {
+      "name": "Max Gain dB",
+      "type": "knob",
+      "category": ""
+    },
+    {
+      "name": "Idle Gain dB",
+      "type": "knob",
+      "category": ""
+    },
+    {
+      "name": "PreDelay Off/On",
+      "type": "button",
+      "category": ""
+    },
+    {
+      "name": "PreFilter Mode",
+      "type": "knob",
+      "category": ""
+    },
+    {
+      "name": "LowCut Hz",
+      "type": "knob",
+      "category": "HPF"
+    },
+    {
+      "name": "HighCut Hz",
+      "type": "knob",
+      "category": "LPF"
+    },
+    {
+      "name": "Filter Focus Off/On",
+      "type": "button",
+      "category": ""
+    },
+    {
+      "name": "Gain Automation Mode",
+      "type": "indent",
+      "category": ""
+    },
+    {
+      "name": "Side Chain Mode",
+      "type": "indent",
+      "category": ""
+    },
+    {
+      "name": "Bypass",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Wet",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Delta",
+      "type": "",
+      "category": ""
+    }
+  ],
+  "type": "dyn"
+}

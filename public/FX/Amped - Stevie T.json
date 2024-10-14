@@ -1,0 +1,117 @@
+{
+    "vstName": "Amped - Stevie T",
+    "parameters": [
+      {
+        "name": "Input",
+        "type": ""
+      },
+      {
+        "name": "FX",
+        "type": ""
+      },
+      {
+        "name": "Drive",
+        "type": ""
+      },
+      {
+        "name": "Bass",
+        "type": ""
+      },
+      {
+        "name": "Middle",
+        "type": ""
+      },
+      {
+        "name": "Treble",
+        "type": ""
+      },
+      {
+        "name": "Presence",
+        "type": ""
+      },
+      {
+        "name": "Master",
+        "type": ""
+      },
+      {
+        "name": "Output",
+        "type": ""
+      },
+      {
+        "name": "OD Drive",
+        "type": ""
+      },
+      {
+        "name": "OD Tone",
+        "type": ""
+      },
+      {
+        "name": "OD Level",
+        "type": ""
+      },
+      {
+        "name": "OD on",
+        "type": ""
+      },
+      {
+        "name": "NG on",
+        "type": ""
+      },
+      {
+        "name": "Input L/R",
+        "type": ""
+      },
+      {
+        "name": "NG Threshold",
+        "type": ""
+      },
+      {
+        "name": "Delay On",
+        "type": ""
+      },
+      {
+        "name": "Delay Time",
+        "type": ""
+      },
+      {
+        "name": "Delay Feedback",
+        "type": ""
+      },
+      {
+        "name": "Delay Mix",
+        "type": ""
+      },
+      {
+        "name": "Reverb On",
+        "type": ""
+      },
+      {
+        "name": "Reverb Time",
+        "type": ""
+      },
+      {
+        "name": "Reverb Tone",
+        "type": ""
+      },
+      {
+        "name": "Reverb Mix",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

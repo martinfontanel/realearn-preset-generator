@@ -1,0 +1,145 @@
+{
+    "vstName": "Ignite - Emissary",
+    "parameters": [
+      {
+        "name": "Bypass VST3",
+        "type": ""
+      },
+      {
+        "name": "Reserved",
+        "type": ""
+      },
+      {
+        "name": "Input level",
+        "type": ""
+      },
+      {
+        "name": "Channel",
+        "type": ""
+      },
+      {
+        "name": "Clean Gain",
+        "type": ""
+      },
+      {
+        "name": "Clean Bright",
+        "type": ""
+      },
+      {
+        "name": "Clean Bass",
+        "type": ""
+      },
+      {
+        "name": "Clean Mids",
+        "type": ""
+      },
+      {
+        "name": "Clean Treble",
+        "type": ""
+      },
+      {
+        "name": "Clean Volume",
+        "type": ""
+      },
+      {
+        "name": "Lead Gain",
+        "type": ""
+      },
+      {
+        "name": "Lead Bright",
+        "type": ""
+      },
+      {
+        "name": "Lead Deep",
+        "type": ""
+      },
+      {
+        "name": "Lead Bass",
+        "type": ""
+      },
+      {
+        "name": "Lead Lo Mids",
+        "type": ""
+      },
+      {
+        "name": "Lead Hi Mids",
+        "type": ""
+      },
+      {
+        "name": "Lead Treble",
+        "type": ""
+      },
+      {
+        "name": "Lead Volume",
+        "type": ""
+      },
+      {
+        "name": "Lead Shape",
+        "type": ""
+      },
+      {
+        "name": "Boost",
+        "type": ""
+      },
+      {
+        "name": "Boost Level",
+        "type": ""
+      },
+      {
+        "name": "Power Amp",
+        "type": ""
+      },
+      {
+        "name": "Depth",
+        "type": ""
+      },
+      {
+        "name": "Presence",
+        "type": ""
+      },
+      {
+        "name": "Bias Main",
+        "type": ""
+      },
+      {
+        "name": "Bias Push",
+        "type": ""
+      },
+      {
+        "name": "Bias Pull",
+        "type": ""
+      },
+      {
+        "name": "Power Tubes",
+        "type": ""
+      },
+      {
+        "name": "Output level",
+        "type": ""
+      },
+      {
+        "name": "Oversampling",
+        "type": ""
+      },
+      {
+        "name": "Mode",
+        "type": ""
+      },
+      {
+        "name": "Power",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

@@ -1,0 +1,101 @@
+{
+    "vstName": "TDR VOS SlickEQ",
+    "parameters": [
+      {
+        "name": "LOW Gain",
+        "type": ""
+      },
+      {
+        "name": "LOW Freq",
+        "type": ""
+      },
+      {
+        "name": "LOW Shape",
+        "type": ""
+      },
+      {
+        "name": "MID Gain",
+        "type": ""
+      },
+      {
+        "name": "MID Freq",
+        "type": ""
+      },
+      {
+        "name": "HIGH Gain",
+        "type": ""
+      },
+      {
+        "name": "HIGH Freq",
+        "type": ""
+      },
+      {
+        "name": "HIGH Shape",
+        "type": ""
+      },
+      {
+        "name": "EQ Model",
+        "type": ""
+      },
+      {
+        "name": "EQ Sat",
+        "type": ""
+      },
+      {
+        "name": "HP Freq",
+        "type": ""
+      },
+      {
+        "name": "OUT Stage",
+        "type": ""
+      },
+      {
+        "name": "OUT Drive",
+        "type": ""
+      },
+      {
+        "name": "OUT Gain",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Mode",
+        "type": ""
+      },
+      {
+        "name": "LOW Bypass",
+        "type": ""
+      },
+      {
+        "name": "MID Bypass",
+        "type": ""
+      },
+      {
+        "name": "HIGH Bypass",
+        "type": ""
+      },
+      {
+        "name": "Auto Gain",
+        "type": ""
+      },
+      {
+        "name": "Quality",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

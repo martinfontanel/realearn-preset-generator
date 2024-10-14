@@ -1,0 +1,41 @@
+{
+    "vstName": "RX 8 De-click",
+    "parameters": [
+      {
+        "name": "Algorithm",
+        "type": ""
+      },
+      {
+        "name": "Sensitivity",
+        "type": ""
+      },
+      {
+        "name": "Output clicks only",
+        "type": ""
+      },
+      {
+        "name": "Global bypass",
+        "type": ""
+      },
+      {
+        "name": "Frequency skew",
+        "type": ""
+      },
+      {
+        "name": "Click widening",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

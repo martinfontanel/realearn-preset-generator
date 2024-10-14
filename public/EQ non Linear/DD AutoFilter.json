@@ -1,0 +1,45 @@
+{
+    "vstName": "DD AutoFilter",
+    "parameters": [
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Sync",
+        "type": ""
+      },
+      {
+        "name": "Shape",
+        "type": ""
+      },
+      {
+        "name": "Rate",
+        "type": ""
+      },
+      {
+        "name": "Depth",
+        "type": ""
+      },
+      {
+        "name": "Cut",
+        "type": ""
+      },
+      {
+        "name": "Res",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

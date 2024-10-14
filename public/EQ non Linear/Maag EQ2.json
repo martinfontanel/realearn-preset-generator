@@ -1,0 +1,57 @@
+{
+    "vstName": "Maag EQ2",
+    "parameters": [
+      {
+        "name": "Air Frequency",
+        "type": ""
+      },
+      {
+        "name": "Air In",
+        "type": ""
+      },
+      {
+        "name": "Air Gain",
+        "type": ""
+      },
+      {
+        "name": "LMF Frequency",
+        "type": ""
+      },
+      {
+        "name": "LMF In",
+        "type": ""
+      },
+      {
+        "name": "LMF Gain",
+        "type": ""
+      },
+      {
+        "name": "LMF Bandwidth",
+        "type": ""
+      },
+      {
+        "name": "Input Attenuation",
+        "type": ""
+      },
+      {
+        "name": "Power",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

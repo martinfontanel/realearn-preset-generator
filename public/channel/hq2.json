@@ -1,0 +1,125 @@
+{
+  "vstName": "HQ2",
+  "parameters": [
+    {
+      "name": "Preset",
+      "type": "indent",
+      "category": "",
+      "part": "General"
+    },
+    {
+      "name": "Bypass",
+      "type": "button",
+      "category": "Bypass",
+      "part": "General"
+    },
+    {
+      "name": "KK",
+      "type": "knob",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "KK",
+      "type": "knob",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "KK",
+      "type": "knob",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "KK",
+      "type": "knob",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "KK",
+      "type": "knob",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "KK",
+      "type": "knob",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "KK",
+      "type": "knob",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "KK",
+      "type": "knob",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "KK",
+      "type": "knob",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "KK",
+      "type": "knob",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "Attack",
+      "type": "knob",
+      "category": "Attack",
+      "part": "Comp"
+    },
+    {
+      "name": "Release",
+      "type": "knob",
+      "category": "Release",
+      "part": "Comp"
+    },
+    {
+      "name": "Ratio",
+      "type": "knob",
+      "category": "Ratio",
+      "part": "Comp"
+    },
+    {
+      "name": "Power",
+      "type": "button",
+      "category": "Power",
+      "part": "Comp"
+    },
+    {
+      "name": "Bypass",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Wet",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Delta",
+      "type": "",
+      "category": "",
+      "part": ""
+    }
+  ],
+  "type": "channel",
+  "parts": [
+    "General",
+    "EQ",
+    "Comp"
+  ]
+}

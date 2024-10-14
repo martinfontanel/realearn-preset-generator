@@ -1,0 +1,89 @@
+{
+    "vstName": "SDRR2tube",
+    "parameters": [
+      {
+        "name": "Trim1",
+        "type": ""
+      },
+      {
+        "name": "Drive1",
+        "type": ""
+      },
+      {
+        "name": "Stages1",
+        "type": ""
+      },
+      {
+        "name": "Character1",
+        "type": ""
+      },
+      {
+        "name": "HarmonicBalance1",
+        "type": ""
+      },
+      {
+        "name": "FrequencyResponse1",
+        "type": ""
+      },
+      {
+        "name": "DynamicResponse1",
+        "type": ""
+      },
+      {
+        "name": "Crosstalk1",
+        "type": ""
+      },
+      {
+        "name": "Drift1",
+        "type": ""
+      },
+      {
+        "name": "Mix1",
+        "type": ""
+      },
+      {
+        "name": "OutputCompensation1",
+        "type": ""
+      },
+      {
+        "name": "ChannelMode",
+        "type": ""
+      },
+      {
+        "name": "Calibration",
+        "type": ""
+      },
+      {
+        "name": "VUmode",
+        "type": ""
+      },
+      {
+        "name": "HQ",
+        "type": ""
+      },
+      {
+        "name": "AGC",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

@@ -1,0 +1,41 @@
+{
+    "vstName": "Screamer",
+    "parameters": [
+      {
+        "name": "Preset",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Tone",
+        "type": ""
+      },
+      {
+        "name": "Level",
+        "type": ""
+      },
+      {
+        "name": "Drive",
+        "type": ""
+      },
+      {
+        "name": "Power",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

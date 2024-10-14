@@ -1,0 +1,394 @@
+{
+  "vstName": "CS3301",
+  "parameters": [
+    {
+      "name": "Preset",
+      "type": "indent",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Bypass",
+      "type": "button",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "OS Off/On",
+      "type": "button",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "ByPass Off/On",
+      "type": "button",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Phase Invert Off/On",
+      "type": "button",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "In Volume",
+      "type": "knob",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Out Volume",
+      "type": "knob",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Analog Off/On",
+      "type": "button",
+      "category": "Analog",
+      "part": ""
+    },
+    {
+      "name": "Gate Off/On",
+      "type": "button",
+      "category": "Bypass",
+      "part": "Gate"
+    },
+    {
+      "name": "Gate Threshold",
+      "type": "knob",
+      "category": "Threshold",
+      "part": "Gate"
+    },
+    {
+      "name": "Gate Attack",
+      "type": "knob",
+      "category": "Attack",
+      "part": "Gate"
+    },
+    {
+      "name": "Gate Hold",
+      "type": "knob",
+      "category": "Hold",
+      "part": "Gate"
+    },
+    {
+      "name": "Gate Release",
+      "type": "knob",
+      "category": "Release",
+      "part": "Gate"
+    },
+    {
+      "name": "Filter Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "FilterHP Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "FilterHP F",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "FilterHP Slope 6/12dB",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "FilterLP Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "FilterLP F",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "FilterLP Slope 6/12dB",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "FilterHF Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "FilterHF Type",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "FilterHF F",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "FilterHF G",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "FilterHMF Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "FilterHMF F",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "FilterHMF G",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "FilterHMF Q",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "FilterMF Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "FilterMF F",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "FilterMF G",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "FilterMF Q",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "FilterLMF Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "FilterLMF F",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "FilterLMF G",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "FilterLMF Q",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "FilterLF Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "FilterLF Type",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "FilterLF F",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "FilterLF G",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Compressor Off/On",
+      "type": "button",
+      "category": "Bypass",
+      "part": "Comp"
+    },
+    {
+      "name": "Compressor Pre/Post",
+      "type": "button",
+      "category": "",
+      "part": "Comp"
+    },
+    {
+      "name": "Compressor Threshold",
+      "type": "knob",
+      "category": "Threshold",
+      "part": "Comp"
+    },
+    {
+      "name": "Compressor Attack",
+      "type": "knob",
+      "category": "Attack",
+      "part": "Comp"
+    },
+    {
+      "name": "Compressor Release",
+      "type": "knob",
+      "category": "Release",
+      "part": "Comp"
+    },
+    {
+      "name": "Compressor Ratio",
+      "type": "knob",
+      "category": "Ratio",
+      "part": "Comp"
+    },
+    {
+      "name": "Compressor Soft/Hard",
+      "type": "button",
+      "category": "Hard Knee",
+      "part": "Comp"
+    },
+    {
+      "name": "Saturation",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "VUMeter Mode",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Compressor MakeUpGain",
+      "type": "knob",
+      "category": "Makeup Gain",
+      "part": "Comp"
+    },
+    {
+      "name": "Compressor Mix",
+      "type": "knob",
+      "category": "Wet",
+      "part": "Comp"
+    },
+    {
+      "name": "Saturation Pre/Post",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Gate Mode Gate/Exp.",
+      "type": "button",
+      "category": "",
+      "part": "Gate"
+    },
+    {
+      "name": "Gate Range",
+      "type": "knob",
+      "category": "Range",
+      "part": "Gate"
+    },
+    {
+      "name": "Routing Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Pos0",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Pos1",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Pos2",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Pos3",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Pos4",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Pos5",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Bypass",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Wet",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Delta",
+      "type": "",
+      "category": "",
+      "part": ""
+    }
+  ],
+  "type": "channel",
+  "parts": [
+    "Gate",
+    "Comp"
+  ]
+}

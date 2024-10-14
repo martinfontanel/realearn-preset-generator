@@ -1,0 +1,49 @@
+{
+    "vstName": "ReaFir",
+    "parameters": [
+      {
+        "name": "Show analysis",
+        "type": ""
+      },
+      {
+        "name": "Processing mode",
+        "type": ""
+      },
+      {
+        "name": "Gate Floor",
+        "type": ""
+      },
+      {
+        "name": "Compressor Ratio",
+        "type": ""
+      },
+      {
+        "name": "Output Gain",
+        "type": ""
+      },
+      {
+        "name": "Analysis Floor",
+        "type": ""
+      },
+      {
+        "name": "Legacy Compatibility Modes",
+        "type": ""
+      },
+      {
+        "name": "Adjustment Graph Offset",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

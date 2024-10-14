@@ -1,0 +1,66 @@
+{
+  "vstName": "DD DeEsser",
+  "parameters": [
+    {
+      "name": "Bypass",
+      "type": "button",
+      "category": "Bypass"
+    },
+    {
+      "name": "Listen",
+      "type": "button",
+      "category": "Delta/listen"
+    },
+    {
+      "name": "Input",
+      "type": "knob",
+      "category": "Input"
+    },
+    {
+      "name": "FreqLo",
+      "type": "knob",
+      "category": "HPF"
+    },
+    {
+      "name": "FreqHi",
+      "type": "knob",
+      "category": "LPF"
+    },
+    {
+      "name": "Thresh",
+      "type": "knob",
+      "category": "Threshold"
+    },
+    {
+      "name": "Amount",
+      "type": "knob",
+      "category": "Wet"
+    },
+    {
+      "name": "Attack",
+      "type": "knob",
+      "category": "Attack"
+    },
+    {
+      "name": "Release",
+      "type": "knob",
+      "category": "Release"
+    },
+    {
+      "name": "Bypass",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Wet",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Delta",
+      "type": "",
+      "category": ""
+    }
+  ],
+  "type": "dyn"
+}

@@ -1,0 +1,45 @@
+{
+    "vstName": "DD Phaser",
+    "parameters": [
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Sync",
+        "type": ""
+      },
+      {
+        "name": "Rate",
+        "type": ""
+      },
+      {
+        "name": "Range",
+        "type": ""
+      },
+      {
+        "name": "Stages",
+        "type": ""
+      },
+      {
+        "name": "Feedback",
+        "type": ""
+      },
+      {
+        "name": "Depth",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

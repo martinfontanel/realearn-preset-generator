@@ -1,0 +1,45 @@
+{
+    "vstName": "SPL Attacker Plus",
+    "parameters": [
+      {
+        "name": "Preset",
+        "type": ""
+      },
+      {
+        "name": "Active",
+        "type": ""
+      },
+      {
+        "name": "Attack",
+        "type": ""
+      },
+      {
+        "name": "Output",
+        "type": ""
+      },
+      {
+        "name": "Mix",
+        "type": ""
+      },
+      {
+        "name": "Limit",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

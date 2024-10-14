@@ -1,0 +1,41 @@
+{
+    "vstName": "Cypress TT-15",
+    "parameters": [
+      {
+        "name": "Power",
+        "type": ""
+      },
+      {
+        "name": "Output",
+        "type": ""
+      },
+      {
+        "name": "Cabinet",
+        "type": ""
+      },
+      {
+        "name": "Gain",
+        "type": ""
+      },
+      {
+        "name": "Tone",
+        "type": ""
+      },
+      {
+        "name": "Volume",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

@@ -1,0 +1,53 @@
+{
+    "vstName": "ReaVoice",
+    "parameters": [
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Dry",
+        "type": ""
+      },
+      {
+        "name": "Minvol",
+        "type": ""
+      },
+      {
+        "name": "Maxvox",
+        "type": ""
+      },
+      {
+        "name": "Attack",
+        "type": ""
+      },
+      {
+        "name": "Sustain",
+        "type": ""
+      },
+      {
+        "name": "Release",
+        "type": ""
+      },
+      {
+        "name": "MIDI Chan",
+        "type": ""
+      },
+      {
+        "name": "Center note",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

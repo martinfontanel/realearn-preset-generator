@@ -1,0 +1,253 @@
+{
+    "vstName": "MetaFilter",
+    "parameters": [
+      {
+        "name": "HD-MODE",
+        "type": ""
+      },
+      {
+        "name": "Follow Mode",
+        "type": ""
+      },
+      {
+        "name": "Filter Slope",
+        "type": ""
+      },
+      {
+        "name": "Route",
+        "type": ""
+      },
+      {
+        "name": "Delay Mix",
+        "type": ""
+      },
+      {
+        "name": "Mix",
+        "type": ""
+      },
+      {
+        "name": "Lfo Del",
+        "type": ""
+      },
+      {
+        "name": "Seq Del",
+        "type": ""
+      },
+      {
+        "name": "Follow Del",
+        "type": ""
+      },
+      {
+        "name": "Right Rate",
+        "type": ""
+      },
+      {
+        "name": "Delay Fb",
+        "type": ""
+      },
+      {
+        "name": "Lfo Freq",
+        "type": ""
+      },
+      {
+        "name": "Seq Freq",
+        "type": ""
+      },
+      {
+        "name": "Follow Freq",
+        "type": ""
+      },
+      {
+        "name": "Vcf Freq",
+        "type": ""
+      },
+      {
+        "name": "Vcf Gain",
+        "type": ""
+      },
+      {
+        "name": "Comb ms",
+        "type": ""
+      },
+      {
+        "name": "Lfo Sync",
+        "type": ""
+      },
+      {
+        "name": "Delay Sync",
+        "type": ""
+      },
+      {
+        "name": "Kbd",
+        "type": ""
+      },
+      {
+        "name": "Lfo Shape",
+        "type": ""
+      },
+      {
+        "name": "Lfo Rate",
+        "type": ""
+      },
+      {
+        "name": "Lfo Sync Rate",
+        "type": ""
+      },
+      {
+        "name": "Delay Rate",
+        "type": ""
+      },
+      {
+        "name": "Delay Sync Rate",
+        "type": ""
+      },
+      {
+        "name": "Lfo Res",
+        "type": ""
+      },
+      {
+        "name": "Seq Res",
+        "type": ""
+      },
+      {
+        "name": "Follow Res",
+        "type": ""
+      },
+      {
+        "name": "Vcf Res",
+        "type": ""
+      },
+      {
+        "name": "Out",
+        "type": ""
+      },
+      {
+        "name": "In",
+        "type": ""
+      },
+      {
+        "name": "Spread",
+        "type": ""
+      },
+      {
+        "name": "Drive",
+        "type": ""
+      },
+      {
+        "name": "Crush",
+        "type": ""
+      },
+      {
+        "name": "Smooth",
+        "type": ""
+      },
+      {
+        "name": "Vcf Type",
+        "type": ""
+      },
+      {
+        "name": "Seq Sync",
+        "type": ""
+      },
+      {
+        "name": "Swing",
+        "type": ""
+      },
+      {
+        "name": "Delay A",
+        "type": ""
+      },
+      {
+        "name": "Seq Rate",
+        "type": ""
+      },
+      {
+        "name": "Seq Sync Rate",
+        "type": ""
+      },
+      {
+        "name": "Step1",
+        "type": ""
+      },
+      {
+        "name": "Step2",
+        "type": ""
+      },
+      {
+        "name": "Step3",
+        "type": ""
+      },
+      {
+        "name": "Step4",
+        "type": ""
+      },
+      {
+        "name": "Step5",
+        "type": ""
+      },
+      {
+        "name": "Step6",
+        "type": ""
+      },
+      {
+        "name": "Step7",
+        "type": ""
+      },
+      {
+        "name": "Step8",
+        "type": ""
+      },
+      {
+        "name": "Step9",
+        "type": ""
+      },
+      {
+        "name": "Step10",
+        "type": ""
+      },
+      {
+        "name": "Step11",
+        "type": ""
+      },
+      {
+        "name": "Step12",
+        "type": ""
+      },
+      {
+        "name": "Step13",
+        "type": ""
+      },
+      {
+        "name": "Step14",
+        "type": ""
+      },
+      {
+        "name": "Step15",
+        "type": ""
+      },
+      {
+        "name": "Step16",
+        "type": ""
+      },
+      {
+        "name": "Step Count",
+        "type": ""
+      },
+      {
+        "name": "DragDraw",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

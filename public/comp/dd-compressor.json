@@ -1,0 +1,81 @@
+{
+  "vstName": "DD Compressor",
+  "parameters": [
+    {
+      "name": "Bypass",
+      "type": "button",
+      "category": "Bypass"
+    },
+    {
+      "name": "External",
+      "type": "button",
+      "category": "Ext Sidechain"
+    },
+    {
+      "name": "Listen",
+      "type": "button",
+      "category": "Delta/listen"
+    },
+    {
+      "name": "Trim",
+      "type": "knob",
+      "category": "Trim"
+    },
+    {
+      "name": "Low Cut",
+      "type": "knob",
+      "category": "HPF"
+    },
+    {
+      "name": "Input",
+      "type": "knob",
+      "category": "Input"
+    },
+    {
+      "name": "Thresh",
+      "type": "knob",
+      "category": "Threshold"
+    },
+    {
+      "name": "Ratio",
+      "type": "knob",
+      "category": "Ratio"
+    },
+    {
+      "name": "Attack",
+      "type": "knob",
+      "category": "Attack"
+    },
+    {
+      "name": "Release",
+      "type": "knob",
+      "category": "Release"
+    },
+    {
+      "name": "Makeup",
+      "type": "knob",
+      "category": "Makeup Gain"
+    },
+    {
+      "name": "Mix",
+      "type": "knob",
+      "category": "Wet"
+    },
+    {
+      "name": "Bypass",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Wet",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Delta",
+      "type": "",
+      "category": ""
+    }
+  ],
+  "type": "dyn"
+}

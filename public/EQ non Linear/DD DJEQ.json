@@ -1,0 +1,57 @@
+{
+    "vstName": "DD DJEQ",
+    "parameters": [
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Input",
+        "type": ""
+      },
+      {
+        "name": "FreqLo",
+        "type": ""
+      },
+      {
+        "name": "FreqHi",
+        "type": ""
+      },
+      {
+        "name": "GainLo",
+        "type": ""
+      },
+      {
+        "name": "GainMid",
+        "type": ""
+      },
+      {
+        "name": "GainHi",
+        "type": ""
+      },
+      {
+        "name": "KillLo",
+        "type": ""
+      },
+      {
+        "name": "KillMid",
+        "type": ""
+      },
+      {
+        "name": "KillHi",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

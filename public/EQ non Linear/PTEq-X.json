@@ -1,0 +1,121 @@
+{
+    "vstName": "PTEq-X",
+    "parameters": [
+      {
+        "name": "InputLev",
+        "type": ""
+      },
+      {
+        "name": "EqpPower",
+        "type": ""
+      },
+      {
+        "name": "EqpHiB_0",
+        "type": ""
+      },
+      {
+        "name": "EqpHiC_0",
+        "type": ""
+      },
+      {
+        "name": "EqpHiB_1",
+        "type": ""
+      },
+      {
+        "name": "EqpHiC_1",
+        "type": ""
+      },
+      {
+        "name": "EqpHiQ",
+        "type": ""
+      },
+      {
+        "name": "EqpLoBoo",
+        "type": ""
+      },
+      {
+        "name": "EqpLoCut",
+        "type": ""
+      },
+      {
+        "name": "EqpLoFre",
+        "type": ""
+      },
+      {
+        "name": "MeqPower",
+        "type": ""
+      },
+      {
+        "name": "MeqLoB_0",
+        "type": ""
+      },
+      {
+        "name": "MeqMid_0",
+        "type": ""
+      },
+      {
+        "name": "MeqHiB_0",
+        "type": ""
+      },
+      {
+        "name": "MeqLoB_1",
+        "type": ""
+      },
+      {
+        "name": "MeqMid_1",
+        "type": ""
+      },
+      {
+        "name": "MeqHiB_1",
+        "type": ""
+      },
+      {
+        "name": "HlfPower",
+        "type": ""
+      },
+      {
+        "name": "HlfHipas",
+        "type": ""
+      },
+      {
+        "name": "HlfLopas",
+        "type": ""
+      },
+      {
+        "name": "TubeStag",
+        "type": ""
+      },
+      {
+        "name": "TriodeTy",
+        "type": ""
+      },
+      {
+        "name": "OutputLe",
+        "type": ""
+      },
+      {
+        "name": "Oversamp",
+        "type": ""
+      },
+      {
+        "name": "Routing",
+        "type": ""
+      },
+      {
+        "name": "Reserved",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

@@ -1,0 +1,85 @@
+{
+    "vstName": "BootEQmkII",
+    "parameters": [
+      {
+        "name": "Drive",
+        "type": ""
+      },
+      {
+        "name": "EQ-IN",
+        "type": ""
+      },
+      {
+        "name": "HF-Q",
+        "type": ""
+      },
+      {
+        "name": "HF-gain",
+        "type": ""
+      },
+      {
+        "name": "HM-freq",
+        "type": ""
+      },
+      {
+        "name": "HM-gain",
+        "type": ""
+      },
+      {
+        "name": "HiQ",
+        "type": ""
+      },
+      {
+        "name": "LC-on",
+        "type": ""
+      },
+      {
+        "name": "LF-TF",
+        "type": ""
+      },
+      {
+        "name": "LF-freq",
+        "type": ""
+      },
+      {
+        "name": "LF-gain",
+        "type": ""
+      },
+      {
+        "name": "LM-freq",
+        "type": ""
+      },
+      {
+        "name": "LM-gain",
+        "type": ""
+      },
+      {
+        "name": "OUT",
+        "type": ""
+      },
+      {
+        "name": "PREAMP-IN",
+        "type": ""
+      },
+      {
+        "name": "TUBE-IN",
+        "type": ""
+      },
+      {
+        "name": "VINTAGE",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

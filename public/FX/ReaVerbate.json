@@ -1,0 +1,49 @@
+{
+    "vstName": "ReaVerbate",
+    "parameters": [
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Dry",
+        "type": ""
+      },
+      {
+        "name": "Room size",
+        "type": ""
+      },
+      {
+        "name": "Dampening",
+        "type": ""
+      },
+      {
+        "name": "Width",
+        "type": ""
+      },
+      {
+        "name": "Delay",
+        "type": ""
+      },
+      {
+        "name": "Lowpass",
+        "type": ""
+      },
+      {
+        "name": "Hipass",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

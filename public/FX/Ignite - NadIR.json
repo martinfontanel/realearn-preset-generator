@@ -1,0 +1,109 @@
+{
+    "vstName": "Ignite - NadIR",
+    "parameters": [
+      {
+        "name": "Bypass VST3",
+        "type": ""
+      },
+      {
+        "name": "Reserved",
+        "type": ""
+      },
+      {
+        "name": "In Level0",
+        "type": ""
+      },
+      {
+        "name": "HPF0",
+        "type": ""
+      },
+      {
+        "name": "LPF0",
+        "type": ""
+      },
+      {
+        "name": "Resonance0",
+        "type": ""
+      },
+      {
+        "name": "Delay0",
+        "type": ""
+      },
+      {
+        "name": "Panning0",
+        "type": ""
+      },
+      {
+        "name": "Phase0",
+        "type": ""
+      },
+      {
+        "name": "Solo0",
+        "type": ""
+      },
+      {
+        "name": "In Level1",
+        "type": ""
+      },
+      {
+        "name": "HPF1",
+        "type": ""
+      },
+      {
+        "name": "LPF1",
+        "type": ""
+      },
+      {
+        "name": "Resonance1",
+        "type": ""
+      },
+      {
+        "name": "Delay1",
+        "type": ""
+      },
+      {
+        "name": "Panning1",
+        "type": ""
+      },
+      {
+        "name": "Phase1",
+        "type": ""
+      },
+      {
+        "name": "Solo1",
+        "type": ""
+      },
+      {
+        "name": "Input level",
+        "type": ""
+      },
+      {
+        "name": "Balance",
+        "type": ""
+      },
+      {
+        "name": "Room Level",
+        "type": ""
+      },
+      {
+        "name": "Output level",
+        "type": ""
+      },
+      {
+        "name": "Mode",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

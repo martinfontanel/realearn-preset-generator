@@ -1,0 +1,225 @@
+{
+    "vstName": "Tube Amp",
+    "parameters": [
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Oversmp",
+        "type": ""
+      },
+      {
+        "name": "OutSat",
+        "type": ""
+      },
+      {
+        "name": "Drive",
+        "type": ""
+      },
+      {
+        "name": "Bias",
+        "type": ""
+      },
+      {
+        "name": "LPFreq",
+        "type": ""
+      },
+      {
+        "name": "OGain",
+        "type": ""
+      },
+      {
+        "name": "Mode",
+        "type": ""
+      },
+      {
+        "name": "Drive2",
+        "type": ""
+      },
+      {
+        "name": "Bias2",
+        "type": ""
+      },
+      {
+        "name": "LPFreq2",
+        "type": ""
+      },
+      {
+        "name": "OGain2",
+        "type": ""
+      },
+      {
+        "name": "Mode2",
+        "type": ""
+      },
+      {
+        "name": "Drive3",
+        "type": ""
+      },
+      {
+        "name": "Bias3",
+        "type": ""
+      },
+      {
+        "name": "LPFreq3",
+        "type": ""
+      },
+      {
+        "name": "OGain3",
+        "type": ""
+      },
+      {
+        "name": "Mode3",
+        "type": ""
+      },
+      {
+        "name": "Drive4",
+        "type": ""
+      },
+      {
+        "name": "Bias4",
+        "type": ""
+      },
+      {
+        "name": "LPFreq4",
+        "type": ""
+      },
+      {
+        "name": "OGain4",
+        "type": ""
+      },
+      {
+        "name": "Mode4",
+        "type": ""
+      },
+      {
+        "name": "Drive5",
+        "type": ""
+      },
+      {
+        "name": "Bias5",
+        "type": ""
+      },
+      {
+        "name": "LPFreq5",
+        "type": ""
+      },
+      {
+        "name": "OGain5",
+        "type": ""
+      },
+      {
+        "name": "Mode5",
+        "type": ""
+      },
+      {
+        "name": "Drive6",
+        "type": ""
+      },
+      {
+        "name": "Bias6",
+        "type": ""
+      },
+      {
+        "name": "LPFreq6",
+        "type": ""
+      },
+      {
+        "name": "OGain6",
+        "type": ""
+      },
+      {
+        "name": "Mode6",
+        "type": ""
+      },
+      {
+        "name": "Drive7",
+        "type": ""
+      },
+      {
+        "name": "Bias7",
+        "type": ""
+      },
+      {
+        "name": "LPFreq7",
+        "type": ""
+      },
+      {
+        "name": "OGain7",
+        "type": ""
+      },
+      {
+        "name": "Mode7",
+        "type": ""
+      },
+      {
+        "name": "Drive8",
+        "type": ""
+      },
+      {
+        "name": "Bias8",
+        "type": ""
+      },
+      {
+        "name": "LPFreq8",
+        "type": ""
+      },
+      {
+        "name": "OGain8",
+        "type": ""
+      },
+      {
+        "name": "Mode8",
+        "type": ""
+      },
+      {
+        "name": "DryMix",
+        "type": ""
+      },
+      {
+        "name": "DryMix2",
+        "type": ""
+      },
+      {
+        "name": "DryMix3",
+        "type": ""
+      },
+      {
+        "name": "DryMix4",
+        "type": ""
+      },
+      {
+        "name": "DryMix5",
+        "type": ""
+      },
+      {
+        "name": "DryMix6",
+        "type": ""
+      },
+      {
+        "name": "DryMix7",
+        "type": ""
+      },
+      {
+        "name": "DryMix8",
+        "type": ""
+      },
+      {
+        "name": "Program",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

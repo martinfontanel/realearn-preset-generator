@@ -1,0 +1,65 @@
+{
+    "vstName": "CamelCrusher",
+    "parameters": [
+      {
+        "name": "DistOn",
+        "type": ""
+      },
+      {
+        "name": "DistMech",
+        "type": ""
+      },
+      {
+        "name": "DistTube",
+        "type": ""
+      },
+      {
+        "name": "MmFilterOn",
+        "type": ""
+      },
+      {
+        "name": "MmFilterCutoff",
+        "type": ""
+      },
+      {
+        "name": "MmFilterRes",
+        "type": ""
+      },
+      {
+        "name": "CompressOn",
+        "type": ""
+      },
+      {
+        "name": "CompressAmount",
+        "type": ""
+      },
+      {
+        "name": "CompressMode",
+        "type": ""
+      },
+      {
+        "name": "MasterOn",
+        "type": ""
+      },
+      {
+        "name": "MasterMix",
+        "type": ""
+      },
+      {
+        "name": "MasterVolume",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

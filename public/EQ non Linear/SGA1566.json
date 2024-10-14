@@ -1,0 +1,53 @@
+{
+    "vstName": "SGA1566",
+    "parameters": [
+      {
+        "name": "Input",
+        "type": ""
+      },
+      {
+        "name": "Gain",
+        "type": ""
+      },
+      {
+        "name": "Vol",
+        "type": ""
+      },
+      {
+        "name": "Oversamp",
+        "type": ""
+      },
+      {
+        "name": "Bass",
+        "type": ""
+      },
+      {
+        "name": "Treble",
+        "type": ""
+      },
+      {
+        "name": "EQ_Posit",
+        "type": ""
+      },
+      {
+        "name": "Stereo",
+        "type": ""
+      },
+      {
+        "name": "CPU",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

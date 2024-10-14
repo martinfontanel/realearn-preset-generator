@@ -1,0 +1,185 @@
+{
+  "vstName": "GK Amplification 3 LE",
+  "parameters": [
+    {
+      "name": "Bypass",
+      "type": ""
+    },
+    {
+      "name": "Input Level",
+      "type": ""
+    },
+    {
+      "name": "Output Level",
+      "type": ""
+    },
+    {
+      "name": "Noise Gate Enabled",
+      "type": ""
+    },
+    {
+      "name": "Noise Gate Threshold",
+      "type": ""
+    },
+    {
+      "name": "Compressor Enabled",
+      "type": ""
+    },
+    {
+      "name": "Compressor Threshold",
+      "type": ""
+    },
+    {
+      "name": "Amp Type",
+      "type": ""
+    },
+    {
+      "name": "MB150 Volume",
+      "type": ""
+    },
+    {
+      "name": "MB150 -14 dB",
+      "type": ""
+    },
+    {
+      "name": "MB150 Hi Boost",
+      "type": ""
+    },
+    {
+      "name": "MB150 Lo-Cut",
+      "type": ""
+    },
+    {
+      "name": "MB150 Contour",
+      "type": ""
+    },
+    {
+      "name": "MB150 Bass",
+      "type": ""
+    },
+    {
+      "name": "MB150 Lo-Mid Level",
+      "type": ""
+    },
+    {
+      "name": "MB150 Hi-Mid Level",
+      "type": ""
+    },
+    {
+      "name": "MB150 Treble",
+      "type": ""
+    },
+    {
+      "name": "MB150 Boost",
+      "type": ""
+    },
+    {
+      "name": "MB150 Output Level",
+      "type": ""
+    },
+    {
+      "name": "MB150 Lo-Mid Frequency",
+      "type": ""
+    },
+    {
+      "name": "MB150 Hi-Mid Frequency",
+      "type": ""
+    },
+    {
+      "name": "Speaker A Enabled",
+      "type": ""
+    },
+    {
+      "name": "Speaker A Type",
+      "type": ""
+    },
+    {
+      "name": "Mic A Type",
+      "type": ""
+    },
+    {
+      "name": "Mic A Position X",
+      "type": ""
+    },
+    {
+      "name": "Mic A Position Y",
+      "type": ""
+    },
+    {
+      "name": "Mic A Distance",
+      "type": ""
+    },
+    {
+      "name": "Mic A Angle",
+      "type": ""
+    },
+    {
+      "name": "Mic A Hi-Range",
+      "type": ""
+    },
+    {
+      "name": "Mic A Pan",
+      "type": ""
+    },
+    {
+      "name": "Mic A Output",
+      "type": ""
+    },
+    {
+      "name": "Speaker B Enabled",
+      "type": ""
+    },
+    {
+      "name": "Speaker B Type",
+      "type": ""
+    },
+    {
+      "name": "Mic B Type",
+      "type": ""
+    },
+    {
+      "name": "Mic B Position X",
+      "type": ""
+    },
+    {
+      "name": "Mic B Position Y",
+      "type": ""
+    },
+    {
+      "name": "Mic B Distance",
+      "type": ""
+    },
+    {
+      "name": "Mic B Angle",
+      "type": ""
+    },
+    {
+      "name": "Mic B Hi-Range",
+      "type": ""
+    },
+    {
+      "name": "Mic B Pan",
+      "type": ""
+    },
+    {
+      "name": "Mic B Output",
+      "type": ""
+    },
+    {
+      "name": "Factory Presets",
+      "type": ""
+    },
+    {
+      "name": "Bypass",
+      "type": ""
+    },
+    {
+      "name": "Wet",
+      "type": ""
+    },
+    {
+      "name": "Delta",
+      "type": ""
+    }
+  ]
+}

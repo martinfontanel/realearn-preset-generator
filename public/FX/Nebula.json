@@ -1,0 +1,185 @@
+{
+    "vstName": "Nebula",
+    "parameters": [
+      {
+        "name": "Preset",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Menu",
+        "type": ""
+      },
+      {
+        "name": "LFO",
+        "type": ""
+      },
+      {
+        "name": "Delay",
+        "type": ""
+      },
+      {
+        "name": "Chorus",
+        "type": ""
+      },
+      {
+        "name": "Flanger",
+        "type": ""
+      },
+      {
+        "name": "Filter",
+        "type": ""
+      },
+      {
+        "name": "LFO connect",
+        "type": ""
+      },
+      {
+        "name": "LFO shape",
+        "type": ""
+      },
+      {
+        "name": "LFO time",
+        "type": ""
+      },
+      {
+        "name": "LFO range",
+        "type": ""
+      },
+      {
+        "name": "Delay mode",
+        "type": ""
+      },
+      {
+        "name": "Delay link",
+        "type": ""
+      },
+      {
+        "name": "Delay time left",
+        "type": ""
+      },
+      {
+        "name": "Delay time right",
+        "type": ""
+      },
+      {
+        "name": "Delay scale left",
+        "type": ""
+      },
+      {
+        "name": "Delay scale left",
+        "type": ""
+      },
+      {
+        "name": "Delay feedback",
+        "type": ""
+      },
+      {
+        "name": "Delay mix",
+        "type": ""
+      },
+      {
+        "name": "Delay low cut",
+        "type": ""
+      },
+      {
+        "name": "Delay low slope",
+        "type": ""
+      },
+      {
+        "name": "Delay high frequency",
+        "type": ""
+      },
+      {
+        "name": "Delay high slope",
+        "type": ""
+      },
+      {
+        "name": "Chorus mode",
+        "type": ""
+      },
+      {
+        "name": "Chorus rate",
+        "type": ""
+      },
+      {
+        "name": "Chorus depth",
+        "type": ""
+      },
+      {
+        "name": "Chorus feedback",
+        "type": ""
+      },
+      {
+        "name": "Chorus mix",
+        "type": ""
+      },
+      {
+        "name": "Flanger mode",
+        "type": ""
+      },
+      {
+        "name": "Flanger rate",
+        "type": ""
+      },
+      {
+        "name": "Flanger depth",
+        "type": ""
+      },
+      {
+        "name": "Flanger feedback",
+        "type": ""
+      },
+      {
+        "name": "Flanger mix",
+        "type": ""
+      },
+      {
+        "name": "Filter mode",
+        "type": ""
+      },
+      {
+        "name": "Delay low cut",
+        "type": ""
+      },
+      {
+        "name": "Delay low slope",
+        "type": ""
+      },
+      {
+        "name": "Delay high frequency",
+        "type": ""
+      },
+      {
+        "name": "Delay high slope",
+        "type": ""
+      },
+      {
+        "name": "Meter link",
+        "type": ""
+      },
+      {
+        "name": "Volume left",
+        "type": ""
+      },
+      {
+        "name": "Volume right",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

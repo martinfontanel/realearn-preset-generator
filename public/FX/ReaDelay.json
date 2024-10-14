@@ -1,0 +1,65 @@
+{
+  "vstName": "ReaDelay",
+  "parameters": [
+    {
+      "name": "Wet",
+      "type": ""
+    },
+    {
+      "name": "Dry",
+      "type": ""
+    },
+    {
+      "name": "1: Enabled",
+      "type": ""
+    },
+    {
+      "name": "1: Length (time)",
+      "type": ""
+    },
+    {
+      "name": "1: Length (musical)",
+      "type": ""
+    },
+    {
+      "name": "1: Feedback",
+      "type": ""
+    },
+    {
+      "name": "1: Lowpass",
+      "type": ""
+    },
+    {
+      "name": "1: Hipass",
+      "type": ""
+    },
+    {
+      "name": "1: Resolution",
+      "type": ""
+    },
+    {
+      "name": "1: Stereo width",
+      "type": ""
+    },
+    {
+      "name": "1: Volume",
+      "type": ""
+    },
+    {
+      "name": "1: Pan",
+      "type": ""
+    },
+    {
+      "name": "Bypass",
+      "type": ""
+    },
+    {
+      "name": "Wet",
+      "type": ""
+    },
+    {
+      "name": "Delta",
+      "type": ""
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "vstName": "Kramer HLS",
+  "parameters": [
+    {
+      "name": "Source",
+      "type": ""
+    },
+    {
+      "name": "Input Gain",
+      "type": ""
+    },
+    {
+      "name": "Preamp",
+      "type": ""
+    },
+    {
+      "name": "Analog",
+      "type": ""
+    },
+    {
+      "name": "EQ Cut",
+      "type": ""
+    },
+    {
+      "name": "HF Gain",
+      "type": ""
+    },
+    {
+      "name": "Mid Frequency",
+      "type": ""
+    },
+    {
+      "name": "Mid Gain",
+      "type": ""
+    },
+    {
+      "name": "MID Mode",
+      "type": ""
+    },
+    {
+      "name": "Lo Freq/Cut",
+      "type": ""
+    },
+    {
+      "name": "Lo Boost",
+      "type": ""
+    },
+    {
+      "name": "Meter Select",
+      "type": ""
+    },
+    {
+      "name": "Noise",
+      "type": ""
+    },
+    {
+      "name": "Output Gain",
+      "type": ""
+    },
+    {
+      "name": "Phase",
+      "type": ""
+    },
+    {
+      "name": "VU Calibrate",
+      "type": ""
+    },
+    {
+      "name": "Bypass",
+      "type": ""
+    },
+    {
+      "name": "Wet",
+      "type": ""
+    },
+    {
+      "name": "Delta",
+      "type": ""
+    }
+  ]
+}

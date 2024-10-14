@@ -1,0 +1,73 @@
+{
+    "vstName": "Replika",
+    "parameters": [
+      {
+        "name": "Default",
+        "type": ""
+      },
+      {
+        "name": "Time Mode",
+        "type": ""
+      },
+      {
+        "name": "Delay Time",
+        "type": ""
+      },
+      {
+        "name": "Mix",
+        "type": ""
+      },
+      {
+        "name": "Feedback",
+        "type": ""
+      },
+      {
+        "name": "Stereo Mode",
+        "type": ""
+      },
+      {
+        "name": "In",
+        "type": ""
+      },
+      {
+        "name": "Out",
+        "type": ""
+      },
+      {
+        "name": "Mode",
+        "type": ""
+      },
+      {
+        "name": "Saturation",
+        "type": ""
+      },
+      {
+        "name": "LoCut",
+        "type": ""
+      },
+      {
+        "name": "HiCut",
+        "type": ""
+      },
+      {
+        "name": "Modulation",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

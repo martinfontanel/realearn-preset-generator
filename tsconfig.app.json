@@ -6,7 +6,16 @@
     "outDir": "./out-tsc/app",
     "types": [
       "node"
-    ]
+    ],
+    "paths": {
+      "@features/*":["./src/app/components/features/*"],
+      "@interfaces/*":["./src/app/interfaces/*"],
+      "@pages/*":["./src/app/components/pages/*"],
+      "@services/*":["./src/app/services/*"],
+      "@consts/*":["./src/app/consts/*"],
+      "@common/*":["./src/app/components/common/*"],
+      "@enums/*":["./src/app/enums/*"]
+    }
   },
   "files": [
     "src/main.ts",

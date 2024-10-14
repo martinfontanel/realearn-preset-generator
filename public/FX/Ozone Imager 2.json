@@ -1,0 +1,33 @@
+{
+    "vstName": "Ozone Imager 2",
+    "parameters": [
+      {
+        "name": "Global Bypass",
+        "type": ""
+      },
+      {
+        "name": "Enable Stereoize",
+        "type": ""
+      },
+      {
+        "name": "Stereoize Amt",
+        "type": ""
+      },
+      {
+        "name": "Width",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

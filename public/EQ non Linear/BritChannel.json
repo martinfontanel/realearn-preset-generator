@@ -1,0 +1,65 @@
+{
+    "vstName": "BritChannel",
+    "parameters": [
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Preamp Gain",
+        "type": ""
+      },
+      {
+        "name": "Output Trim",
+        "type": ""
+      },
+      {
+        "name": "HighPass",
+        "type": ""
+      },
+      {
+        "name": "Low Freq",
+        "type": ""
+      },
+      {
+        "name": "Low Gain",
+        "type": ""
+      },
+      {
+        "name": "Mid Freq",
+        "type": ""
+      },
+      {
+        "name": "Mid Gain",
+        "type": ""
+      },
+      {
+        "name": "High Gain",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Mic Pre",
+        "type": ""
+      },
+      {
+        "name": "Oversampling",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

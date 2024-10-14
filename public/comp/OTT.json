@@ -1,0 +1,143 @@
+{
+  "vstName": "OTT",
+  "parameters": [
+    {
+      "name": "Depth",
+      "type": "knob",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Time",
+      "type": "knob",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "In Gain",
+      "type": "knob",
+      "category": "Input",
+      "part": ""
+    },
+    {
+      "name": "Out Gain",
+      "type": "knob",
+      "category": "Output",
+      "part": ""
+    },
+    {
+      "name": "Clean XOV",
+      "type": "button",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Thresh L",
+      "type": "knob",
+      "category": "Threshold",
+      "part": "Low"
+    },
+    {
+      "name": "Thresh M",
+      "type": "knob",
+      "category": "Threshold",
+      "part": "Medium"
+    },
+    {
+      "name": "Thresh H",
+      "type": "knob",
+      "category": "Threshold",
+      "part": "High"
+    },
+    {
+      "name": "Gain L",
+      "type": "knob",
+      "category": "Makeup Gain",
+      "part": "Low"
+    },
+    {
+      "name": "Gain M",
+      "type": "knob",
+      "category": "Makeup Gain",
+      "part": "Medium"
+    },
+    {
+      "name": "Gain H",
+      "type": "knob",
+      "category": "Makeup Gain",
+      "part": "High"
+    },
+    {
+      "name": "Byp Upwd L",
+      "type": "button",
+      "category": "Bypass",
+      "part": "Low"
+    },
+    {
+      "name": "Byp Upwd M",
+      "type": "button",
+      "category": "Bypass",
+      "part": "Medium"
+    },
+    {
+      "name": "Byp Upwd H",
+      "type": "button",
+      "category": "Bypass",
+      "part": "High"
+    },
+    {
+      "name": "Byp Dnwd L",
+      "type": "button",
+      "category": "Bypass",
+      "part": "Low"
+    },
+    {
+      "name": "Byp Dnwd M",
+      "type": "button",
+      "category": "Bypass",
+      "part": "Medium"
+    },
+    {
+      "name": "Byp Dnwd H",
+      "type": "button",
+      "category": "Bypass",
+      "part": "High"
+    },
+    {
+      "name": "Upwd Strgth",
+      "type": "knob",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Dnwd Strgth",
+      "type": "knob",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Bypass",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Wet",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Delta",
+      "type": "",
+      "category": "",
+      "part": ""
+    }
+  ],
+  "type": "dyn",
+  "parts": [
+    "Low",
+    "Medium",
+    "High"
+  ]
+}

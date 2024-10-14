@@ -1,0 +1,53 @@
+{
+    "vstName": "DD Reverb",
+    "parameters": [
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Sync",
+        "type": ""
+      },
+      {
+        "name": "Predelay",
+        "type": ""
+      },
+      {
+        "name": "Low Cut",
+        "type": ""
+      },
+      {
+        "name": "High Cut",
+        "type": ""
+      },
+      {
+        "name": "Roomsize",
+        "type": ""
+      },
+      {
+        "name": "Damping",
+        "type": ""
+      },
+      {
+        "name": "Width",
+        "type": ""
+      },
+      {
+        "name": "Mix",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

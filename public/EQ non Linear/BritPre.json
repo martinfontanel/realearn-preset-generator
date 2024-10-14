@@ -1,0 +1,57 @@
+{
+    "vstName": "BritPre",
+    "parameters": [
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Gain",
+        "type": ""
+      },
+      {
+        "name": "Output",
+        "type": ""
+      },
+      {
+        "name": "Highpass Filter",
+        "type": ""
+      },
+      {
+        "name": "Lowpass Filter",
+        "type": ""
+      },
+      {
+        "name": "Filter Bypass",
+        "type": ""
+      },
+      {
+        "name": "Preamp Bypass",
+        "type": ""
+      },
+      {
+        "name": "Mic Pre",
+        "type": ""
+      },
+      {
+        "name": "Phase",
+        "type": ""
+      },
+      {
+        "name": "Oversampling",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

@@ -1,0 +1,169 @@
+{
+  "vstName": "ReaSurround",
+  "parameters": [
+    {
+      "name": "scale X",
+      "type": ""
+    },
+    {
+      "name": "scale Y",
+      "type": ""
+    },
+    {
+      "name": "scale Z",
+      "type": ""
+    },
+    {
+      "name": "ctr trim",
+      "type": ""
+    },
+    {
+      "name": "in 1 gain",
+      "type": ""
+    },
+    {
+      "name": "in 1 X",
+      "type": ""
+    },
+    {
+      "name": "in 1 Y",
+      "type": ""
+    },
+    {
+      "name": "in 1 Z",
+      "type": ""
+    },
+    {
+      "name": "in 1 LFE send",
+      "type": ""
+    },
+    {
+      "name": "in 1 diffuse",
+      "type": ""
+    },
+    {
+      "name": "in 1 bias",
+      "type": ""
+    },
+    {
+      "name": "in 1 angle",
+      "type": ""
+    },
+    {
+      "name": "in 1 mute",
+      "type": ""
+    },
+    {
+      "name": "in 1 solo",
+      "type": ""
+    },
+    {
+      "name": "in 2 gain",
+      "type": ""
+    },
+    {
+      "name": "in 2 X",
+      "type": ""
+    },
+    {
+      "name": "in 2 Y",
+      "type": ""
+    },
+    {
+      "name": "in 2 Z",
+      "type": ""
+    },
+    {
+      "name": "in 2 LFE send",
+      "type": ""
+    },
+    {
+      "name": "in 2 diffuse",
+      "type": ""
+    },
+    {
+      "name": "in 2 bias",
+      "type": ""
+    },
+    {
+      "name": "in 2 angle",
+      "type": ""
+    },
+    {
+      "name": "in 2 mute",
+      "type": ""
+    },
+    {
+      "name": "in 2 solo",
+      "type": ""
+    },
+    {
+      "name": "left gain",
+      "type": ""
+    },
+    {
+      "name": "left X",
+      "type": ""
+    },
+    {
+      "name": "left Y",
+      "type": ""
+    },
+    {
+      "name": "left Z",
+      "type": ""
+    },
+    {
+      "name": "left influence",
+      "type": ""
+    },
+    {
+      "name": "left mute",
+      "type": ""
+    },
+    {
+      "name": "left solo",
+      "type": ""
+    },
+    {
+      "name": "right gain",
+      "type": ""
+    },
+    {
+      "name": "right X",
+      "type": ""
+    },
+    {
+      "name": "right Y",
+      "type": ""
+    },
+    {
+      "name": "right Z",
+      "type": ""
+    },
+    {
+      "name": "right influence",
+      "type": ""
+    },
+    {
+      "name": "right mute",
+      "type": ""
+    },
+    {
+      "name": "right solo",
+      "type": ""
+    },
+    {
+      "name": "Bypass",
+      "type": ""
+    },
+    {
+      "name": "Wet",
+      "type": ""
+    },
+    {
+      "name": "Delta",
+      "type": ""
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+    "vstName": "Lofi Space",
+    "parameters": [
+      {
+        "name": "Echo Bypass",
+        "type": ""
+      },
+      {
+        "name": "Reverb Bypass",
+        "type": ""
+      },
+      {
+        "name": "Echo Time MS",
+        "type": ""
+      },
+      {
+        "name": "Echo Time BPM",
+        "type": ""
+      },
+      {
+        "name": "Sync Type",
+        "type": ""
+      },
+      {
+        "name": "BPM",
+        "type": ""
+      },
+      {
+        "name": "Echo Feedback",
+        "type": ""
+      },
+      {
+        "name": "Ping Pong",
+        "type": ""
+      },
+      {
+        "name": "Echo Level",
+        "type": ""
+      },
+      {
+        "name": "Reverb Type",
+        "type": ""
+      },
+      {
+        "name": "Reverb Level",
+        "type": ""
+      },
+      {
+        "name": "Space Mix",
+        "type": ""
+      },
+      {
+        "name": "LP",
+        "type": ""
+      },
+      {
+        "name": "HP",
+        "type": ""
+      },
+      {
+        "name": "Mono",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

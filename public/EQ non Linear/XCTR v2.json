@@ -1,0 +1,105 @@
+{
+    "vstName": "XCTR v2",
+    "parameters": [
+      {
+        "name": "Input",
+        "type": ""
+      },
+      {
+        "name": "Output",
+        "type": ""
+      },
+      {
+        "name": "Crossover 1",
+        "type": ""
+      },
+      {
+        "name": "Crossover 2",
+        "type": ""
+      },
+      {
+        "name": "CrossOver3",
+        "type": ""
+      },
+      {
+        "name": "Drive 1",
+        "type": ""
+      },
+      {
+        "name": "Mix 1",
+        "type": ""
+      },
+      {
+        "name": "Drive 2",
+        "type": ""
+      },
+      {
+        "name": "Mix 2",
+        "type": ""
+      },
+      {
+        "name": "Drive 3",
+        "type": ""
+      },
+      {
+        "name": "Mix 3",
+        "type": ""
+      },
+      {
+        "name": "Drive 4",
+        "type": ""
+      },
+      {
+        "name": "Mix 4",
+        "type": ""
+      },
+      {
+        "name": "Module 1",
+        "type": ""
+      },
+      {
+        "name": "Module 2",
+        "type": ""
+      },
+      {
+        "name": "Module 3",
+        "type": ""
+      },
+      {
+        "name": "Module 4",
+        "type": ""
+      },
+      {
+        "name": "Oversampling",
+        "type": ""
+      },
+      {
+        "name": "Response",
+        "type": ""
+      },
+      {
+        "name": "Automatic Gain Compensation",
+        "type": ""
+      },
+      {
+        "name": "Power",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

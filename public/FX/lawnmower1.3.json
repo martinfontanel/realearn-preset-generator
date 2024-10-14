@@ -1,0 +1,53 @@
+{
+    "vstName": "lawnmower1.3",
+    "parameters": [
+      {
+        "name": "Drive1",
+        "type": ""
+      },
+      {
+        "name": "Drive2",
+        "type": ""
+      },
+      {
+        "name": "Hi Limit",
+        "type": ""
+      },
+      {
+        "name": "Lo Limit",
+        "type": ""
+      },
+      {
+        "name": "Mix",
+        "type": ""
+      },
+      {
+        "name": "Pitch",
+        "type": ""
+      },
+      {
+        "name": "Resonance",
+        "type": ""
+      },
+      {
+        "name": "Threshold2",
+        "type": ""
+      },
+      {
+        "name": "clipper",
+        "type": ""
+      },
+      {
+        "name": "filter",
+        "type": ""
+      },
+      {
+        "name": "in",
+        "type": ""
+      },
+      {
+        "name": "out",
+        "type": ""
+      }
+    ]
+  }

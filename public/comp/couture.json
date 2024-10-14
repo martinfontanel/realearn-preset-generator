@@ -1,0 +1,131 @@
+{
+  "vstName": "Couture",
+  "parameters": [
+    {
+      "name": "Bypass",
+      "type": "button",
+      "category": "Bypass"
+    },
+    {
+      "name": "Preset",
+      "type": "knob",
+      "category": ""
+    },
+    {
+      "name": "Gain",
+      "type": "knob",
+      "category": ""
+    },
+    {
+      "name": "Gain Mul.",
+      "type": "indent",
+      "category": ""
+    },
+    {
+      "name": "Speed",
+      "type": "knob",
+      "category": ""
+    },
+    {
+      "name": "Rel. Ratio",
+      "type": "knob",
+      "category": ""
+    },
+    {
+      "name": "Gain Clip",
+      "type": "button",
+      "category": ""
+    },
+    {
+      "name": "Weighting",
+      "type": "indent",
+      "category": ""
+    },
+    {
+      "name": "Detector Bass",
+      "type": "knob",
+      "category": ""
+    },
+    {
+      "name": "Saturation",
+      "type": "button",
+      "category": ""
+    },
+    {
+      "name": "Drive",
+      "type": "knob",
+      "category": "Drive"
+    },
+    {
+      "name": "Sat. Curve",
+      "type": "indent",
+      "category": ""
+    },
+    {
+      "name": "Sat. Smooth",
+      "type": "knob",
+      "category": ""
+    },
+    {
+      "name": "HP",
+      "type": "knob",
+      "category": "HPF"
+    },
+    {
+      "name": "HP pre",
+      "type": "button",
+      "category": ""
+    },
+    {
+      "name": "LP",
+      "type": "knob",
+      "category": "LPF"
+    },
+    {
+      "name": "Mood",
+      "type": "knob",
+      "category": ""
+    },
+    {
+      "name": "LP pre",
+      "type": "button",
+      "category": ""
+    },
+    {
+      "name": "Output",
+      "type": "knob",
+      "category": "Output"
+    },
+    {
+      "name": "Amount",
+      "type": "knob",
+      "category": ""
+    },
+    {
+      "name": "Oversampling",
+      "type": "indent",
+      "category": ""
+    },
+    {
+      "name": "Dry Mix",
+      "type": "knob",
+      "category": "Dry"
+    },
+    {
+      "name": "Bypass",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Wet",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Delta",
+      "type": "",
+      "category": ""
+    }
+  ],
+  "type": "dyn"
+}

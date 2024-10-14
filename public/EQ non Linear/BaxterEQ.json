@@ -1,0 +1,89 @@
+{
+    "vstName": "BaxterEQ",
+    "parameters": [
+      {
+        "name": "FREQ-HI-1",
+        "type": ""
+      },
+      {
+        "name": "FREQ-HI-2",
+        "type": ""
+      },
+      {
+        "name": "FREQ-HP-1",
+        "type": ""
+      },
+      {
+        "name": "FREQ-HP-2",
+        "type": ""
+      },
+      {
+        "name": "FREQ-LO-1",
+        "type": ""
+      },
+      {
+        "name": "FREQ-LO-2",
+        "type": ""
+      },
+      {
+        "name": "FREQ-LP-1",
+        "type": ""
+      },
+      {
+        "name": "FREQ-LP-2",
+        "type": ""
+      },
+      {
+        "name": "GAIN-HI-1",
+        "type": ""
+      },
+      {
+        "name": "GAIN-HI-2",
+        "type": ""
+      },
+      {
+        "name": "GAIN-LO-1",
+        "type": ""
+      },
+      {
+        "name": "GAIN-LO-2",
+        "type": ""
+      },
+      {
+        "name": "LINK-HI",
+        "type": ""
+      },
+      {
+        "name": "LINK-LO",
+        "type": ""
+      },
+      {
+        "name": "OUT-1",
+        "type": ""
+      },
+      {
+        "name": "OUT-2",
+        "type": ""
+      },
+      {
+        "name": "M/S",
+        "type": ""
+      },
+      {
+        "name": "ON",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

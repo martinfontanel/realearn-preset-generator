@@ -1,0 +1,73 @@
+{
+    "vstName": "Schoeps Double MS",
+    "parameters": [
+      {
+        "name": "polar_pattern_lr",
+        "type": ""
+      },
+      {
+        "name": "polar_pattern_c",
+        "type": ""
+      },
+      {
+        "name": "polar_pattern_lsrs",
+        "type": ""
+      },
+      {
+        "name": "ambience_gain",
+        "type": ""
+      },
+      {
+        "name": "microphone_angle_lr",
+        "type": ""
+      },
+      {
+        "name": "microphone_angle_lsrs",
+        "type": ""
+      },
+      {
+        "name": "microphone_angle_rotate",
+        "type": ""
+      },
+      {
+        "name": "surround_delay",
+        "type": ""
+      },
+      {
+        "name": "surround_lowpass",
+        "type": ""
+      },
+      {
+        "name": "gain_lr",
+        "type": ""
+      },
+      {
+        "name": "gain_c",
+        "type": ""
+      },
+      {
+        "name": "gain_lsrs",
+        "type": ""
+      },
+      {
+        "name": "decorrelation",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

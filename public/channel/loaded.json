@@ -1,0 +1,367 @@
+{
+  "vstName": "LOADED",
+  "parameters": [
+    {
+      "name": "Preset",
+      "type": "indent",
+      "category": "",
+      "part": "General",
+      "id": 0
+    },
+    {
+      "name": "Bypass",
+      "type": "button",
+      "category": "Bypass",
+      "part": "General",
+      "id": 1
+    },
+    {
+      "name": "Preamp Gain",
+      "type": "",
+      "category": "",
+      "part": "Pre-amp",
+      "id": 2
+    },
+    {
+      "name": "Preamp HPF",
+      "type": "",
+      "category": "",
+      "part": "Pre-amp",
+      "id": 3
+    },
+    {
+      "name": "Main Input",
+      "type": "knob",
+      "category": "Input",
+      "part": "General",
+      "id": 4
+    },
+    {
+      "name": "Main Output",
+      "type": "knob",
+      "category": "Output",
+      "part": "General",
+      "id": 5
+    },
+    {
+      "name": "De-Esser Release",
+      "type": "knob",
+      "category": "Release",
+      "part": "De-esser",
+      "id": 6
+    },
+    {
+      "name": "De-Esser Threshold",
+      "type": "knob",
+      "category": "Threshold",
+      "part": "De-esser",
+      "id": 7
+    },
+    {
+      "name": "De-Esser Mix",
+      "type": "knob",
+      "category": "Wet",
+      "part": "De-esser",
+      "id": 8
+    },
+    {
+      "name": "Gate Mix",
+      "type": "knob",
+      "category": "Wet",
+      "part": "Gate",
+      "id": 9
+    },
+    {
+      "name": "Gate Release",
+      "type": "knob",
+      "category": "Release",
+      "part": "Gate",
+      "id": 10
+    },
+    {
+      "name": "Gate Threshold",
+      "type": "knob",
+      "category": "Threshold",
+      "part": "Gate",
+      "id": 11
+    },
+    {
+      "name": "Low Gain",
+      "type": "knob",
+      "category": "",
+      "part": "",
+      "id": 12
+    },
+    {
+      "name": "Low Mid Freq",
+      "type": "knob",
+      "category": "",
+      "part": "",
+      "id": 13
+    },
+    {
+      "name": "Low Mid Gain",
+      "type": "",
+      "category": "",
+      "part": "",
+      "id": 14
+    },
+    {
+      "name": "High Mid Freq",
+      "type": "",
+      "category": "",
+      "part": "",
+      "id": 15
+    },
+    {
+      "name": "High Mid Gain",
+      "type": "",
+      "category": "",
+      "part": "",
+      "id": 16
+    },
+    {
+      "name": "High Gain",
+      "type": "",
+      "category": "",
+      "part": "",
+      "id": 17
+    },
+    {
+      "name": "Compressor Threshold",
+      "type": "knob",
+      "category": "Threshold",
+      "part": "Comp",
+      "id": 18
+    },
+    {
+      "name": "Compressor Ratio",
+      "type": "knob",
+      "category": "Ratio",
+      "part": "Comp",
+      "id": 19
+    },
+    {
+      "name": "Compressor Mix",
+      "type": "knob",
+      "category": "Wet",
+      "part": "Comp",
+      "id": 20
+    },
+    {
+      "name": "Preamp Bypass",
+      "type": "button",
+      "category": "",
+      "part": "Pre-amp",
+      "id": 21
+    },
+    {
+      "name": "Preamp PAD",
+      "type": "",
+      "category": "",
+      "part": "Pre-amp",
+      "id": 22
+    },
+    {
+      "name": "Preamp Phase",
+      "type": "",
+      "category": "",
+      "part": "Pre-amp",
+      "id": 23
+    },
+    {
+      "name": "Preamp HPF Switch",
+      "type": "",
+      "category": "",
+      "part": "Pre-amp",
+      "id": 24
+    },
+    {
+      "name": "Preamp MIC",
+      "type": "",
+      "category": "",
+      "part": "Pre-amp",
+      "id": 25
+    },
+    {
+      "name": "Preamp Low Boost",
+      "type": "",
+      "category": "",
+      "part": "Pre-amp",
+      "id": 26
+    },
+    {
+      "name": "Preamp High Boost",
+      "type": "",
+      "category": "",
+      "part": "Pre-amp",
+      "id": 27
+    },
+    {
+      "name": "Preamp Transformer",
+      "type": "",
+      "category": "",
+      "part": "Pre-amp",
+      "id": 28
+    },
+    {
+      "name": "Main Bypass",
+      "type": "button",
+      "category": "",
+      "part": "General",
+      "id": 29
+    },
+    {
+      "name": "De-Esser Bypass",
+      "type": "button",
+      "category": "Bypass",
+      "part": "De-esser",
+      "id": 30
+    },
+    {
+      "name": "De-Esser Band",
+      "type": "button",
+      "category": "",
+      "part": "De-esser",
+      "id": 31
+    },
+    {
+      "name": "De-Esser Soft",
+      "type": "button",
+      "category": "",
+      "part": "De-esser",
+      "id": 32
+    },
+    {
+      "name": "Gate Bypass",
+      "type": "button",
+      "category": "Bypass",
+      "part": "De-esser",
+      "id": 33
+    },
+    {
+      "name": "Gate Fast Attack",
+      "type": "button",
+      "category": "Fast Attack",
+      "part": "Gate",
+      "id": 34
+    },
+    {
+      "name": "EQ Bypass",
+      "type": "",
+      "category": "",
+      "part": "EQ",
+      "id": 35
+    },
+    {
+      "name": "Compressor Bypass",
+      "type": "button",
+      "category": "Bypass",
+      "part": "Comp",
+      "id": 36
+    },
+    {
+      "name": "Compressor Fast Attack",
+      "type": "button",
+      "category": "Fast Attack",
+      "part": "Comp",
+      "id": 37
+    },
+    {
+      "name": "Compressor Auto Release",
+      "type": "button",
+      "category": "Auto Release",
+      "part": "Comp",
+      "id": 38
+    },
+    {
+      "name": "Compressor External Sidechain",
+      "type": "button",
+      "category": "Ext Sidechain",
+      "part": "Comp",
+      "id": 39
+    },
+    {
+      "name": "Compressor External Sidechain",
+      "type": "",
+      "category": "",
+      "part": "",
+      "id": 40
+    },
+    {
+      "name": "Bypass",
+      "type": "",
+      "category": "",
+      "part": "",
+      "id": 41
+    },
+    {
+      "name": "Wet",
+      "type": "",
+      "category": "",
+      "part": "",
+      "id": 42
+    },
+    {
+      "name": "Delta",
+      "type": "",
+      "category": "",
+      "part": "",
+      "id": 43
+    }
+  ],
+  "type": "channel",
+  "parts": [
+    "Comp",
+    "De-esser",
+    "EQ",
+    "Gate",
+    "General",
+    "Pre-amp"
+  ],
+  "linkPartParam": [
+    [
+      36,
+      37,
+      38,
+      39
+    ],
+    [
+      6,
+      7,
+      8,
+      30,
+      31,
+      32,
+      33
+    ],
+    [
+      35
+    ],
+    [
+      9,
+      10,
+      11,
+      34
+    ],
+    [
+      0,
+      1,
+      4,
+      5,
+      29
+    ],
+    [
+      2,
+      3,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  ]
+}

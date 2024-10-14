@@ -1,0 +1,197 @@
+{
+  "vstName": "PolyComp",
+  "parameters": [
+    {
+      "name": "HQ",
+      "type": "button",
+      "category": "Oversample",
+      "part": ""
+    },
+    {
+      "name": "Power",
+      "type": "button",
+      "category": "Power",
+      "part": ""
+    },
+    {
+      "name": "RMS",
+      "type": "button",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Low Crossover",
+      "type": "knob",
+      "category": "LPF",
+      "part": ""
+    },
+    {
+      "name": "High Crossover",
+      "type": "knob",
+      "category": "HPF",
+      "part": ""
+    },
+    {
+      "name": "Low Threshold",
+      "type": "knob",
+      "category": "Threshold",
+      "part": "Low"
+    },
+    {
+      "name": "Low Ratio",
+      "type": "knob",
+      "category": "Ratio",
+      "part": "Low"
+    },
+    {
+      "name": "Low Attack",
+      "type": "knob",
+      "category": "Attack",
+      "part": "Low"
+    },
+    {
+      "name": "Low Release",
+      "type": "knob",
+      "category": "Release",
+      "part": "Low"
+    },
+    {
+      "name": "Low Gain",
+      "type": "knob",
+      "category": "Makeup Gain",
+      "part": "Low"
+    },
+    {
+      "name": "Low Switch",
+      "type": "indent",
+      "category": "",
+      "part": "Low"
+    },
+    {
+      "name": "Mid Threshold",
+      "type": "knob",
+      "category": "Threshold",
+      "part": "Mid"
+    },
+    {
+      "name": "Mid Ratio",
+      "type": "knob",
+      "category": "Ratio",
+      "part": "Mid"
+    },
+    {
+      "name": "Mid Attack",
+      "type": "knob",
+      "category": "Attack",
+      "part": "Mid"
+    },
+    {
+      "name": "Mid Release",
+      "type": "knob",
+      "category": "Release",
+      "part": "Mid"
+    },
+    {
+      "name": "Mid Gain",
+      "type": "knob",
+      "category": "Makeup Gain",
+      "part": "Mid"
+    },
+    {
+      "name": "Mid Switch",
+      "type": "indent",
+      "category": "",
+      "part": "Mid"
+    },
+    {
+      "name": "High Threshold",
+      "type": "knob",
+      "category": "Threshold",
+      "part": "High"
+    },
+    {
+      "name": "High Ratio",
+      "type": "knob",
+      "category": "Ratio",
+      "part": "High"
+    },
+    {
+      "name": "High Attack",
+      "type": "knob",
+      "category": "Attack",
+      "part": "High"
+    },
+    {
+      "name": "High Release",
+      "type": "knob",
+      "category": "Release",
+      "part": "High"
+    },
+    {
+      "name": "High Gain",
+      "type": "knob",
+      "category": "Makeup Gain",
+      "part": "High"
+    },
+    {
+      "name": "High Switch",
+      "type": "indent",
+      "category": "",
+      "part": "High"
+    },
+    {
+      "name": "Mix",
+      "type": "knob",
+      "category": "Wet",
+      "part": ""
+    },
+    {
+      "name": "Input Gain",
+      "type": "knob",
+      "category": "Input",
+      "part": ""
+    },
+    {
+      "name": "Output Gain",
+      "type": "knob",
+      "category": "Output",
+      "part": ""
+    },
+    {
+      "name": "Sidechain",
+      "type": "button",
+      "category": "Ext Sidechain",
+      "part": ""
+    },
+    {
+      "name": "Bypass",
+      "type": "button",
+      "category": "Bypass",
+      "part": ""
+    },
+    {
+      "name": "Bypass",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Wet",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Delta",
+      "type": "",
+      "category": "",
+      "part": ""
+    }
+  ],
+  "type": "dyn",
+  "parts": [
+    "Low",
+    "Mid",
+    "High"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "vstName": "bx_opto",
+  "parameters": [
+    {
+      "name": "Speed",
+      "type": "knob",
+      "category": ""
+    },
+    {
+      "name": "Peak Reduction",
+      "type": "knob",
+      "category": ""
+    },
+    {
+      "name": "Output Gain",
+      "type": "knob",
+      "category": "Output"
+    },
+    {
+      "name": "Sidechain Filter Type",
+      "type": "knob",
+      "category": ""
+    },
+    {
+      "name": "Sidechain Frequency",
+      "type": "knob",
+      "category": "Sidechain Freq/Mid"
+    },
+    {
+      "name": "Sidechain Off/On/Solo",
+      "type": "indent",
+      "category": ""
+    },
+    {
+      "name": "Mix",
+      "type": "knob",
+      "category": "Wet"
+    },
+    {
+      "name": "Bank",
+      "type": "indent",
+      "category": ""
+    },
+    {
+      "name": "Power",
+      "type": "button",
+      "category": "Power"
+    },
+    {
+      "name": "Bypass",
+      "type": "button",
+      "category": "Bypass"
+    },
+    {
+      "name": "Bypass",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Wet",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Delta",
+      "type": "",
+      "category": ""
+    }
+  ],
+  "type": "dyn"
+}

@@ -1,0 +1,189 @@
+{
+  "vstName": "Oracle",
+  "parameters": [
+    {
+      "name": "Preset",
+      "type": ""
+    },
+    {
+      "name": "Bypass",
+      "type": ""
+    },
+    {
+      "name": "Side bar",
+      "type": ""
+    },
+    {
+      "name": "Volume left",
+      "type": ""
+    },
+    {
+      "name": "Volume right",
+      "type": ""
+    },
+    {
+      "name": "Reverb",
+      "type": ""
+    },
+    {
+      "name": "Imager",
+      "type": ""
+    },
+    {
+      "name": "Filter",
+      "type": ""
+    },
+    {
+      "name": "Flanger",
+      "type": ""
+    },
+    {
+      "name": "LFO",
+      "type": ""
+    },
+    {
+      "name": "Saturator",
+      "type": ""
+    },
+    {
+      "name": "Dynamics",
+      "type": ""
+    },
+    {
+      "name": "Pre delay",
+      "type": ""
+    },
+    {
+      "name": "Time",
+      "type": ""
+    },
+    {
+      "name": "Damp",
+      "type": ""
+    },
+    {
+      "name": "Mix",
+      "type": ""
+    },
+    {
+      "name": "Spread",
+      "type": ""
+    },
+    {
+      "name": "S-Position",
+      "type": ""
+    },
+    {
+      "name": "M-Position",
+      "type": ""
+    },
+    {
+      "name": "Balance",
+      "type": ""
+    },
+    {
+      "name": "Link",
+      "type": ""
+    },
+    {
+      "name": "HPF frequency",
+      "type": ""
+    },
+    {
+      "name": "HPF slope",
+      "type": ""
+    },
+    {
+      "name": "LPF slope",
+      "type": ""
+    },
+    {
+      "name": "LPF frequency",
+      "type": ""
+    },
+    {
+      "name": "Effects menu",
+      "type": ""
+    },
+    {
+      "name": "Saturation drive",
+      "type": ""
+    },
+    {
+      "name": "Saturation attack",
+      "type": ""
+    },
+    {
+      "name": "Saturation release",
+      "type": ""
+    },
+    {
+      "name": "MakeUp",
+      "type": ""
+    },
+    {
+      "name": "LFO shape",
+      "type": ""
+    },
+    {
+      "name": "LFO time",
+      "type": ""
+    },
+    {
+      "name": "LFO range",
+      "type": ""
+    },
+    {
+      "name": "Flanger rate",
+      "type": ""
+    },
+    {
+      "name": "Flanger depth",
+      "type": ""
+    },
+    {
+      "name": "Flanger feedback",
+      "type": ""
+    },
+    {
+      "name": "Flanger mix",
+      "type": ""
+    },
+    {
+      "name": "Flanger mode",
+      "type": ""
+    },
+    {
+      "name": "Compressor threshold",
+      "type": ""
+    },
+    {
+      "name": "Compressor ratio",
+      "type": ""
+    },
+    {
+      "name": "Compressor Attack",
+      "type": ""
+    },
+    {
+      "name": "Compressor release",
+      "type": ""
+    },
+    {
+      "name": "Compressor make up",
+      "type": ""
+    },
+    {
+      "name": "Bypass",
+      "type": ""
+    },
+    {
+      "name": "Wet",
+      "type": ""
+    },
+    {
+      "name": "Delta",
+      "type": ""
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+    "vstName": "Saturation Knob",
+    "parameters": [
+      {
+        "name": "Saturation",
+        "type": ""
+      },
+      {
+        "name": "Saturation Type",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

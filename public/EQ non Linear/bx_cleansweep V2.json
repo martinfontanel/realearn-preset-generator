@@ -1,0 +1,40 @@
+{
+"vstName": "bx_cleansweep V2",
+    "parameters":
+
+[{
+"name": "Highpass Cutoff",
+"type": ""},
+{
+"name": "Lowpass Cutoff",
+"type": ""},
+{
+"name": "Highpass On/Off",
+"type": ""},
+{
+"name": "Lowpass On/Off",
+"type": ""},
+{
+"name": "Phase Rev.",
+"type": ""},
+{
+"name": "Input Gain",
+"type": ""},
+{
+"name": "Setting",
+"type": ""},
+{
+"name": "Bypass",
+"type": ""},
+{
+"name": "Bypass",
+"type": ""},
+{
+"name": "Bypass",
+"type": ""},
+{
+"name": "Wet",
+"type": ""},
+{
+"name": "Delta",
+"type": ""}]}

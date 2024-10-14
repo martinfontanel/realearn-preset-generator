@@ -1,0 +1,601 @@
+{
+  "vstName": "MIKKO2",
+  "parameters": [
+    {
+      "name": "Mic 1 Enable",
+      "type": ""
+    },
+    {
+      "name": "Mic 1 Cabinet",
+      "type": ""
+    },
+    {
+      "name": "Mic 1 Microphone",
+      "type": ""
+    },
+    {
+      "name": "Mic 1 Angle",
+      "type": ""
+    },
+    {
+      "name": "Mic 1 Cap-Edge",
+      "type": ""
+    },
+    {
+      "name": "Mic 1 Distance",
+      "type": ""
+    },
+    {
+      "name": "Mic 1 Delay",
+      "type": ""
+    },
+    {
+      "name": "Mic 1 Polarity Reverse",
+      "type": ""
+    },
+    {
+      "name": "Mic 1 Volume",
+      "type": ""
+    },
+    {
+      "name": "Mic 1 Pan",
+      "type": ""
+    },
+    {
+      "name": "Mic 1 Mute",
+      "type": ""
+    },
+    {
+      "name": "Mic 1 Solo",
+      "type": ""
+    },
+    {
+      "name": "MIC 1 Tilt",
+      "type": ""
+    },
+    {
+      "name": "Mic 2 Enable",
+      "type": ""
+    },
+    {
+      "name": "Mic 2 Cabinet",
+      "type": ""
+    },
+    {
+      "name": "Mic 2 Microphone",
+      "type": ""
+    },
+    {
+      "name": "Mic 2 Angle",
+      "type": ""
+    },
+    {
+      "name": "Mic 2 Cap-Edge",
+      "type": ""
+    },
+    {
+      "name": "Mic 2 Distance",
+      "type": ""
+    },
+    {
+      "name": "Mic 2 Delay",
+      "type": ""
+    },
+    {
+      "name": "Mic 2 Polarity Reverse",
+      "type": ""
+    },
+    {
+      "name": "Mic 2 Volume",
+      "type": ""
+    },
+    {
+      "name": "Mic 2 Pan",
+      "type": ""
+    },
+    {
+      "name": "Mic 2 Mute",
+      "type": ""
+    },
+    {
+      "name": "Mic 2 Solo",
+      "type": ""
+    },
+    {
+      "name": "MIC 2 Tilt",
+      "type": ""
+    },
+    {
+      "name": "Mic 3 Enable",
+      "type": ""
+    },
+    {
+      "name": "Mic 3 Cabinet",
+      "type": ""
+    },
+    {
+      "name": "Mic 3 Microphone",
+      "type": ""
+    },
+    {
+      "name": "Mic 3 Angle",
+      "type": ""
+    },
+    {
+      "name": "Mic 3 Cap-Edge",
+      "type": ""
+    },
+    {
+      "name": "Mic 3 Distance",
+      "type": ""
+    },
+    {
+      "name": "Mic 3 Delay",
+      "type": ""
+    },
+    {
+      "name": "Mic 3 Polarity Reverse",
+      "type": ""
+    },
+    {
+      "name": "Mic 3 Volume",
+      "type": ""
+    },
+    {
+      "name": "Mic 3 Pan",
+      "type": ""
+    },
+    {
+      "name": "Mic 3 Mute",
+      "type": ""
+    },
+    {
+      "name": "Mic 3 Solo",
+      "type": ""
+    },
+    {
+      "name": "MIC 3 Tilt",
+      "type": ""
+    },
+    {
+      "name": "Mic 4 Enable",
+      "type": ""
+    },
+    {
+      "name": "Mic 4 Cabinet",
+      "type": ""
+    },
+    {
+      "name": "Mic 4 Microphone",
+      "type": ""
+    },
+    {
+      "name": "Mic 4 Angle",
+      "type": ""
+    },
+    {
+      "name": "Mic 4 Cap-Edge",
+      "type": ""
+    },
+    {
+      "name": "Mic 4 Distance",
+      "type": ""
+    },
+    {
+      "name": "Mic 4 Delay",
+      "type": ""
+    },
+    {
+      "name": "Mic 4 Polarity Reverse",
+      "type": ""
+    },
+    {
+      "name": "Mic 4 Volume",
+      "type": ""
+    },
+    {
+      "name": "Mic 4 Pan",
+      "type": ""
+    },
+    {
+      "name": "Mic 4 Mute",
+      "type": ""
+    },
+    {
+      "name": "Mic 4 Solo",
+      "type": ""
+    },
+    {
+      "name": "MIC 4 Tilt",
+      "type": ""
+    },
+    {
+      "name": "Mic 5 Enable",
+      "type": ""
+    },
+    {
+      "name": "Mic 5 Cabinet",
+      "type": ""
+    },
+    {
+      "name": "Mic 5 Microphone",
+      "type": ""
+    },
+    {
+      "name": "Mic 5 Angle",
+      "type": ""
+    },
+    {
+      "name": "Mic 5 Cap-Edge",
+      "type": ""
+    },
+    {
+      "name": "Mic 5 Distance",
+      "type": ""
+    },
+    {
+      "name": "Mic 5 Delay",
+      "type": ""
+    },
+    {
+      "name": "Mic 5 Polarity Reverse",
+      "type": ""
+    },
+    {
+      "name": "Mic 5 Volume",
+      "type": ""
+    },
+    {
+      "name": "Mic 5 Pan",
+      "type": ""
+    },
+    {
+      "name": "Mic 5 Mute",
+      "type": ""
+    },
+    {
+      "name": "Mic 5 Solo",
+      "type": ""
+    },
+    {
+      "name": "MIC 5 Tilt",
+      "type": ""
+    },
+    {
+      "name": "Mic 6 Enable",
+      "type": ""
+    },
+    {
+      "name": "Mic 6 Cabinet",
+      "type": ""
+    },
+    {
+      "name": "Mic 6 Microphone",
+      "type": ""
+    },
+    {
+      "name": "Mic 6 Angle",
+      "type": ""
+    },
+    {
+      "name": "Mic 6 Cap-Edge",
+      "type": ""
+    },
+    {
+      "name": "Mic 6 Distance",
+      "type": ""
+    },
+    {
+      "name": "Mic 6 Delay",
+      "type": ""
+    },
+    {
+      "name": "Mic 6 Polarity Reverse",
+      "type": ""
+    },
+    {
+      "name": "Mic 6 Volume",
+      "type": ""
+    },
+    {
+      "name": "Mic 6 Pan",
+      "type": ""
+    },
+    {
+      "name": "Mic 6 Mute",
+      "type": ""
+    },
+    {
+      "name": "Mic 6 Solo",
+      "type": ""
+    },
+    {
+      "name": "MIC 6 Tilt",
+      "type": ""
+    },
+    {
+      "name": "Mic 7 Enable",
+      "type": ""
+    },
+    {
+      "name": "Mic 7 Cabinet",
+      "type": ""
+    },
+    {
+      "name": "Mic 7 Microphone",
+      "type": ""
+    },
+    {
+      "name": "Mic 7 Angle",
+      "type": ""
+    },
+    {
+      "name": "Mic 7 Cap-Edge",
+      "type": ""
+    },
+    {
+      "name": "Mic 7 Distance",
+      "type": ""
+    },
+    {
+      "name": "Mic 7 Delay",
+      "type": ""
+    },
+    {
+      "name": "Mic 7 Polarity Reverse",
+      "type": ""
+    },
+    {
+      "name": "Mic 7 Volume",
+      "type": ""
+    },
+    {
+      "name": "Mic 7 Pan",
+      "type": ""
+    },
+    {
+      "name": "Mic 7 Mute",
+      "type": ""
+    },
+    {
+      "name": "Mic 7 Solo",
+      "type": ""
+    },
+    {
+      "name": "MIC 7 Tilt",
+      "type": ""
+    },
+    {
+      "name": "Mic 8 Enable",
+      "type": ""
+    },
+    {
+      "name": "Mic 8 Cabinet",
+      "type": ""
+    },
+    {
+      "name": "Mic 8 Microphone",
+      "type": ""
+    },
+    {
+      "name": "Mic 8 Angle",
+      "type": ""
+    },
+    {
+      "name": "Mic 8 Cap-Edge",
+      "type": ""
+    },
+    {
+      "name": "Mic 8 Distance",
+      "type": ""
+    },
+    {
+      "name": "Mic 8 Delay",
+      "type": ""
+    },
+    {
+      "name": "Mic 8 Polarity Reverse",
+      "type": ""
+    },
+    {
+      "name": "Mic 8 Volume",
+      "type": ""
+    },
+    {
+      "name": "Mic 8 Pan",
+      "type": ""
+    },
+    {
+      "name": "Mic 8 Mute",
+      "type": ""
+    },
+    {
+      "name": "Mic 8 Solo",
+      "type": ""
+    },
+    {
+      "name": "MIC 8 Tilt",
+      "type": ""
+    },
+    {
+      "name": "Mic 9 Enable",
+      "type": ""
+    },
+    {
+      "name": "Mic 9 Cabinet",
+      "type": ""
+    },
+    {
+      "name": "Mic 9 Microphone",
+      "type": ""
+    },
+    {
+      "name": "Mic 9 Angle",
+      "type": ""
+    },
+    {
+      "name": "Mic 9 Cap-Edge",
+      "type": ""
+    },
+    {
+      "name": "Mic 9 Distance",
+      "type": ""
+    },
+    {
+      "name": "Mic 9 Delay",
+      "type": ""
+    },
+    {
+      "name": "Mic 9 Polarity Reverse",
+      "type": ""
+    },
+    {
+      "name": "Mic 9 Volume",
+      "type": ""
+    },
+    {
+      "name": "Mic 9 Pan",
+      "type": ""
+    },
+    {
+      "name": "Mic 9 Mute",
+      "type": ""
+    },
+    {
+      "name": "Mic 9 Solo",
+      "type": ""
+    },
+    {
+      "name": "MIC 9 Tilt",
+      "type": ""
+    },
+    {
+      "name": "EQ Enabled",
+      "type": ""
+    },
+    {
+      "name": "EQ HPF Frequency",
+      "type": ""
+    },
+    {
+      "name": "EQ HPF Q",
+      "type": ""
+    },
+    {
+      "name": "EQ LPF Frequency",
+      "type": ""
+    },
+    {
+      "name": "EQ LPF Q",
+      "type": ""
+    },
+    {
+      "name": "EQ 1 Q",
+      "type": ""
+    },
+    {
+      "name": "EQ 1 Frequency",
+      "type": ""
+    },
+    {
+      "name": "EQ 1 Gain",
+      "type": ""
+    },
+    {
+      "name": "EQ 1 Shelving",
+      "type": ""
+    },
+    {
+      "name": "EQ 2 Q",
+      "type": ""
+    },
+    {
+      "name": "EQ 2 Frequency",
+      "type": ""
+    },
+    {
+      "name": "EQ 2 Gain",
+      "type": ""
+    },
+    {
+      "name": "EQ 3 Q",
+      "type": ""
+    },
+    {
+      "name": "EQ 3 Frequency",
+      "type": ""
+    },
+    {
+      "name": "EQ 3 Gain",
+      "type": ""
+    },
+    {
+      "name": "EQ 4 Q",
+      "type": ""
+    },
+    {
+      "name": "EQ 4 Frequency",
+      "type": ""
+    },
+    {
+      "name": "EQ 4 Gain",
+      "type": ""
+    },
+    {
+      "name": "EQ 5 Q",
+      "type": ""
+    },
+    {
+      "name": "EQ 5 Frequency",
+      "type": ""
+    },
+    {
+      "name": "EQ 5 Gain",
+      "type": ""
+    },
+    {
+      "name": "EQ 5 Shelving",
+      "type": ""
+    },
+    {
+      "name": "Input Gain",
+      "type": ""
+    },
+    {
+      "name": "Output Gain",
+      "type": ""
+    },
+    {
+      "name": "Input L Volume",
+      "type": ""
+    },
+    {
+      "name": "Input R Volume",
+      "type": ""
+    },
+    {
+      "name": "Output L Volume",
+      "type": ""
+    },
+    {
+      "name": "Output R Volume",
+      "type": ""
+    },
+    {
+      "name": "Bypass",
+      "type": ""
+    },
+    {
+      "name": "Bypass",
+      "type": ""
+    },
+    {
+      "name": "Wet",
+      "type": ""
+    },
+    {
+      "name": "Delta",
+      "type": ""
+    }
+  ]
+}

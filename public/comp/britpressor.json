@@ -1,0 +1,113 @@
+{
+  "vstName": "Britpressor",
+  "parameters": [
+    {
+      "name": "Bypass",
+      "type": "button",
+      "category": "Bypass",
+      "part": "General"
+    },
+    {
+      "name": "Compressor Threshold",
+      "type": "knob",
+      "category": "Threshold",
+      "part": "Comp"
+    },
+    {
+      "name": "Limit Level",
+      "type": "knob",
+      "category": "Threshold",
+      "part": "Limiter"
+    },
+    {
+      "name": "Gain",
+      "type": "knob",
+      "category": "Input",
+      "part": "General"
+    },
+    {
+      "name": "Mix",
+      "type": "knob",
+      "category": "Wet",
+      "part": "General"
+    },
+    {
+      "name": "Ratio",
+      "type": "knob",
+      "category": "Ratio",
+      "part": "Comp"
+    },
+    {
+      "name": "High",
+      "type": "knob",
+      "category": "LPF",
+      "part": "General"
+    },
+    {
+      "name": "Mid",
+      "type": "knob",
+      "category": "Sidechain Freq/Mid",
+      "part": "General"
+    },
+    {
+      "name": "High Pass Filter",
+      "type": "knob",
+      "category": "HPF",
+      "part": "General"
+    },
+    {
+      "name": "Compressor Recovery Time",
+      "type": "knob",
+      "category": "Release",
+      "part": "Comp"
+    },
+    {
+      "name": "Level Recovery Time",
+      "type": "knob",
+      "category": "Release",
+      "part": "Limiter"
+    },
+    {
+      "name": "Bypass",
+      "type": "button",
+      "category": "Bypass",
+      "part": "Comp"
+    },
+    {
+      "name": "External Sidechain",
+      "type": "button",
+      "category": "Ext Sidechain",
+      "part": "Comp"
+    },
+    {
+      "name": "Oversample",
+      "type": "button",
+      "category": "Oversample",
+      "part": "General"
+    },
+    {
+      "name": "Bypass",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Wet",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Delta",
+      "type": "",
+      "category": "",
+      "part": ""
+    }
+  ],
+  "type": "dyn",
+  "parts": [
+    "Limiter",
+    "Comp",
+    "General"
+  ]
+}

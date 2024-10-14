@@ -1,0 +1,1637 @@
+{
+  "vstName": "CS5501",
+  "parameters": [
+    {
+      "name": "Preset",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Bypass",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "OS Off/2x/4x",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "GUI Scale",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "ByPass Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "AB-LM Lite Mode",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Toggle Tooltips",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Phase0 Invert Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Phase1 Invert Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "In Volume L",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "In Volume R",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Link In Volume Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Out Volume L",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Out Volume R",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Link Out Volume Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Link In/Out Volume Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Clip Off/On",
+      "type": "button",
+      "category": "Soft Clip",
+      "part": "Clip"
+    },
+    {
+      "name": "Clip Ceiling",
+      "type": "knob",
+      "category": "Ceiling",
+      "part": "Clip"
+    },
+    {
+      "name": "Meter Display Mode",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Meter Mode",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "VU Reference",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "EBU SL Reference",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "EBU ML Reference",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "RMS Reference",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "PEAK Reference",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Monitor Mode 0",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Monitor Mode 1",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Pos0",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Pos1",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Pos2",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Pos3",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Pos4",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Pos5",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Pos6",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Pos7",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Pos8",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Pos9",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Pos10",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Pos11",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Pos12",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "EQ Display Mode",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Module Display Mode",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 Stereo Placement",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 Solo Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 HP Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 HP F",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 HP Slope 6-48dB",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 LP Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 LP F",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 LP Slope 6-48dB",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 HF Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 HF Type",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 HF F",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 HF G",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 HF Q",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 HF Solo",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 HMF Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 HMF F",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 HMF G",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 HMF Q",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 HMF Solo",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 MF Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 MF F",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 MF G",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 MF Q",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 MF Solo",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 LMF Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 LMF F",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 LMF G",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 LMF Q",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 LMF Solo",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 LF Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 LF Type",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 LF F",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 LF G",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 LF Q",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter0 LF Solo",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 Stereo Placement",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 Solo Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 HP Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 HP F",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 HP Slope 6-48dB",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 LP Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 LP F",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 LP Slope 6-48dB",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 HF Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 HF Type",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 HF F",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 HF G",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 HF Q",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 HF Solo",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 HMF Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 HMF F",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 HMF G",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 HMF Q",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 HMF Solo",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 MF Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 MF F",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 MF G",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 MF Q",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 MF Solo",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 LMF Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 LMF F",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 LMF G",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 LMF Q",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 LMF Solo",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 LF Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 LF Type",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 LF F",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 LF G",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 LF Q",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Filter1 LF Solo",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Comp0 Off/On",
+      "type": "button",
+      "category": "Bypass",
+      "part": "Comp0"
+    },
+    {
+      "name": "Comp0 Stereo Placement",
+      "type": "indent",
+      "category": "",
+      "part": "Comp0"
+    },
+    {
+      "name": "Comp0 Solo Off/On",
+      "type": "button",
+      "category": "Solo",
+      "part": "Comp0"
+    },
+    {
+      "name": "Comp0 Comp1 link",
+      "type": "button",
+      "category": "Link",
+      "part": "Comp0"
+    },
+    {
+      "name": "Comp0 SC Mode In/Ext",
+      "type": "button",
+      "category": "Ext Sidechain",
+      "part": "Comp0"
+    },
+    {
+      "name": "Comp0 SC Monitor Off/On",
+      "type": "button",
+      "category": "VU/GR",
+      "part": "Comp0"
+    },
+    {
+      "name": "Comp0 SC LC Off/On",
+      "type": "button",
+      "category": "",
+      "part": "Comp0"
+    },
+    {
+      "name": "Comp0 SC LC Slope",
+      "type": "indent",
+      "category": "",
+      "part": "Comp0"
+    },
+    {
+      "name": "Comp0 SC LC F",
+      "type": "knob",
+      "category": "HPF",
+      "part": "Comp0"
+    },
+    {
+      "name": "Comp0 SC HC Off/On",
+      "type": "button",
+      "category": "",
+      "part": "Comp0"
+    },
+    {
+      "name": "Comp0 SC HC Slope",
+      "type": "indent",
+      "category": "",
+      "part": "Comp0"
+    },
+    {
+      "name": "Comp0 SC HC F",
+      "type": "knob",
+      "category": "LPF",
+      "part": "Comp0"
+    },
+    {
+      "name": "Comp0 SC LC/HC Link",
+      "type": "button",
+      "category": "",
+      "part": "Comp0"
+    },
+    {
+      "name": "Comp0 Type",
+      "type": "indent",
+      "category": "",
+      "part": "Comp0"
+    },
+    {
+      "name": "Comp0 Threshold",
+      "type": "knob",
+      "category": "Threshold",
+      "part": "Comp0"
+    },
+    {
+      "name": "Comp0 Attack",
+      "type": "knob",
+      "category": "Attack",
+      "part": "Comp0"
+    },
+    {
+      "name": "Comp0 Release",
+      "type": "knob",
+      "category": "Release",
+      "part": "Comp0"
+    },
+    {
+      "name": "Comp0 Ratio",
+      "type": "knob",
+      "category": "Ratio",
+      "part": "Comp0"
+    },
+    {
+      "name": "Comp0 Auto release",
+      "type": "button",
+      "category": "Auto Release",
+      "part": "Comp0"
+    },
+    {
+      "name": "Comp0 MakeUpGain",
+      "type": "knob",
+      "category": "Makeup Gain",
+      "part": "Comp0"
+    },
+    {
+      "name": "Comp0 Mix",
+      "type": "knob",
+      "category": "Wet",
+      "part": "Comp0"
+    },
+    {
+      "name": "Comp1 Off/On",
+      "type": "button",
+      "category": "Bypass",
+      "part": "Comp1"
+    },
+    {
+      "name": "Comp1 Stereo Placement",
+      "type": "indent",
+      "category": "",
+      "part": "Comp1"
+    },
+    {
+      "name": "Comp1 Solo Off/On",
+      "type": "button",
+      "category": "Solo",
+      "part": "Comp1"
+    },
+    {
+      "name": "Comp1 SC Mode In/Ext",
+      "type": "button",
+      "category": "Ext Sidechain",
+      "part": "Comp1"
+    },
+    {
+      "name": "Comp1 SC Monitor Off/On",
+      "type": "button",
+      "category": "VU/GR",
+      "part": "Comp1"
+    },
+    {
+      "name": "Comp1 SC LC Off/On",
+      "type": "button",
+      "category": "",
+      "part": "Comp1"
+    },
+    {
+      "name": "Comp1 SC LC Slope",
+      "type": "indent",
+      "category": "",
+      "part": "Comp1"
+    },
+    {
+      "name": "Comp1 SC LC F",
+      "type": "knob",
+      "category": "HPF",
+      "part": "Comp1"
+    },
+    {
+      "name": "Comp1 SC HC Off/On",
+      "type": "button",
+      "category": "",
+      "part": "Comp1"
+    },
+    {
+      "name": "Comp1 SC HC Slope",
+      "type": "indent",
+      "category": "",
+      "part": "Comp1"
+    },
+    {
+      "name": "Comp1 SC HC F",
+      "type": "knob",
+      "category": "LPF",
+      "part": "Comp1"
+    },
+    {
+      "name": "Comp1 SC LC/HC Link",
+      "type": "button",
+      "category": "",
+      "part": "Comp1"
+    },
+    {
+      "name": "Comp1 Type",
+      "type": "indent",
+      "category": "",
+      "part": "Comp1"
+    },
+    {
+      "name": "Comp1 Threshold",
+      "type": "knob",
+      "category": "Threshold",
+      "part": "Comp1"
+    },
+    {
+      "name": "Comp1 Attack",
+      "type": "knob",
+      "category": "Attack",
+      "part": "Comp1"
+    },
+    {
+      "name": "Comp1 Release",
+      "type": "knob",
+      "category": "Release",
+      "part": "Comp1"
+    },
+    {
+      "name": "Comp1 Ratio",
+      "type": "knob",
+      "category": "Ratio",
+      "part": "Comp1"
+    },
+    {
+      "name": "Comp1 Auto release",
+      "type": "button",
+      "category": "Auto Release",
+      "part": "Comp1"
+    },
+    {
+      "name": "Comp1 MakeUpGain",
+      "type": "knob",
+      "category": "Makeup Gain",
+      "part": "Comp1"
+    },
+    {
+      "name": "Comp1 Mix",
+      "type": "knob",
+      "category": "Wet",
+      "part": "Comp1"
+    },
+    {
+      "name": "Gate0 Off/On",
+      "type": "button",
+      "category": "Bypass",
+      "part": "Gate0"
+    },
+    {
+      "name": "Gate0 Stereo Placement",
+      "type": "indent",
+      "category": "",
+      "part": "Gate0"
+    },
+    {
+      "name": "Gate0 Solo Off/On",
+      "type": "button",
+      "category": "Solo",
+      "part": "Gate0"
+    },
+    {
+      "name": "Gate0 Gate1 link",
+      "type": "button",
+      "category": "Link",
+      "part": "Gate0"
+    },
+    {
+      "name": "Gate0 SC Mode In/Ext",
+      "type": "button",
+      "category": "Ext Sidechain",
+      "part": "Gate0"
+    },
+    {
+      "name": "Gate0 SC Monitor Off/On",
+      "type": "button",
+      "category": "VU/GR",
+      "part": "Gate0"
+    },
+    {
+      "name": "Gate0 SC LC Off/On",
+      "type": "button",
+      "category": "",
+      "part": "Gate0"
+    },
+    {
+      "name": "Gate0 SC LC Slope",
+      "type": "indent",
+      "category": "",
+      "part": "Gate0"
+    },
+    {
+      "name": "Gate0 SC LC F",
+      "type": "knob",
+      "category": "HPF",
+      "part": "Gate0"
+    },
+    {
+      "name": "Gate0 SC HC Off/On",
+      "type": "button",
+      "category": "",
+      "part": "Gate0"
+    },
+    {
+      "name": "Gate0 SC HC Slope",
+      "type": "indent",
+      "category": "",
+      "part": "Gate0"
+    },
+    {
+      "name": "Gate0 SC HC F",
+      "type": "knob",
+      "category": "LPF",
+      "part": "Gate0"
+    },
+    {
+      "name": "Gate0 SC LC/HC Link",
+      "type": "button",
+      "category": "",
+      "part": "Gate0"
+    },
+    {
+      "name": "Gate0 Threshold",
+      "type": "knob",
+      "category": "Threshold",
+      "part": "Gate0"
+    },
+    {
+      "name": "Gate0 Attack",
+      "type": "knob",
+      "category": "Attack",
+      "part": "Gate0"
+    },
+    {
+      "name": "Gate0 Hold",
+      "type": "knob",
+      "category": "Hold",
+      "part": "Gate0"
+    },
+    {
+      "name": "Gate0 Release",
+      "type": "knob",
+      "category": "Release",
+      "part": "Gate0"
+    },
+    {
+      "name": "Gate0 Mode Gate/Exp.",
+      "type": "button",
+      "category": "",
+      "part": "Gate0"
+    },
+    {
+      "name": "Gate0 Range",
+      "type": "knob",
+      "category": "Range",
+      "part": "Gate0"
+    },
+    {
+      "name": "Gate1 Off/On",
+      "type": "button",
+      "category": "Bypass",
+      "part": "Gate1"
+    },
+    {
+      "name": "Gate1 Stereo Placement",
+      "type": "indent",
+      "category": "",
+      "part": "Gate1"
+    },
+    {
+      "name": "Gate1 Solo Off/On",
+      "type": "button",
+      "category": "Solo",
+      "part": "Gate1"
+    },
+    {
+      "name": "Gate1 SC Mode In/Ext",
+      "type": "button",
+      "category": "Ext Sidechain",
+      "part": "Gate1"
+    },
+    {
+      "name": "Gate1 SC Monitor Off/On",
+      "type": "button",
+      "category": "VU/GR",
+      "part": "Gate1"
+    },
+    {
+      "name": "Gate1 SC LC Off/On",
+      "type": "button",
+      "category": "",
+      "part": "Gate1"
+    },
+    {
+      "name": "Gate1 SC LC Slope",
+      "type": "indent",
+      "category": "",
+      "part": "Gate1"
+    },
+    {
+      "name": "Gate1 SC LC F",
+      "type": "knob",
+      "category": "HPF",
+      "part": "Gate1"
+    },
+    {
+      "name": "Gate1 SC HC Off/On",
+      "type": "button",
+      "category": "",
+      "part": "Gate1"
+    },
+    {
+      "name": "Gate1 SC HC Slope",
+      "type": "indent",
+      "category": "",
+      "part": "Gate1"
+    },
+    {
+      "name": "Gate1 SC HC F",
+      "type": "knob",
+      "category": "LPF",
+      "part": "Gate1"
+    },
+    {
+      "name": "Gate1 SC LC/HC Link",
+      "type": "button",
+      "category": "",
+      "part": "Gate1"
+    },
+    {
+      "name": "Gate1 Threshold",
+      "type": "knob",
+      "category": "Threshold",
+      "part": "Gate1"
+    },
+    {
+      "name": "Gate1 Attack",
+      "type": "knob",
+      "category": "Attack",
+      "part": "Gate1"
+    },
+    {
+      "name": "Gate1 Hold",
+      "type": "knob",
+      "category": "Hold",
+      "part": "Gate1"
+    },
+    {
+      "name": "Gate1 Release",
+      "type": "knob",
+      "category": "Release",
+      "part": "Gate1"
+    },
+    {
+      "name": "Gate1 Mode Gate/Exp.",
+      "type": "button",
+      "category": "",
+      "part": "Gate1"
+    },
+    {
+      "name": "Gate1 Range",
+      "type": "knob",
+      "category": "Range",
+      "part": "Gate1"
+    },
+    {
+      "name": "Dees0 Off/On",
+      "type": "button",
+      "category": "Bypass",
+      "part": "Dees0"
+    },
+    {
+      "name": "Dees0 Stereo Placement",
+      "type": "indent",
+      "category": "",
+      "part": "Dees0"
+    },
+    {
+      "name": "Dees0 Solo Off/On",
+      "type": "button",
+      "category": "Solo",
+      "part": "Dees0"
+    },
+    {
+      "name": "Dees0 Dees1 link",
+      "type": "button",
+      "category": "Link",
+      "part": "Dees0"
+    },
+    {
+      "name": "Dees0 SC Mode In/Ext",
+      "type": "button",
+      "category": "Ext Sidechain",
+      "part": "Dees0"
+    },
+    {
+      "name": "Dees0 SC Monitor Off/On",
+      "type": "button",
+      "category": "VU/GR",
+      "part": "Dees0"
+    },
+    {
+      "name": "Dees0 SC LC Off/On",
+      "type": "button",
+      "category": "",
+      "part": "Dees0"
+    },
+    {
+      "name": "Dees0 SC LC Slope",
+      "type": "indent",
+      "category": "",
+      "part": "Dees0"
+    },
+    {
+      "name": "Dees0 SC LC F",
+      "type": "knob",
+      "category": "HPF",
+      "part": "Dees0"
+    },
+    {
+      "name": "Dees0 SC HC Off/On",
+      "type": "button",
+      "category": "",
+      "part": "Dees0"
+    },
+    {
+      "name": "Dees0 SC HC Slope",
+      "type": "indent",
+      "category": "",
+      "part": "Dees0"
+    },
+    {
+      "name": "Dees0 SC HC F",
+      "type": "knob",
+      "category": "LPF",
+      "part": "Dees0"
+    },
+    {
+      "name": "Deess0 SC LC/HC Link",
+      "type": "button",
+      "category": "",
+      "part": "Dees0"
+    },
+    {
+      "name": "Dees0 Type",
+      "type": "indent",
+      "category": "",
+      "part": "Dees0"
+    },
+    {
+      "name": "Dees0 Wide Band Off/On",
+      "type": "button",
+      "category": "",
+      "part": "Dees0"
+    },
+    {
+      "name": "Dees0 Frequency",
+      "type": "knob",
+      "category": "Sidechain Freq/Mid",
+      "part": "Dees0"
+    },
+    {
+      "name": "Dees0 Q",
+      "type": "knob",
+      "category": "Q",
+      "part": "Dees0"
+    },
+    {
+      "name": "Dees0 Gain",
+      "type": "knob",
+      "category": "Makeup Gain",
+      "part": "Dees0"
+    },
+    {
+      "name": "Dees0 Threshold",
+      "type": "knob",
+      "category": "Threshold",
+      "part": "Dees0"
+    },
+    {
+      "name": "Dees0 Ratio",
+      "type": "knob",
+      "category": "Ratio",
+      "part": "Dees0"
+    },
+    {
+      "name": "Dees0 Attack",
+      "type": "knob",
+      "category": "Attack",
+      "part": "Dees0"
+    },
+    {
+      "name": "Dees0 Release",
+      "type": "knob",
+      "category": "Release",
+      "part": "Dees0"
+    },
+    {
+      "name": "Dees0 Range",
+      "type": "knob",
+      "category": "Range",
+      "part": "Dees0"
+    },
+    {
+      "name": "Dees0 Output",
+      "type": "knob",
+      "category": "Output",
+      "part": "Dees0"
+    },
+    {
+      "name": "Dees0 Listen Mode",
+      "type": "indent",
+      "category": "",
+      "part": "Dees0"
+    },
+    {
+      "name": "Dees1 Off/On",
+      "type": "button",
+      "category": "Bypass",
+      "part": "Dees1"
+    },
+    {
+      "name": "Dees1 Stereo Placement",
+      "type": "indent",
+      "category": "",
+      "part": "Dees1"
+    },
+    {
+      "name": "Dees1 Solo Off/On",
+      "type": "button",
+      "category": "Solo",
+      "part": "Dees1"
+    },
+    {
+      "name": "Dees1 SC Mode In/Ext",
+      "type": "button",
+      "category": "Ext Sidechain",
+      "part": "Dees1"
+    },
+    {
+      "name": "Dees1 SC Monitor Off/On",
+      "type": "button",
+      "category": "VU/GR",
+      "part": "Dees1"
+    },
+    {
+      "name": "Dees1 SC LC Off/On",
+      "type": "button",
+      "category": "",
+      "part": "Dees1"
+    },
+    {
+      "name": "Dees1 SC LC Slope",
+      "type": "indent",
+      "category": "",
+      "part": "Dees1"
+    },
+    {
+      "name": "Dees1 SC LC F",
+      "type": "knob",
+      "category": "HPF",
+      "part": "Dees1"
+    },
+    {
+      "name": "Dees1 SC HC Off/On",
+      "type": "button",
+      "category": "",
+      "part": "Dees1"
+    },
+    {
+      "name": "Dees1 SC HC Slope",
+      "type": "indent",
+      "category": "",
+      "part": "Dees1"
+    },
+    {
+      "name": "Dees1 SC HC F",
+      "type": "knob",
+      "category": "LPF",
+      "part": "Dees1"
+    },
+    {
+      "name": "Dees1 SC LC/HC Link",
+      "type": "button",
+      "category": "",
+      "part": "Dees1"
+    },
+    {
+      "name": "Dees1 Type",
+      "type": "indent",
+      "category": "",
+      "part": "Dees1"
+    },
+    {
+      "name": "Dees1 Wide Band Off/On",
+      "type": "button",
+      "category": "",
+      "part": "Dees1"
+    },
+    {
+      "name": "Dees1 Frequency",
+      "type": "knob",
+      "category": "Sidechain Freq/Mid",
+      "part": "Dees1"
+    },
+    {
+      "name": "Dees1 Q",
+      "type": "knob",
+      "category": "Q",
+      "part": "Dees1"
+    },
+    {
+      "name": "Dees1 Gain",
+      "type": "knob",
+      "category": "Makeup Gain",
+      "part": "Dees1"
+    },
+    {
+      "name": "Dees1 Threshold",
+      "type": "knob",
+      "category": "Threshold",
+      "part": "Dees1"
+    },
+    {
+      "name": "Dees1 Ratio",
+      "type": "knob",
+      "category": "Ratio",
+      "part": "Dees1"
+    },
+    {
+      "name": "Dees1 Attack",
+      "type": "knob",
+      "category": "Attack",
+      "part": "Dees1"
+    },
+    {
+      "name": "Dees1 Release",
+      "type": "knob",
+      "category": "Release",
+      "part": "Dees1"
+    },
+    {
+      "name": "Dees1 Range",
+      "type": "knob",
+      "category": "Range",
+      "part": "Dees1"
+    },
+    {
+      "name": "Dees1 Output",
+      "type": "knob",
+      "category": "Output",
+      "part": "Dees1"
+    },
+    {
+      "name": "Dees1 Listen Mode",
+      "type": "indent",
+      "category": "",
+      "part": "Dees1"
+    },
+    {
+      "name": "Limit0 Off/On",
+      "type": "button",
+      "category": "Bypass",
+      "part": "Limit0"
+    },
+    {
+      "name": "Limit0 Stereo Placement",
+      "type": "indent",
+      "category": "",
+      "part": "Limit0"
+    },
+    {
+      "name": "Limit0 Solo Off/On",
+      "type": "button",
+      "category": "Solo",
+      "part": "Limit0"
+    },
+    {
+      "name": "Limit0 Limit1 link",
+      "type": "button",
+      "category": "Link",
+      "part": "Limit0"
+    },
+    {
+      "name": "Limit0 Gain",
+      "type": "knob",
+      "category": "Makeup Gain",
+      "part": "Limit0"
+    },
+    {
+      "name": "Limit0 Release",
+      "type": "knob",
+      "category": "Release",
+      "part": "Limit0"
+    },
+    {
+      "name": "Limit0 Auto release",
+      "type": "button",
+      "category": "Auto Release",
+      "part": "Limit0"
+    },
+    {
+      "name": "Limit0 Ceiling",
+      "type": "knob",
+      "category": "Ceiling",
+      "part": "Limit0"
+    },
+    {
+      "name": "Limit1 Off/On",
+      "type": "button",
+      "category": "Bypass",
+      "part": "Limit1"
+    },
+    {
+      "name": "Limit1 Stereo Placement",
+      "type": "indent",
+      "category": "",
+      "part": "Limit1"
+    },
+    {
+      "name": "Limit1 Solo Off/On",
+      "type": "button",
+      "category": "Solo",
+      "part": "Limit1"
+    },
+    {
+      "name": "Limit1 Gain",
+      "type": "knob",
+      "category": "Makeup Gain",
+      "part": "Limit1"
+    },
+    {
+      "name": "Limit1 Release",
+      "type": "knob",
+      "category": "Release",
+      "part": "Limit1"
+    },
+    {
+      "name": "Limit1 Auto release",
+      "type": "button",
+      "category": "Auto Release",
+      "part": "Limit1"
+    },
+    {
+      "name": "Limit1 Ceiling",
+      "type": "knob",
+      "category": "Ceiling",
+      "part": "Limit1"
+    },
+    {
+      "name": "Saturation Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Saturation Stereo Placement",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Saturation Solo Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Saturation Mode",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Saturation Stages",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Saturation Even Harmonics",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Saturation Odd Harmonics",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Saturation Fluctuation",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Analog Off/On",
+      "type": "button",
+      "category": "Analog",
+      "part": ""
+    },
+    {
+      "name": "Theme",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "EQ Component Tolerances Off/On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Bypass",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Wet",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Delta",
+      "type": "",
+      "category": "",
+      "part": ""
+    }
+  ],
+  "type": "channel",
+  "parts": [
+    "Clip",
+    "Comp0",
+    "Comp1",
+    "Gate0",
+    "Gate1",
+    "Dees0",
+    "Dees1",
+    "Limit0",
+    "Limit1"
+  ]
+}

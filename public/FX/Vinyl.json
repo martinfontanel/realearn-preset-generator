@@ -1,0 +1,85 @@
+{
+    "vstName": "Vinyl",
+    "parameters": [
+      {
+        "name": "Global Bypass",
+        "type": ""
+      },
+      {
+        "name": "Input Gain",
+        "type": ""
+      },
+      {
+        "name": "Output Gain",
+        "type": ""
+      },
+      {
+        "name": "Mech Noise",
+        "type": ""
+      },
+      {
+        "name": "Wear",
+        "type": ""
+      },
+      {
+        "name": "Elec Noise",
+        "type": ""
+      },
+      {
+        "name": "Dust Gain",
+        "type": ""
+      },
+      {
+        "name": "Dust Amount",
+        "type": ""
+      },
+      {
+        "name": "Scratch Gain",
+        "type": ""
+      },
+      {
+        "name": "Scratch Amount",
+        "type": ""
+      },
+      {
+        "name": "Warp Depth",
+        "type": ""
+      },
+      {
+        "name": "Warp Model",
+        "type": ""
+      },
+      {
+        "name": "Mono",
+        "type": ""
+      },
+      {
+        "name": "Year",
+        "type": ""
+      },
+      {
+        "name": "RPM",
+        "type": ""
+      },
+      {
+        "name": "Spin Down",
+        "type": ""
+      },
+      {
+        "name": "Lo-fi",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

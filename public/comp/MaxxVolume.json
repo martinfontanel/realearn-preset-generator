@@ -1,0 +1,86 @@
+{
+  "vstName": "MaxxVolume",
+  "parameters": [
+    {
+      "name": "Bypass",
+      "type": "button",
+      "category": "Bypass"
+    },
+    {
+      "name": "Bank",
+      "type": "indent",
+      "category": ""
+    },
+    {
+      "name": "Low Level Thresh",
+      "type": "knob",
+      "category": "Threshold"
+    },
+    {
+      "name": "Low Level Gain",
+      "type": "knob",
+      "category": "Makeup Gain"
+    },
+    {
+      "name": "Gate",
+      "type": "knob",
+      "category": ""
+    },
+    {
+      "name": "Leveler",
+      "type": "knob",
+      "category": ""
+    },
+    {
+      "name": "High Level Thresh",
+      "type": "knob",
+      "category": "Threshold"
+    },
+    {
+      "name": "High Level Gain",
+      "type": "knob",
+      "category": "Makeup Gain"
+    },
+    {
+      "name": "Leveler On",
+      "type": "button",
+      "category": ""
+    },
+    {
+      "name": "Gate On",
+      "type": "button",
+      "category": ""
+    },
+    {
+      "name": "High Level Thresh On",
+      "type": "button",
+      "category": ""
+    },
+    {
+      "name": "Low Level Thresh On",
+      "type": "button",
+      "category": ""
+    },
+    {
+      "name": "ARC Type",
+      "type": "button",
+      "category": "Type / Mode"
+    },
+    {
+      "name": "Bypass",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Wet",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Delta",
+      "type": "",
+      "category": ""
+    }
+  ],
+  "type": "dyn"
+}

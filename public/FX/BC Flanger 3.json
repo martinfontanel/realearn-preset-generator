@@ -1,0 +1,18 @@
+{
+    "vstName": "BC Flanger 3",
+    "parameters": [
+      "Bypass",
+      "Gain",
+      "Dry",
+      "Feedfwd",
+      "Feedback",
+      "Delay",
+      "Depth",
+      "Rate",
+      "Shape",
+      "Spread",
+      "Bypass",
+      "Wet",
+      "Delta"
+    ]
+  }

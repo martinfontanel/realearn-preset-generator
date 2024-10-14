@@ -1,0 +1,81 @@
+{
+    "vstName": "DD Equaliser",
+    "parameters": [
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Input",
+        "type": ""
+      },
+      {
+        "name": "LFPeakOn",
+        "type": ""
+      },
+      {
+        "name": "LFFreq",
+        "type": ""
+      },
+      {
+        "name": "LFQ",
+        "type": ""
+      },
+      {
+        "name": "LFGain",
+        "type": ""
+      },
+      {
+        "name": "LMFFreq",
+        "type": ""
+      },
+      {
+        "name": "LMFQ",
+        "type": ""
+      },
+      {
+        "name": "LMFGain",
+        "type": ""
+      },
+      {
+        "name": "HMFFreq",
+        "type": ""
+      },
+      {
+        "name": "HMFQ",
+        "type": ""
+      },
+      {
+        "name": "HMFGain",
+        "type": ""
+      },
+      {
+        "name": "HFPeakOn",
+        "type": ""
+      },
+      {
+        "name": "HFFreq",
+        "type": ""
+      },
+      {
+        "name": "HFQ",
+        "type": ""
+      },
+      {
+        "name": "HFGain",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

@@ -1,0 +1,57 @@
+{
+    "vstName": "Focus",
+    "parameters": [
+      {
+        "name": "Preset",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Position",
+        "type": ""
+      },
+      {
+        "name": "HighPass Slope",
+        "type": ""
+      },
+      {
+        "name": "LowPass Slope",
+        "type": ""
+      },
+      {
+        "name": "DryWet",
+        "type": ""
+      },
+      {
+        "name": "Bandwidth",
+        "type": ""
+      },
+      {
+        "name": "Mode",
+        "type": ""
+      },
+      {
+        "name": "Off/on",
+        "type": ""
+      },
+      {
+        "name": "Mono",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

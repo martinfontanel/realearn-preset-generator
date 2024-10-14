@@ -1,0 +1,37 @@
+{
+    "vstName": "elysia niveau filter",
+    "parameters": [
+      {
+        "name": "EQ Gain",
+        "type": ""
+      },
+      {
+        "name": "Active",
+        "type": ""
+      },
+      {
+        "name": "EQ Freq x10",
+        "type": ""
+      },
+      {
+        "name": "EQ Freq",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

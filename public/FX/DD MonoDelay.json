@@ -1,0 +1,49 @@
+{
+    "vstName": "DD MonoDelay",
+    "parameters": [
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Sync",
+        "type": ""
+      },
+      {
+        "name": "Time",
+        "type": ""
+      },
+      {
+        "name": "Feedback",
+        "type": ""
+      },
+      {
+        "name": "Low Cut",
+        "type": ""
+      },
+      {
+        "name": "High Cut",
+        "type": ""
+      },
+      {
+        "name": "Width",
+        "type": ""
+      },
+      {
+        "name": "Mix",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

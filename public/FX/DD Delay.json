@@ -1,0 +1,61 @@
+{
+    "vstName": "DD Delay",
+    "parameters": [
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Link",
+        "type": ""
+      },
+      {
+        "name": "Sync",
+        "type": ""
+      },
+      {
+        "name": "L Time",
+        "type": ""
+      },
+      {
+        "name": "L FBack",
+        "type": ""
+      },
+      {
+        "name": "R Time",
+        "type": ""
+      },
+      {
+        "name": "R FBack",
+        "type": ""
+      },
+      {
+        "name": "Low Cut",
+        "type": ""
+      },
+      {
+        "name": "High Cut",
+        "type": ""
+      },
+      {
+        "name": "Width",
+        "type": ""
+      },
+      {
+        "name": "Mix",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

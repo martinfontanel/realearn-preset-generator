@@ -1,0 +1,189 @@
+{
+    "vstName": "TONEX",
+    "parameters": [
+      {
+        "name": "NOISE GATE",
+        "type": ""
+      },
+      {
+        "name": "NG THRESHOLD",
+        "type": ""
+      },
+      {
+        "name": "NG RELEASE",
+        "type": ""
+      },
+      {
+        "name": "NG DEPTH",
+        "type": ""
+      },
+      {
+        "name": "COMP POSITION",
+        "type": ""
+      },
+      {
+        "name": "COMPRESSOR",
+        "type": ""
+      },
+      {
+        "name": "COMP THRESHOLD",
+        "type": ""
+      },
+      {
+        "name": "COMP MAKE UP",
+        "type": ""
+      },
+      {
+        "name": "COMP ATTACK",
+        "type": ""
+      },
+      {
+        "name": "EQ POSITION",
+        "type": ""
+      },
+      {
+        "name": "BASS",
+        "type": ""
+      },
+      {
+        "name": "BASS FREQ",
+        "type": ""
+      },
+      {
+        "name": "MID",
+        "type": ""
+      },
+      {
+        "name": "MID Q",
+        "type": ""
+      },
+      {
+        "name": "MID FREQ",
+        "type": ""
+      },
+      {
+        "name": "TREBLE",
+        "type": ""
+      },
+      {
+        "name": "TREBLE FREQ",
+        "type": ""
+      },
+      {
+        "name": "MODEL",
+        "type": ""
+      },
+      {
+        "name": "MODEL POST FILTER",
+        "type": ""
+      },
+      {
+        "name": "GAIN",
+        "type": ""
+      },
+      {
+        "name": "VOLUME",
+        "type": ""
+      },
+      {
+        "name": "MIX",
+        "type": ""
+      },
+      {
+        "name": "CAB TYPE",
+        "type": ""
+      },
+      {
+        "name": "CAB MODEL",
+        "type": ""
+      },
+      {
+        "name": "CAB RESONANCE",
+        "type": ""
+      },
+      {
+        "name": "MIC 1 MODEL",
+        "type": ""
+      },
+      {
+        "name": "MIC 1 X",
+        "type": ""
+      },
+      {
+        "name": "MIC 1 Z",
+        "type": ""
+      },
+      {
+        "name": "MIC 2 MODEL",
+        "type": ""
+      },
+      {
+        "name": "MIC 2 X",
+        "type": ""
+      },
+      {
+        "name": "MIC 2 Z",
+        "type": ""
+      },
+      {
+        "name": "MIC BLEND",
+        "type": ""
+      },
+      {
+        "name": "PRESENCE",
+        "type": ""
+      },
+      {
+        "name": "DEPTH",
+        "type": ""
+      },
+      {
+        "name": "REVERB",
+        "type": ""
+      },
+      {
+        "name": "REV MODEL",
+        "type": ""
+      },
+      {
+        "name": "REV TIME",
+        "type": ""
+      },
+      {
+        "name": "REV PRE-DELAY",
+        "type": ""
+      },
+      {
+        "name": "REV COLOR",
+        "type": ""
+      },
+      {
+        "name": "REV MIX",
+        "type": ""
+      },
+      {
+        "name": "InputVolume",
+        "type": ""
+      },
+      {
+        "name": "OutputVolume",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

@@ -1,0 +1,126 @@
+{
+  "vstName": "ReaComp",
+  "parameters": [
+    {
+      "name": "Threshold",
+      "type": "knob",
+      "category": "Threshold"
+    },
+    {
+      "name": "Ratio",
+      "type": "knob",
+      "category": "Ratio"
+    },
+    {
+      "name": "Attack",
+      "type": "knob",
+      "category": "Attack"
+    },
+    {
+      "name": "Release",
+      "type": "knob",
+      "category": "Release"
+    },
+    {
+      "name": "Pre-comp",
+      "type": "knob",
+      "category": ""
+    },
+    {
+      "name": "resvd",
+      "type": "knob",
+      "category": ""
+    },
+    {
+      "name": "Lowpass",
+      "type": "knob",
+      "category": "LPF"
+    },
+    {
+      "name": "Hipass",
+      "type": "knob",
+      "category": "HPF"
+    },
+    {
+      "name": "SignIn",
+      "type": "indent",
+      "category": ""
+    },
+    {
+      "name": "AudIn",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Dry",
+      "type": "knob",
+      "category": "Dry"
+    },
+    {
+      "name": "Wet",
+      "type": "knob",
+      "category": "Wet"
+    },
+    {
+      "name": "Filter Preview",
+      "type": "button",
+      "category": ""
+    },
+    {
+      "name": "RMS size",
+      "type": "knob",
+      "category": "RMS"
+    },
+    {
+      "name": "Knee",
+      "type": "knob",
+      "category": "Knee"
+    },
+    {
+      "name": "Auto Make Up Gain",
+      "type": "button",
+      "category": "Auto Gain"
+    },
+    {
+      "name": "Auto Release",
+      "type": "button",
+      "category": "Auto Release"
+    },
+    {
+      "name": "Legacy Attack/Knee Options",
+      "type": "indent",
+      "category": ""
+    },
+    {
+      "name": "Deprecated Broken Anti-Alias",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Multichannel Mode",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Metering Index",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Bypass",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Wet",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Delta",
+      "type": "",
+      "category": ""
+    }
+  ],
+  "type": "dyn"
+}

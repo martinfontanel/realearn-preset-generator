@@ -1,0 +1,129 @@
+{
+    "vstName": "GSatPlus",
+    "parameters": [
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "GUI Scale",
+        "type": ""
+      },
+      {
+        "name": "Toggle Tooltips",
+        "type": ""
+      },
+      {
+        "name": "OS Off/2x/4x",
+        "type": ""
+      },
+      {
+        "name": "ByPass Off/On",
+        "type": ""
+      },
+      {
+        "name": "Clip Off/On",
+        "type": ""
+      },
+      {
+        "name": "Clip Ceiling",
+        "type": ""
+      },
+      {
+        "name": "Meter Display Mode",
+        "type": ""
+      },
+      {
+        "name": "Meter Mode",
+        "type": ""
+      },
+      {
+        "name": "VU Reference",
+        "type": ""
+      },
+      {
+        "name": "EBU SL Reference",
+        "type": ""
+      },
+      {
+        "name": "EBU ML Reference",
+        "type": ""
+      },
+      {
+        "name": "RMS Reference",
+        "type": ""
+      },
+      {
+        "name": "PEAK Reference",
+        "type": ""
+      },
+      {
+        "name": "Monitor Mode 0",
+        "type": ""
+      },
+      {
+        "name": "Monitor Mode 1",
+        "type": ""
+      },
+      {
+        "name": "Saturation Off/On",
+        "type": ""
+      },
+      {
+        "name": "Saturation Stereo Placement",
+        "type": ""
+      },
+      {
+        "name": "Saturation Mode",
+        "type": ""
+      },
+      {
+        "name": "Saturation Stages",
+        "type": ""
+      },
+      {
+        "name": "Saturation Even Harmonics",
+        "type": ""
+      },
+      {
+        "name": "Saturation Odd Harmonics",
+        "type": ""
+      },
+      {
+        "name": "Saturation Fluctuation",
+        "type": ""
+      },
+      {
+        "name": "Hide Knob Overlay Text",
+        "type": ""
+      },
+      {
+        "name": "Input Trim",
+        "type": ""
+      },
+      {
+        "name": "Output Trim",
+        "type": ""
+      },
+      {
+        "name": "Force Mono Mode",
+        "type": ""
+      },
+      {
+        "name": "Link Output to Input Trim",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

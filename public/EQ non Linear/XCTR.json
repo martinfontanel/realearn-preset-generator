@@ -1,0 +1,117 @@
+{
+    "vstName": "XCTR",
+    "parameters": [
+      {
+        "name": "Preset",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Gain 1",
+        "type": ""
+      },
+      {
+        "name": "Mix",
+        "type": ""
+      },
+      {
+        "name": "Gain 2",
+        "type": ""
+      },
+      {
+        "name": "Mix 2",
+        "type": ""
+      },
+      {
+        "name": "Gain 3",
+        "type": ""
+      },
+      {
+        "name": "Mix 3",
+        "type": ""
+      },
+      {
+        "name": "Gain 4",
+        "type": ""
+      },
+      {
+        "name": "Mix 4",
+        "type": ""
+      },
+      {
+        "name": "Bass",
+        "type": ""
+      },
+      {
+        "name": "Low Mid",
+        "type": ""
+      },
+      {
+        "name": "High Mid",
+        "type": ""
+      },
+      {
+        "name": "Treble",
+        "type": ""
+      },
+      {
+        "name": "FREQ LM",
+        "type": ""
+      },
+      {
+        "name": "FREQ HM",
+        "type": ""
+      },
+      {
+        "name": "FREQ HI",
+        "type": ""
+      },
+      {
+        "name": "Input",
+        "type": ""
+      },
+      {
+        "name": "Output",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "OverSample",
+        "type": ""
+      },
+      {
+        "name": "Type 1",
+        "type": ""
+      },
+      {
+        "name": "Type 2",
+        "type": ""
+      },
+      {
+        "name": "Type 3",
+        "type": ""
+      },
+      {
+        "name": "Type 4",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

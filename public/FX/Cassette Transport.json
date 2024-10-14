@@ -1,0 +1,69 @@
+{
+  "vstName": "Cassette Transport",
+  "parameters": [
+    {
+      "name": "Stop Time Free",
+      "type": ""
+    },
+    {
+      "name": "Play Time Free",
+      "type": ""
+    },
+    {
+      "name": "Stop Time Sync",
+      "type": ""
+    },
+    {
+      "name": "Play Time Sync",
+      "type": ""
+    },
+    {
+      "name": "Stop Time Switch",
+      "type": ""
+    },
+    {
+      "name": "Play Time Switch",
+      "type": ""
+    },
+    {
+      "name": "Switches Volume",
+      "type": ""
+    },
+    {
+      "name": "Rotor Volume",
+      "type": ""
+    },
+    {
+      "name": "Stop",
+      "type": ""
+    },
+    {
+      "name": "Play",
+      "type": ""
+    },
+    {
+      "name": "RW",
+      "type": ""
+    },
+    {
+      "name": "FF",
+      "type": ""
+    },
+    {
+      "name": "Bypass",
+      "type": ""
+    },
+    {
+      "name": "Bypass",
+      "type": ""
+    },
+    {
+      "name": "Wet",
+      "type": ""
+    },
+    {
+      "name": "Delta",
+      "type": ""
+    }
+  ]
+}

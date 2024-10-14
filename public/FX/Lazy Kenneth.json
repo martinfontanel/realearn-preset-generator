@@ -1,0 +1,29 @@
+{
+    "vstName": "Lazy Kenneth",
+    "parameters": [
+      {
+        "name": "Duck Amount",
+        "type": ""
+      },
+      {
+        "name": "Fallback Speed",
+        "type": ""
+      },
+      {
+        "name": "Method",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

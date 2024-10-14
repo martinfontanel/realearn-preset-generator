@@ -1,0 +1,22 @@
+
+VST3: UADx Century Tube Channel Strip (Universal Audio (UADx)) parameter id numbers
+
+0: Input Select
+1: Low Cut
+2: Phase
+3: Pad
+4: Gain
+5: Level
+6: High Shelf
+7: Mid Freq
+8: Mid Gain
+9: Low Shelf
+10: EQ In
+11: Compression
+12: GR In
+13: Output
+14: Power
+15: Master Bypass
+16: Bypass
+17: Wet
+18: Delta

@@ -1,0 +1,37 @@
+{
+    "vstName": "ChorusWS1",
+    "parameters": [
+      {
+        "name": "Chorus",
+        "type": ""
+      },
+      {
+        "name": "Chorus Depth",
+        "type": ""
+      },
+      {
+        "name": "Chorus Speed",
+        "type": ""
+      },
+      {
+        "name": "Chorus Mix",
+        "type": ""
+      },
+      {
+        "name": "Processing Mode",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

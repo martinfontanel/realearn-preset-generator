@@ -1,0 +1,1713 @@
+{
+    "vstName": "Movement",
+    "parameters": [
+      {
+        "name": "LayerA",
+        "type": ""
+      },
+      {
+        "name": "rhythm1",
+        "type": ""
+      },
+      {
+        "name": "rhythm2",
+        "type": ""
+      },
+      {
+        "name": "MainPowerA",
+        "type": ""
+      },
+      {
+        "name": "SubPoweA",
+        "type": ""
+      },
+      {
+        "name": "lfo_rhythm_1",
+        "type": ""
+      },
+      {
+        "name": "sequencer_rhythm",
+        "type": ""
+      },
+      {
+        "name": "sidechain_rhythm",
+        "type": ""
+      },
+      {
+        "name": "lfo_rhythm_2",
+        "type": ""
+      },
+      {
+        "name": "sequencer_rhythm",
+        "type": ""
+      },
+      {
+        "name": "sidechain_rhythm",
+        "type": ""
+      },
+      {
+        "name": "LayerAParam1Swit",
+        "type": ""
+      },
+      {
+        "name": "LayerAParam2Swit",
+        "type": ""
+      },
+      {
+        "name": "LayerAParam3Swit",
+        "type": ""
+      },
+      {
+        "name": "LayerAParam4Swit",
+        "type": ""
+      },
+      {
+        "name": "delayTimeModAmt",
+        "type": ""
+      },
+      {
+        "name": "delayFeedbackMod",
+        "type": ""
+      },
+      {
+        "name": "delaySpreadModAm",
+        "type": ""
+      },
+      {
+        "name": "delayHPModAmt",
+        "type": ""
+      },
+      {
+        "name": "delayLPModAmt",
+        "type": ""
+      },
+      {
+        "name": "delaywetDryModAm",
+        "type": ""
+      },
+      {
+        "name": "delayOutputModAm",
+        "type": ""
+      },
+      {
+        "name": "delayTiming",
+        "type": ""
+      },
+      {
+        "name": "Delay",
+        "type": ""
+      },
+      {
+        "name": "Feedback",
+        "type": ""
+      },
+      {
+        "name": "DelaySpread1",
+        "type": ""
+      },
+      {
+        "name": "delayHP",
+        "type": ""
+      },
+      {
+        "name": "delayLF",
+        "type": ""
+      },
+      {
+        "name": "DelayWetDry",
+        "type": ""
+      },
+      {
+        "name": "DelayOutputGain",
+        "type": ""
+      },
+      {
+        "name": "CutoffMod",
+        "type": ""
+      },
+      {
+        "name": "QMod",
+        "type": ""
+      },
+      {
+        "name": "filterWetDryModA",
+        "type": ""
+      },
+      {
+        "name": "filterOutputModA",
+        "type": ""
+      },
+      {
+        "name": "FilterCutoff",
+        "type": ""
+      },
+      {
+        "name": "FilterQ",
+        "type": ""
+      },
+      {
+        "name": "FilterSelect",
+        "type": ""
+      },
+      {
+        "name": "FilterWetDry",
+        "type": ""
+      },
+      {
+        "name": "FilterOutputGain",
+        "type": ""
+      },
+      {
+        "name": "verbPreDelayAmt",
+        "type": ""
+      },
+      {
+        "name": "verbDecayAmt",
+        "type": ""
+      },
+      {
+        "name": "verbLFAmt",
+        "type": ""
+      },
+      {
+        "name": "verbHFAmt",
+        "type": ""
+      },
+      {
+        "name": "verbOutputModAmt",
+        "type": ""
+      },
+      {
+        "name": "verbWetDryModAmt",
+        "type": ""
+      },
+      {
+        "name": "ReverbPreDelay",
+        "type": ""
+      },
+      {
+        "name": "ReverbDecayTime",
+        "type": ""
+      },
+      {
+        "name": "reverbModFreq",
+        "type": ""
+      },
+      {
+        "name": "reverbModRange",
+        "type": ""
+      },
+      {
+        "name": "ReverbLF",
+        "type": ""
+      },
+      {
+        "name": "ReverbHP",
+        "type": ""
+      },
+      {
+        "name": "ReverbOutputGain",
+        "type": ""
+      },
+      {
+        "name": "ReverbWetDry",
+        "type": ""
+      },
+      {
+        "name": "CompressThreshol",
+        "type": ""
+      },
+      {
+        "name": "CompressRatioAmt",
+        "type": ""
+      },
+      {
+        "name": "CompressAttackAm",
+        "type": ""
+      },
+      {
+        "name": "CompressMakeupAm",
+        "type": ""
+      },
+      {
+        "name": "CompressWamrth",
+        "type": ""
+      },
+      {
+        "name": "CompressThreshol",
+        "type": ""
+      },
+      {
+        "name": "CompressRatio",
+        "type": ""
+      },
+      {
+        "name": "CompressAttack",
+        "type": ""
+      },
+      {
+        "name": "CompressRelease",
+        "type": ""
+      },
+      {
+        "name": "CompressMakeup",
+        "type": ""
+      },
+      {
+        "name": "kAT_DistortionCr",
+        "type": ""
+      },
+      {
+        "name": "kAT_DistortionDr",
+        "type": ""
+      },
+      {
+        "name": "kAT_DistortionLP",
+        "type": ""
+      },
+      {
+        "name": "kAT_DistortionHP",
+        "type": ""
+      },
+      {
+        "name": "kAT_DistortionWe",
+        "type": ""
+      },
+      {
+        "name": "kAT_DistortionOu",
+        "type": ""
+      },
+      {
+        "name": "DistortionCrunch",
+        "type": ""
+      },
+      {
+        "name": "DistortionDrive",
+        "type": ""
+      },
+      {
+        "name": "DistortionLP",
+        "type": ""
+      },
+      {
+        "name": "DistortionHP",
+        "type": ""
+      },
+      {
+        "name": "DistortionWetDry",
+        "type": ""
+      },
+      {
+        "name": "DistortionOutput",
+        "type": ""
+      },
+      {
+        "name": "kAT_EQWidthModAm",
+        "type": ""
+      },
+      {
+        "name": "kAT_EQband1FreqM",
+        "type": ""
+      },
+      {
+        "name": "kAT_EQband1Level",
+        "type": ""
+      },
+      {
+        "name": "kAT_EQband2FreqM",
+        "type": ""
+      },
+      {
+        "name": "kAT_EQband2Level",
+        "type": ""
+      },
+      {
+        "name": "kAT_EQWetDryModA",
+        "type": ""
+      },
+      {
+        "name": "kAT_EQOutputGain",
+        "type": ""
+      },
+      {
+        "name": "eqType",
+        "type": ""
+      },
+      {
+        "name": "kAT_EQWidth",
+        "type": ""
+      },
+      {
+        "name": "kAT_EQband1Freq",
+        "type": ""
+      },
+      {
+        "name": "kAT_EQband1Level",
+        "type": ""
+      },
+      {
+        "name": "kAT_EQband2Freq",
+        "type": ""
+      },
+      {
+        "name": "kAT_EQband2Level",
+        "type": ""
+      },
+      {
+        "name": "KAT_EQWetDry",
+        "type": ""
+      },
+      {
+        "name": "eqOutputGain",
+        "type": ""
+      },
+      {
+        "name": "SidechainAttack",
+        "type": ""
+      },
+      {
+        "name": "SidechainRelease",
+        "type": ""
+      },
+      {
+        "name": "SidechainWetDry",
+        "type": ""
+      },
+      {
+        "name": "SidechainDelay",
+        "type": ""
+      },
+      {
+        "name": "SidechainDuckBoo",
+        "type": ""
+      },
+      {
+        "name": "SidechainOutput",
+        "type": ""
+      },
+      {
+        "name": "SidechainBAttack",
+        "type": ""
+      },
+      {
+        "name": "SidechainBReleas",
+        "type": ""
+      },
+      {
+        "name": "SidechainBWetDry",
+        "type": ""
+      },
+      {
+        "name": "SidechainBDelay",
+        "type": ""
+      },
+      {
+        "name": "SidechainBDuckBo",
+        "type": ""
+      },
+      {
+        "name": "SidechainBOutput",
+        "type": ""
+      },
+      {
+        "name": "lfoSYNC",
+        "type": ""
+      },
+      {
+        "name": "LfoType",
+        "type": ""
+      },
+      {
+        "name": "LfoTiming",
+        "type": ""
+      },
+      {
+        "name": "WetDry",
+        "type": ""
+      },
+      {
+        "name": "LfoPhaseOffset1",
+        "type": ""
+      },
+      {
+        "name": "LfoChaos",
+        "type": ""
+      },
+      {
+        "name": "lfoBSYNC",
+        "type": ""
+      },
+      {
+        "name": "LfoBType",
+        "type": ""
+      },
+      {
+        "name": "LfoTimingB",
+        "type": ""
+      },
+      {
+        "name": "WetDryB",
+        "type": ""
+      },
+      {
+        "name": "LfoBPhaseOffset1",
+        "type": ""
+      },
+      {
+        "name": "LfoBChaos",
+        "type": ""
+      },
+      {
+        "name": "SequenceStepsNum",
+        "type": ""
+      },
+      {
+        "name": "SequencerBarsIn",
+        "type": ""
+      },
+      {
+        "name": "AmpMod",
+        "type": ""
+      },
+      {
+        "name": "StepSwing",
+        "type": ""
+      },
+      {
+        "name": "globalFollow",
+        "type": ""
+      },
+      {
+        "name": "StepEnvelopeMode",
+        "type": ""
+      },
+      {
+        "name": "StepTiming",
+        "type": ""
+      },
+      {
+        "name": "SequenceBStepsNu",
+        "type": ""
+      },
+      {
+        "name": "SequencerBarsIn",
+        "type": ""
+      },
+      {
+        "name": "AmpModB",
+        "type": ""
+      },
+      {
+        "name": "StepSwingB",
+        "type": ""
+      },
+      {
+        "name": "globalFollowB",
+        "type": ""
+      },
+      {
+        "name": "StepEnvelopeMode",
+        "type": ""
+      },
+      {
+        "name": "StepTimingB",
+        "type": ""
+      },
+      {
+        "name": "step0",
+        "type": ""
+      },
+      {
+        "name": "step1",
+        "type": ""
+      },
+      {
+        "name": "step2",
+        "type": ""
+      },
+      {
+        "name": "step3",
+        "type": ""
+      },
+      {
+        "name": "step4",
+        "type": ""
+      },
+      {
+        "name": "step5",
+        "type": ""
+      },
+      {
+        "name": "step6",
+        "type": ""
+      },
+      {
+        "name": "step7",
+        "type": ""
+      },
+      {
+        "name": "step8",
+        "type": ""
+      },
+      {
+        "name": "step9",
+        "type": ""
+      },
+      {
+        "name": "step10",
+        "type": ""
+      },
+      {
+        "name": "step11",
+        "type": ""
+      },
+      {
+        "name": "step12",
+        "type": ""
+      },
+      {
+        "name": "step13",
+        "type": ""
+      },
+      {
+        "name": "step14",
+        "type": ""
+      },
+      {
+        "name": "step15",
+        "type": ""
+      },
+      {
+        "name": "step16",
+        "type": ""
+      },
+      {
+        "name": "step17",
+        "type": ""
+      },
+      {
+        "name": "step18",
+        "type": ""
+      },
+      {
+        "name": "step19",
+        "type": ""
+      },
+      {
+        "name": "step20",
+        "type": ""
+      },
+      {
+        "name": "step21",
+        "type": ""
+      },
+      {
+        "name": "step22",
+        "type": ""
+      },
+      {
+        "name": "step23",
+        "type": ""
+      },
+      {
+        "name": "step24",
+        "type": ""
+      },
+      {
+        "name": "step25",
+        "type": ""
+      },
+      {
+        "name": "step26",
+        "type": ""
+      },
+      {
+        "name": "step27",
+        "type": ""
+      },
+      {
+        "name": "step28",
+        "type": ""
+      },
+      {
+        "name": "step29",
+        "type": ""
+      },
+      {
+        "name": "step30",
+        "type": ""
+      },
+      {
+        "name": "step31",
+        "type": ""
+      },
+      {
+        "name": "stepB0",
+        "type": ""
+      },
+      {
+        "name": "stepB1",
+        "type": ""
+      },
+      {
+        "name": "stepB2",
+        "type": ""
+      },
+      {
+        "name": "stepB3",
+        "type": ""
+      },
+      {
+        "name": "stepB4",
+        "type": ""
+      },
+      {
+        "name": "stepB5",
+        "type": ""
+      },
+      {
+        "name": "stepB6",
+        "type": ""
+      },
+      {
+        "name": "stepB7",
+        "type": ""
+      },
+      {
+        "name": "stepB8",
+        "type": ""
+      },
+      {
+        "name": "stepB9",
+        "type": ""
+      },
+      {
+        "name": "stepB10",
+        "type": ""
+      },
+      {
+        "name": "stepB11",
+        "type": ""
+      },
+      {
+        "name": "stepB12",
+        "type": ""
+      },
+      {
+        "name": "stepB13",
+        "type": ""
+      },
+      {
+        "name": "stepB14",
+        "type": ""
+      },
+      {
+        "name": "stepB15",
+        "type": ""
+      },
+      {
+        "name": "stepB16",
+        "type": ""
+      },
+      {
+        "name": "stepB17",
+        "type": ""
+      },
+      {
+        "name": "stepB18",
+        "type": ""
+      },
+      {
+        "name": "stepB19",
+        "type": ""
+      },
+      {
+        "name": "stepB20",
+        "type": ""
+      },
+      {
+        "name": "stepB21",
+        "type": ""
+      },
+      {
+        "name": "stepB22",
+        "type": ""
+      },
+      {
+        "name": "stepB23",
+        "type": ""
+      },
+      {
+        "name": "stepB24",
+        "type": ""
+      },
+      {
+        "name": "stepB25",
+        "type": ""
+      },
+      {
+        "name": "stepB26",
+        "type": ""
+      },
+      {
+        "name": "stepB27",
+        "type": ""
+      },
+      {
+        "name": "stepB28",
+        "type": ""
+      },
+      {
+        "name": "stepB29",
+        "type": ""
+      },
+      {
+        "name": "stepB30",
+        "type": ""
+      },
+      {
+        "name": "stepB31",
+        "type": ""
+      },
+      {
+        "name": "Gain1",
+        "type": ""
+      },
+      {
+        "name": "PanMod1",
+        "type": ""
+      },
+      {
+        "name": "Pan1",
+        "type": ""
+      },
+      {
+        "name": "GainModMax",
+        "type": ""
+      },
+      {
+        "name": "PanModMax",
+        "type": ""
+      },
+      {
+        "name": "LayerB",
+        "type": ""
+      },
+      {
+        "name": "rhythm3",
+        "type": ""
+      },
+      {
+        "name": "rhythm4",
+        "type": ""
+      },
+      {
+        "name": "MainPowerB",
+        "type": ""
+      },
+      {
+        "name": "SubPowerB",
+        "type": ""
+      },
+      {
+        "name": "lfo_rhythm_3",
+        "type": ""
+      },
+      {
+        "name": "sequencer_rhythm",
+        "type": ""
+      },
+      {
+        "name": "sidechain_rhythm",
+        "type": ""
+      },
+      {
+        "name": "lfo_rhythm_4",
+        "type": ""
+      },
+      {
+        "name": "sequencer_rhythm",
+        "type": ""
+      },
+      {
+        "name": "sidechain_rhythm",
+        "type": ""
+      },
+      {
+        "name": "LayerBParam1Swit",
+        "type": ""
+      },
+      {
+        "name": "LayerBParam2Swit",
+        "type": ""
+      },
+      {
+        "name": "LayerBParam3Swit",
+        "type": ""
+      },
+      {
+        "name": "LayerBParam4Swit",
+        "type": ""
+      },
+      {
+        "name": "delay2TimeModAmt",
+        "type": ""
+      },
+      {
+        "name": "delay2FeedbackMo",
+        "type": ""
+      },
+      {
+        "name": "delay2SpreadModA",
+        "type": ""
+      },
+      {
+        "name": "delay2HPModAmt",
+        "type": ""
+      },
+      {
+        "name": "delay2LPModAmt",
+        "type": ""
+      },
+      {
+        "name": "delay2wetDryModA",
+        "type": ""
+      },
+      {
+        "name": "delay2OutputModA",
+        "type": ""
+      },
+      {
+        "name": "delay2Timing",
+        "type": ""
+      },
+      {
+        "name": "Delay2",
+        "type": ""
+      },
+      {
+        "name": "Feedback2",
+        "type": ""
+      },
+      {
+        "name": "delaySpread2",
+        "type": ""
+      },
+      {
+        "name": "delay2HP",
+        "type": ""
+      },
+      {
+        "name": "delay2LF",
+        "type": ""
+      },
+      {
+        "name": "DelayWetDry2",
+        "type": ""
+      },
+      {
+        "name": "DelayOutputGain2",
+        "type": ""
+      },
+      {
+        "name": "CutoffMod2",
+        "type": ""
+      },
+      {
+        "name": "QMod2",
+        "type": ""
+      },
+      {
+        "name": "filter2WetDryMod",
+        "type": ""
+      },
+      {
+        "name": "filter2OutputMod",
+        "type": ""
+      },
+      {
+        "name": "FilterCutoff2",
+        "type": ""
+      },
+      {
+        "name": "FilterQ2",
+        "type": ""
+      },
+      {
+        "name": "FilterSelect2",
+        "type": ""
+      },
+      {
+        "name": "FilterWetDry2",
+        "type": ""
+      },
+      {
+        "name": "FilterOutputGain",
+        "type": ""
+      },
+      {
+        "name": "verb2PreDelayAmt",
+        "type": ""
+      },
+      {
+        "name": "verb2DecayAmt",
+        "type": ""
+      },
+      {
+        "name": "verb2LFAmt",
+        "type": ""
+      },
+      {
+        "name": "verb2HFAmt",
+        "type": ""
+      },
+      {
+        "name": "verb2OutputModAm",
+        "type": ""
+      },
+      {
+        "name": "verb2WetDryModAm",
+        "type": ""
+      },
+      {
+        "name": "ReverbPreDelay2",
+        "type": ""
+      },
+      {
+        "name": "ReverbDecayTime2",
+        "type": ""
+      },
+      {
+        "name": "reverbModFreq2",
+        "type": ""
+      },
+      {
+        "name": "reverbModRange2",
+        "type": ""
+      },
+      {
+        "name": "Reverb2LF",
+        "type": ""
+      },
+      {
+        "name": "Reverb2HP",
+        "type": ""
+      },
+      {
+        "name": "ReverbOutputGain",
+        "type": ""
+      },
+      {
+        "name": "ReverbWetDry2",
+        "type": ""
+      },
+      {
+        "name": "CompressThreshol",
+        "type": ""
+      },
+      {
+        "name": "CompressRatioAmt",
+        "type": ""
+      },
+      {
+        "name": "CompressAttackAm",
+        "type": ""
+      },
+      {
+        "name": "CompressMakeupAm",
+        "type": ""
+      },
+      {
+        "name": "CompressWamrth2",
+        "type": ""
+      },
+      {
+        "name": "CompressThreshol",
+        "type": ""
+      },
+      {
+        "name": "CompressRatio2",
+        "type": ""
+      },
+      {
+        "name": "CompressAttack2",
+        "type": ""
+      },
+      {
+        "name": "CompressRelease2",
+        "type": ""
+      },
+      {
+        "name": "CompressMakeup2",
+        "type": ""
+      },
+      {
+        "name": "kAT_2DistortionC",
+        "type": ""
+      },
+      {
+        "name": "kAT_2DistortionD",
+        "type": ""
+      },
+      {
+        "name": "kAT_2DistortionL",
+        "type": ""
+      },
+      {
+        "name": "kAT_2DistortionH",
+        "type": ""
+      },
+      {
+        "name": "kAT_2DistortionW",
+        "type": ""
+      },
+      {
+        "name": "kAT_2DistortionO",
+        "type": ""
+      },
+      {
+        "name": "DistortionCrunch",
+        "type": ""
+      },
+      {
+        "name": "DistortionDrive2",
+        "type": ""
+      },
+      {
+        "name": "DistortionLP2",
+        "type": ""
+      },
+      {
+        "name": "DistortionHP2",
+        "type": ""
+      },
+      {
+        "name": "DistortionWetDry",
+        "type": ""
+      },
+      {
+        "name": "DistortionOutput",
+        "type": ""
+      },
+      {
+        "name": "kAT_2EQWidthModA",
+        "type": ""
+      },
+      {
+        "name": "kAT_2EQband1Freq",
+        "type": ""
+      },
+      {
+        "name": "kAT_2EQband1Leve",
+        "type": ""
+      },
+      {
+        "name": "kAT_2EQband2Freq",
+        "type": ""
+      },
+      {
+        "name": "kAT_2EQband2Leve",
+        "type": ""
+      },
+      {
+        "name": "kAT_2EQWetDryMod",
+        "type": ""
+      },
+      {
+        "name": "kAT_2EQOutputGai",
+        "type": ""
+      },
+      {
+        "name": "eq2Type",
+        "type": ""
+      },
+      {
+        "name": "kAT_2EQWidth",
+        "type": ""
+      },
+      {
+        "name": "kAT_2EQband1Freq",
+        "type": ""
+      },
+      {
+        "name": "kAT_2EQband1Leve",
+        "type": ""
+      },
+      {
+        "name": "kAT_2EQband2Freq",
+        "type": ""
+      },
+      {
+        "name": "kAT_2EQband2Leve",
+        "type": ""
+      },
+      {
+        "name": "KAT_2EQWetDry",
+        "type": ""
+      },
+      {
+        "name": "eq2OutputGain",
+        "type": ""
+      },
+      {
+        "name": "SidechainAttack2",
+        "type": ""
+      },
+      {
+        "name": "SidechainRelease",
+        "type": ""
+      },
+      {
+        "name": "SidechainWetDry2",
+        "type": ""
+      },
+      {
+        "name": "SidechainDelay2",
+        "type": ""
+      },
+      {
+        "name": "SidechainDuckBoo",
+        "type": ""
+      },
+      {
+        "name": "SidechainOutput2",
+        "type": ""
+      },
+      {
+        "name": "SidechainBAttack",
+        "type": ""
+      },
+      {
+        "name": "SidechainBReleas",
+        "type": ""
+      },
+      {
+        "name": "SidechainBWetDry",
+        "type": ""
+      },
+      {
+        "name": "SidechainDelay2B",
+        "type": ""
+      },
+      {
+        "name": "SidechainDuckBoo",
+        "type": ""
+      },
+      {
+        "name": "SidechainOutput2",
+        "type": ""
+      },
+      {
+        "name": "lfoSYNC2",
+        "type": ""
+      },
+      {
+        "name": "LfoType2",
+        "type": ""
+      },
+      {
+        "name": "LfoTiming2",
+        "type": ""
+      },
+      {
+        "name": "WetDry2",
+        "type": ""
+      },
+      {
+        "name": "LfoPhaseOffset2",
+        "type": ""
+      },
+      {
+        "name": "Lfo2Chaos",
+        "type": ""
+      },
+      {
+        "name": "lfoSYNC2B",
+        "type": ""
+      },
+      {
+        "name": "LfoType2B",
+        "type": ""
+      },
+      {
+        "name": "LfoTiming2B",
+        "type": ""
+      },
+      {
+        "name": "WetDry2B",
+        "type": ""
+      },
+      {
+        "name": "LfoBPhaseOffset2",
+        "type": ""
+      },
+      {
+        "name": "LfoChaos2B",
+        "type": ""
+      },
+      {
+        "name": "SequenceStepsNum",
+        "type": ""
+      },
+      {
+        "name": "SequencerBarsIn2",
+        "type": ""
+      },
+      {
+        "name": "AmpMod2",
+        "type": ""
+      },
+      {
+        "name": "StepSwing2",
+        "type": ""
+      },
+      {
+        "name": "globalFollow2",
+        "type": ""
+      },
+      {
+        "name": "StepEnvelopeMode",
+        "type": ""
+      },
+      {
+        "name": "StepTiming2",
+        "type": ""
+      },
+      {
+        "name": "SequenceStepsNum",
+        "type": ""
+      },
+      {
+        "name": "SequencerBarsIn2",
+        "type": ""
+      },
+      {
+        "name": "AmpMod2B",
+        "type": ""
+      },
+      {
+        "name": "StepSwing2B",
+        "type": ""
+      },
+      {
+        "name": "globalFollow2B",
+        "type": ""
+      },
+      {
+        "name": "StepEnvelopeMode",
+        "type": ""
+      },
+      {
+        "name": "StepTiming2B",
+        "type": ""
+      },
+      {
+        "name": "TwoStep0",
+        "type": ""
+      },
+      {
+        "name": "TwoStep1",
+        "type": ""
+      },
+      {
+        "name": "TwoStep2",
+        "type": ""
+      },
+      {
+        "name": "TwoStep3",
+        "type": ""
+      },
+      {
+        "name": "TwoStep4",
+        "type": ""
+      },
+      {
+        "name": "TwoStep5",
+        "type": ""
+      },
+      {
+        "name": "TwoStep6",
+        "type": ""
+      },
+      {
+        "name": "TwoStep7",
+        "type": ""
+      },
+      {
+        "name": "TwoStep8",
+        "type": ""
+      },
+      {
+        "name": "TwoStep9",
+        "type": ""
+      },
+      {
+        "name": "TwoStep10",
+        "type": ""
+      },
+      {
+        "name": "TwoStep11",
+        "type": ""
+      },
+      {
+        "name": "TwoStep12",
+        "type": ""
+      },
+      {
+        "name": "TwoStep13",
+        "type": ""
+      },
+      {
+        "name": "TwoStep14",
+        "type": ""
+      },
+      {
+        "name": "TwoStep15",
+        "type": ""
+      },
+      {
+        "name": "TwoStep16",
+        "type": ""
+      },
+      {
+        "name": "TwoStep17",
+        "type": ""
+      },
+      {
+        "name": "TwoStep18",
+        "type": ""
+      },
+      {
+        "name": "TwoStep19",
+        "type": ""
+      },
+      {
+        "name": "TwoStep20",
+        "type": ""
+      },
+      {
+        "name": "TwoStep21",
+        "type": ""
+      },
+      {
+        "name": "TwoStep22",
+        "type": ""
+      },
+      {
+        "name": "TwoStep23",
+        "type": ""
+      },
+      {
+        "name": "TwoStep24",
+        "type": ""
+      },
+      {
+        "name": "TwoStep25",
+        "type": ""
+      },
+      {
+        "name": "TwoStep26",
+        "type": ""
+      },
+      {
+        "name": "TwoStep27",
+        "type": ""
+      },
+      {
+        "name": "TwoStep28",
+        "type": ""
+      },
+      {
+        "name": "TwoStep29",
+        "type": ""
+      },
+      {
+        "name": "TwoStep30",
+        "type": ""
+      },
+      {
+        "name": "TwoStep31",
+        "type": ""
+      },
+      {
+        "name": "TwoStepB0",
+        "type": ""
+      },
+      {
+        "name": "TwoStepB1",
+        "type": ""
+      },
+      {
+        "name": "TwoStepB2",
+        "type": ""
+      },
+      {
+        "name": "TwoStepB3",
+        "type": ""
+      },
+      {
+        "name": "TwoStepB4",
+        "type": ""
+      },
+      {
+        "name": "TwoStepB5",
+        "type": ""
+      },
+      {
+        "name": "TwoStepB6",
+        "type": ""
+      },
+      {
+        "name": "TwoStepB7",
+        "type": ""
+      },
+      {
+        "name": "TwoStepB8",
+        "type": ""
+      },
+      {
+        "name": "TwoStepB9",
+        "type": ""
+      },
+      {
+        "name": "TwoStepB10",
+        "type": ""
+      },
+      {
+        "name": "TwoStepB11",
+        "type": ""
+      },
+      {
+        "name": "TwoStepB12",
+        "type": ""
+      },
+      {
+        "name": "TwoStepB13",
+        "type": ""
+      },
+      {
+        "name": "TwoStepB14",
+        "type": ""
+      },
+      {
+        "name": "TwoStepB15",
+        "type": ""
+      },
+      {
+        "name": "TwoStepB16",
+        "type": ""
+      },
+      {
+        "name": "TwoStepB17",
+        "type": ""
+      },
+      {
+        "name": "TwoStepB18",
+        "type": ""
+      },
+      {
+        "name": "TwoStepB19",
+        "type": ""
+      },
+      {
+        "name": "TwoStepB20",
+        "type": ""
+      },
+      {
+        "name": "TwoStepB21",
+        "type": ""
+      },
+      {
+        "name": "TwoStepB22",
+        "type": ""
+      },
+      {
+        "name": "TwoStepB23",
+        "type": ""
+      },
+      {
+        "name": "TwoStepB24",
+        "type": ""
+      },
+      {
+        "name": "TwoStepB25",
+        "type": ""
+      },
+      {
+        "name": "TwoStepB26",
+        "type": ""
+      },
+      {
+        "name": "TwoStepB27",
+        "type": ""
+      },
+      {
+        "name": "TwoStepB28",
+        "type": ""
+      },
+      {
+        "name": "TwoStepB29",
+        "type": ""
+      },
+      {
+        "name": "TwoStepB30",
+        "type": ""
+      },
+      {
+        "name": "TwoStepB31",
+        "type": ""
+      },
+      {
+        "name": "Gain2",
+        "type": ""
+      },
+      {
+        "name": "PanMod2",
+        "type": ""
+      },
+      {
+        "name": "Pan2",
+        "type": ""
+      },
+      {
+        "name": "GainModMax2",
+        "type": ""
+      },
+      {
+        "name": "PanModMax2",
+        "type": ""
+      },
+      {
+        "name": "GlobalOputput",
+        "type": ""
+      },
+      {
+        "name": "VolumeIn",
+        "type": ""
+      },
+      {
+        "name": "Crossfade",
+        "type": ""
+      },
+      {
+        "name": "delaySelector",
+        "type": ""
+      },
+      {
+        "name": "filterSelector",
+        "type": ""
+      },
+      {
+        "name": "reverbSelector",
+        "type": ""
+      },
+      {
+        "name": "eqSelector",
+        "type": ""
+      },
+      {
+        "name": "distortionSelect",
+        "type": ""
+      },
+      {
+        "name": "CompressSelector",
+        "type": ""
+      },
+      {
+        "name": "delaySelector2",
+        "type": ""
+      },
+      {
+        "name": "filterSelector2",
+        "type": ""
+      },
+      {
+        "name": "reverbSelector2",
+        "type": ""
+      },
+      {
+        "name": "eqSelector2",
+        "type": ""
+      },
+      {
+        "name": "distortionSelect",
+        "type": ""
+      },
+      {
+        "name": "CompressSelector",
+        "type": ""
+      },
+      {
+        "name": "xySliderA",
+        "type": ""
+      },
+      {
+        "name": "xySliderB",
+        "type": ""
+      },
+      {
+        "name": "engine1_flux",
+        "type": ""
+      },
+      {
+        "name": "engine2_flux",
+        "type": ""
+      },
+      {
+        "name": "engine3_flux",
+        "type": ""
+      },
+      {
+        "name": "engine4_flux",
+        "type": ""
+      },
+      {
+        "name": "engine1_flux_rat",
+        "type": ""
+      },
+      {
+        "name": "engine2_flux_rat",
+        "type": ""
+      },
+      {
+        "name": "engine3_flux_rat",
+        "type": ""
+      },
+      {
+        "name": "engine4_flux_rat",
+        "type": ""
+      },
+      {
+        "name": "rhythm2_sidechai",
+        "type": ""
+      },
+      {
+        "name": "rhythm3_sidechai",
+        "type": ""
+      },
+      {
+        "name": "rhythm4_sidechai",
+        "type": ""
+      },
+      {
+        "name": "DelayReverseTogg",
+        "type": ""
+      },
+      {
+        "name": "Delay2ReverseTog",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

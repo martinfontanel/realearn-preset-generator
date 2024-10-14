@@ -1,0 +1,25 @@
+<list-select [optionList]="files" (valueEmit)="loadFile($event)" />
+
+<div class="content">
+  <div class="form">
+    @if(fileLoaded){
+    <h1>{{ vstName }}</h1>
+    <div>
+      type :
+      <double-click-modify
+        [optionList]="listVstTypes"
+        (valueEmit)="changeTypeVst($event)"
+        [value]="type"
+      />
+    </div>
+    <h2>Parties</h2>
+    @for(part of paramsByPart; track $index){
+    <div class="part">
+      <double-click-modify
+        (valueEmit)="changePart($event)"
+        [value]="part.partName"
+      />
+    </div>
+    } }
+  </div>
+</div>

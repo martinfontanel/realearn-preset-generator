@@ -1,0 +1,71 @@
+{
+  "vstName": "DD Gate",
+  "parameters": [
+    {
+      "name": "Bypass",
+      "type": "button",
+      "category": "Bypass"
+    },
+    {
+      "name": "External",
+      "type": "button",
+      "category": "Ext Sidechain"
+    },
+    {
+      "name": "Listen",
+      "type": "button",
+      "category": "Delta/listen"
+    },
+    {
+      "name": "Trim",
+      "type": "knob",
+      "category": "Trim"
+    },
+    {
+      "name": "Low Cut",
+      "type": "knob",
+      "category": "HPF"
+    },
+    {
+      "name": "Input",
+      "type": "knob",
+      "category": "Input"
+    },
+    {
+      "name": "Thresh",
+      "type": "knob",
+      "category": "Threshold"
+    },
+    {
+      "name": "Attack",
+      "type": "knob",
+      "category": "Attack"
+    },
+    {
+      "name": "Hold",
+      "type": "knob",
+      "category": "Hold"
+    },
+    {
+      "name": "Release",
+      "type": "knob",
+      "category": "Release"
+    },
+    {
+      "name": "Bypass",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Wet",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Delta",
+      "type": "",
+      "category": ""
+    }
+  ],
+  "type": "dyn"
+}

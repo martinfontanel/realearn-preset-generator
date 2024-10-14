@@ -1,0 +1,469 @@
+{
+  "vstName": "TDR Nova",
+  "parameters": [
+    {
+      "name": "Band 1 selected",
+      "type": "button",
+      "category": "",
+      "part": "Band - 1"
+    },
+    {
+      "name": "Band 1 Active",
+      "type": "button",
+      "category": "Bypass",
+      "part": "Band - 1"
+    },
+    {
+      "name": "Band 1 Gain",
+      "type": "knob",
+      "category": "Makeup Gain",
+      "part": "Band - 1"
+    },
+    {
+      "name": "Band 1 Q",
+      "type": "knob",
+      "category": "Q",
+      "part": "Band - 1"
+    },
+    {
+      "name": "Band 1 Frequency",
+      "type": "knob",
+      "category": "Sidechain Freq/Mid",
+      "part": "Band - 1"
+    },
+    {
+      "name": "Band 1 Type",
+      "type": "indent",
+      "category": "",
+      "part": "Band - 1"
+    },
+    {
+      "name": "Band 1 Dyn",
+      "type": "indent",
+      "category": "",
+      "part": "Band - 1"
+    },
+    {
+      "name": "Band 1 Threshold",
+      "type": "knob",
+      "category": "Threshold",
+      "part": "Band - 1"
+    },
+    {
+      "name": "Band 1 Ratio",
+      "type": "knob",
+      "category": "Ratio",
+      "part": "Band - 1"
+    },
+    {
+      "name": "Band 1 Split",
+      "type": "button",
+      "category": "",
+      "part": "Band - 1"
+    },
+    {
+      "name": "Band 1 Attack",
+      "type": "knob",
+      "category": "Attack",
+      "part": "Band - 1"
+    },
+    {
+      "name": "Band 1 Release",
+      "type": "knob",
+      "category": "Release",
+      "part": "Band - 1"
+    },
+    {
+      "name": "Band 2 selected",
+      "type": "button",
+      "category": "",
+      "part": "Band - 2"
+    },
+    {
+      "name": "Band 2 Active",
+      "type": "button",
+      "category": "Bypass",
+      "part": "Band - 2"
+    },
+    {
+      "name": "Band 2 Gain",
+      "type": "knob",
+      "category": "Makeup Gain",
+      "part": "Band - 2"
+    },
+    {
+      "name": "Band 2 Q",
+      "type": "knob",
+      "category": "Q",
+      "part": "Band - 2"
+    },
+    {
+      "name": "Band 2 Frequency",
+      "type": "knob",
+      "category": "Sidechain Freq/Mid",
+      "part": "Band - 2"
+    },
+    {
+      "name": "Band 2 Type",
+      "type": "indent",
+      "category": "",
+      "part": "Band - 2"
+    },
+    {
+      "name": "Band 2 Dyn",
+      "type": "indent",
+      "category": "",
+      "part": "Band - 2"
+    },
+    {
+      "name": "Band 2 Threshold",
+      "type": "knob",
+      "category": "Threshold",
+      "part": "Band - 2"
+    },
+    {
+      "name": "Band 2 Ratio",
+      "type": "knob",
+      "category": "Ratio",
+      "part": "Band - 2"
+    },
+    {
+      "name": "Band 2 Split",
+      "type": "button",
+      "category": "",
+      "part": "Band - 2"
+    },
+    {
+      "name": "Band 2 Attack",
+      "type": "knob",
+      "category": "Attack",
+      "part": "Band - 2"
+    },
+    {
+      "name": "Band 2 Release",
+      "type": "knob",
+      "category": "Release",
+      "part": "Band - 2"
+    },
+    {
+      "name": "Band 3 selected",
+      "type": "button",
+      "category": "",
+      "part": "Band - 3"
+    },
+    {
+      "name": "Band 3 Active",
+      "type": "button",
+      "category": "Bypass",
+      "part": "Band - 3"
+    },
+    {
+      "name": "Band 3 Gain",
+      "type": "knob",
+      "category": "Makeup Gain",
+      "part": "Band - 3"
+    },
+    {
+      "name": "Band 3 Q",
+      "type": "knob",
+      "category": "Q",
+      "part": "Band - 3"
+    },
+    {
+      "name": "Band 3 Frequency",
+      "type": "knob",
+      "category": "Sidechain Freq/Mid",
+      "part": "Band - 3"
+    },
+    {
+      "name": "Band 3 Type",
+      "type": "indent",
+      "category": "",
+      "part": "Band - 3"
+    },
+    {
+      "name": "Band 3 Dyn",
+      "type": "indent",
+      "category": "",
+      "part": "Band - 3"
+    },
+    {
+      "name": "Band 3 Threshold",
+      "type": "knob",
+      "category": "Threshold",
+      "part": "Band - 3"
+    },
+    {
+      "name": "Band 3 Ratio",
+      "type": "knob",
+      "category": "Ratio",
+      "part": "Band - 3"
+    },
+    {
+      "name": "Band 3 Split",
+      "type": "button",
+      "category": "",
+      "part": "Band - 3"
+    },
+    {
+      "name": "Band 3 Attack",
+      "type": "knob",
+      "category": "Attack",
+      "part": "Band - 3"
+    },
+    {
+      "name": "Band 3 Release",
+      "type": "knob",
+      "category": "Release",
+      "part": "Band - 3"
+    },
+    {
+      "name": "Band 4 selected",
+      "type": "button",
+      "category": "",
+      "part": "Band - 4"
+    },
+    {
+      "name": "Band 4 Active",
+      "type": "button",
+      "category": "Bypass",
+      "part": "Band - 4"
+    },
+    {
+      "name": "Band 4 Gain",
+      "type": "knob",
+      "category": "Makeup Gain",
+      "part": "Band - 4"
+    },
+    {
+      "name": "Band 4 Q",
+      "type": "knob",
+      "category": "Q",
+      "part": "Band - 4"
+    },
+    {
+      "name": "Band 4 Frequency",
+      "type": "knob",
+      "category": "Sidechain Freq/Mid",
+      "part": "Band - 4"
+    },
+    {
+      "name": "Band 4 Type",
+      "type": "indent",
+      "category": "",
+      "part": "Band - 4"
+    },
+    {
+      "name": "Band 4 Dyn",
+      "type": "indent",
+      "category": "",
+      "part": "Band - 4"
+    },
+    {
+      "name": "Band 4 Threshold",
+      "type": "knob",
+      "category": "Threshold",
+      "part": "Band - 4"
+    },
+    {
+      "name": "Band 4 Ratio",
+      "type": "knob",
+      "category": "Ratio",
+      "part": "Band - 4"
+    },
+    {
+      "name": "Band 4 Split",
+      "type": "button",
+      "category": "",
+      "part": "Band - 4"
+    },
+    {
+      "name": "Band 4 Attack",
+      "type": "knob",
+      "category": "Attack",
+      "part": "Band - 4"
+    },
+    {
+      "name": "Band 4 Release",
+      "type": "knob",
+      "category": "Release",
+      "part": "Band - 4"
+    },
+    {
+      "name": "HP Selected",
+      "type": "button",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "HP Active",
+      "type": "button",
+      "category": "Bypass",
+      "part": ""
+    },
+    {
+      "name": "HP Frequency",
+      "type": "knob",
+      "category": "Sidechain Freq/Mid",
+      "part": ""
+    },
+    {
+      "name": "HP Type",
+      "type": "indent",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "LP Selected",
+      "type": "button",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "LP Active",
+      "type": "button",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "LP Frequency",
+      "type": "knob",
+      "category": "LPF",
+      "part": ""
+    },
+    {
+      "name": "LP Type",
+      "type": "indent",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Wide Band Gain",
+      "type": "knob",
+      "category": "Makeup Gain",
+      "part": "Wide Band"
+    },
+    {
+      "name": "Wide Band Dyn",
+      "type": "button",
+      "category": "",
+      "part": "Wide Band"
+    },
+    {
+      "name": "Wide Band Threshold",
+      "type": "knob",
+      "category": "Threshold",
+      "part": "Wide Band"
+    },
+    {
+      "name": "Wide Band Ratio",
+      "type": "knob",
+      "category": "Ratio",
+      "part": "Wide Band"
+    },
+    {
+      "name": "Wide Band Attack",
+      "type": "knob",
+      "category": "Attack",
+      "part": "Wide Band"
+    },
+    {
+      "name": "Wide Band Release",
+      "type": "knob",
+      "category": "Release",
+      "part": "Wide Band"
+    },
+    {
+      "name": "Master bypass",
+      "type": "button",
+      "category": "Bypass",
+      "part": ""
+    },
+    {
+      "name": "Dynamic delta",
+      "type": "button",
+      "category": "Delta/listen",
+      "part": ""
+    },
+    {
+      "name": "Dry Mix",
+      "type": "knob",
+      "category": "Dry",
+      "part": ""
+    },
+    {
+      "name": "Output Gain",
+      "type": "knob",
+      "category": "Output",
+      "part": ""
+    },
+    {
+      "name": "EQ Auto Gain",
+      "type": "button",
+      "category": "Auto Gain",
+      "part": ""
+    },
+    {
+      "name": "Quality",
+      "type": "indent",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Channels",
+      "type": "indent",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Analyzer Mode",
+      "type": "indent",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Display EQ Range",
+      "type": "button",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Display FFT Floor",
+      "type": "button",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Sidechain Mode",
+      "type": "indent",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Bypass",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Wet",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Delta",
+      "type": "",
+      "category": "",
+      "part": ""
+    }
+  ],
+  "type": "dyn",
+  "parts": [
+    "Band - 1",
+    "Band - 2",
+    "Band - 3",
+    "Band - 4",
+    "Wide Band"
+  ]
+}

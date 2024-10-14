@@ -1,0 +1,131 @@
+{
+  "vstName": "TDR Kotelnikov",
+  "parameters": [
+    {
+      "name": "Threshold",
+      "type": "knob",
+      "category": "Threshold"
+    },
+    {
+      "name": "Peak Crest",
+      "type": "knob",
+      "category": "Threshold"
+    },
+    {
+      "name": "Soft Knee",
+      "type": "knob",
+      "category": "Knee"
+    },
+    {
+      "name": "Ratio",
+      "type": "knob",
+      "category": "Ratio"
+    },
+    {
+      "name": "Attack",
+      "type": "knob",
+      "category": "Attack"
+    },
+    {
+      "name": "Release Peak",
+      "type": "knob",
+      "category": "Release"
+    },
+    {
+      "name": "Release RMS",
+      "type": "knob",
+      "category": "Release"
+    },
+    {
+      "name": "Makeup",
+      "type": "knob",
+      "category": "Makeup Gain"
+    },
+    {
+      "name": "Dry Mix",
+      "type": "knob",
+      "category": "Dry"
+    },
+    {
+      "name": "Dry Wet",
+      "type": "knob",
+      "category": "Wet"
+    },
+    {
+      "name": "Dry Mix Mode",
+      "type": "button",
+      "category": ""
+    },
+    {
+      "name": "Out Gain",
+      "type": "knob",
+      "category": "Output"
+    },
+    {
+      "name": "SC HP Freq",
+      "type": "knob",
+      "category": "HPF"
+    },
+    {
+      "name": "SC HP Slope",
+      "type": "indent",
+      "category": ""
+    },
+    {
+      "name": "SC Stereo Diff",
+      "type": "knob",
+      "category": ""
+    },
+    {
+      "name": "Delta",
+      "type": "button",
+      "category": "Delta/listen"
+    },
+    {
+      "name": "Bypass",
+      "type": "button",
+      "category": "Bypass"
+    },
+    {
+      "name": "Quality",
+      "type": "button",
+      "category": ""
+    },
+    {
+      "name": "Mode",
+      "type": "indent",
+      "category": ""
+    },
+    {
+      "name": "GR Disp Scale",
+      "type": "indent",
+      "category": ""
+    },
+    {
+      "name": "GR Disp Mode",
+      "type": "button",
+      "category": "VU/GR"
+    },
+    {
+      "name": "Program",
+      "type": "indent",
+      "category": ""
+    },
+    {
+      "name": "Bypass",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Wet",
+      "type": "",
+      "category": ""
+    },
+    {
+      "name": "Delta",
+      "type": "",
+      "category": ""
+    }
+  ],
+  "type": "dyn"
+}

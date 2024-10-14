@@ -1,0 +1,81 @@
+{
+    "vstName": "ReaEQ",
+    "parameters": [
+      {
+        "name": "Freq-Low Shelf",
+        "type": ""
+      },
+      {
+        "name": "Gain-Low Shelf",
+        "type": ""
+      },
+      {
+        "name": "BW-Low Shelf",
+        "type": ""
+      },
+      {
+        "name": "Freq-Band 2",
+        "type": ""
+      },
+      {
+        "name": "Gain-Band 2",
+        "type": ""
+      },
+      {
+        "name": "BW-Band 2",
+        "type": ""
+      },
+      {
+        "name": "Freq-Band 3",
+        "type": ""
+      },
+      {
+        "name": "Gain-Band 3",
+        "type": ""
+      },
+      {
+        "name": "BW-Band 3",
+        "type": ""
+      },
+      {
+        "name": "Freq-High Shelf 4",
+        "type": ""
+      },
+      {
+        "name": "Gain-High Shelf 4",
+        "type": ""
+      },
+      {
+        "name": "BW-High Shelf 4",
+        "type": ""
+      },
+      {
+        "name": "Freq-High Pass 5",
+        "type": ""
+      },
+      {
+        "name": "Gain-High Pass 5",
+        "type": ""
+      },
+      {
+        "name": "BW-High Pass 5",
+        "type": ""
+      },
+      {
+        "name": "Global Gain",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

@@ -1,0 +1,217 @@
+{
+    "vstName": "Sound Delay",
+    "parameters": [
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "ADelay0",
+        "type": ""
+      },
+      {
+        "name": "ADelay1",
+        "type": ""
+      },
+      {
+        "name": "ADelay2",
+        "type": ""
+      },
+      {
+        "name": "ADelay3",
+        "type": ""
+      },
+      {
+        "name": "ADelay4",
+        "type": ""
+      },
+      {
+        "name": "ADelay5",
+        "type": ""
+      },
+      {
+        "name": "SDelay0",
+        "type": ""
+      },
+      {
+        "name": "SDelay1",
+        "type": ""
+      },
+      {
+        "name": "SDelay2",
+        "type": ""
+      },
+      {
+        "name": "SDelay3",
+        "type": ""
+      },
+      {
+        "name": "SDelay4",
+        "type": ""
+      },
+      {
+        "name": "DlyDime",
+        "type": ""
+      },
+      {
+        "name": "2ADly0",
+        "type": ""
+      },
+      {
+        "name": "2ADly1",
+        "type": ""
+      },
+      {
+        "name": "2ADly2",
+        "type": ""
+      },
+      {
+        "name": "2ADly3",
+        "type": ""
+      },
+      {
+        "name": "2ADly4",
+        "type": ""
+      },
+      {
+        "name": "2ADly5",
+        "type": ""
+      },
+      {
+        "name": "2SDly0",
+        "type": ""
+      },
+      {
+        "name": "2SDly1",
+        "type": ""
+      },
+      {
+        "name": "2SDly2",
+        "type": ""
+      },
+      {
+        "name": "2SDly3",
+        "type": ""
+      },
+      {
+        "name": "2SDly4",
+        "type": ""
+      },
+      {
+        "name": "2DlyDim",
+        "type": ""
+      },
+      {
+        "name": "3ADly0",
+        "type": ""
+      },
+      {
+        "name": "3ADly1",
+        "type": ""
+      },
+      {
+        "name": "3ADly2",
+        "type": ""
+      },
+      {
+        "name": "3ADly3",
+        "type": ""
+      },
+      {
+        "name": "3ADly4",
+        "type": ""
+      },
+      {
+        "name": "3ADly5",
+        "type": ""
+      },
+      {
+        "name": "3SDly0",
+        "type": ""
+      },
+      {
+        "name": "3SDly1",
+        "type": ""
+      },
+      {
+        "name": "3SDly2",
+        "type": ""
+      },
+      {
+        "name": "3SDly3",
+        "type": ""
+      },
+      {
+        "name": "3SDly4",
+        "type": ""
+      },
+      {
+        "name": "3DlyDim",
+        "type": ""
+      },
+      {
+        "name": "4ADly0",
+        "type": ""
+      },
+      {
+        "name": "4ADly1",
+        "type": ""
+      },
+      {
+        "name": "4ADly2",
+        "type": ""
+      },
+      {
+        "name": "4ADly3",
+        "type": ""
+      },
+      {
+        "name": "4ADly4",
+        "type": ""
+      },
+      {
+        "name": "4ADly5",
+        "type": ""
+      },
+      {
+        "name": "4SDly0",
+        "type": ""
+      },
+      {
+        "name": "4SDly1",
+        "type": ""
+      },
+      {
+        "name": "4SDly2",
+        "type": ""
+      },
+      {
+        "name": "4SDly3",
+        "type": ""
+      },
+      {
+        "name": "4SDly4",
+        "type": ""
+      },
+      {
+        "name": "4DlyDim",
+        "type": ""
+      },
+      {
+        "name": "Program",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

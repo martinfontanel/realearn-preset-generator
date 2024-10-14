@@ -1,0 +1,57 @@
+{
+    "vstName": "DD Utility",
+    "parameters": [
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Trim",
+        "type": ""
+      },
+      {
+        "name": "Pan",
+        "type": ""
+      },
+      {
+        "name": "Level",
+        "type": ""
+      },
+      {
+        "name": "InMode",
+        "type": ""
+      },
+      {
+        "name": "Invert L",
+        "type": ""
+      },
+      {
+        "name": "Invert R",
+        "type": ""
+      },
+      {
+        "name": "Pan Law",
+        "type": ""
+      },
+      {
+        "name": "Mid/Side",
+        "type": ""
+      },
+      {
+        "name": "HardClip",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

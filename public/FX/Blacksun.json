@@ -1,0 +1,289 @@
+{
+    "vstName": "Blacksun",
+    "parameters": [
+      {
+        "name": "Input Volume",
+        "type": ""
+      },
+      {
+        "name": "Output Volume",
+        "type": ""
+      },
+      {
+        "name": "Cab Enabled",
+        "type": ""
+      },
+      {
+        "name": "Gate : Power",
+        "type": ""
+      },
+      {
+        "name": "Gate Level",
+        "type": ""
+      },
+      {
+        "name": "Boost : Power",
+        "type": ""
+      },
+      {
+        "name": "Boost : Low",
+        "type": ""
+      },
+      {
+        "name": "Boost : High",
+        "type": ""
+      },
+      {
+        "name": "Drive : Power",
+        "type": ""
+      },
+      {
+        "name": "Drive : Gain",
+        "type": ""
+      },
+      {
+        "name": "Drive : Tone",
+        "type": ""
+      },
+      {
+        "name": "Drive : Mix",
+        "type": ""
+      },
+      {
+        "name": "Amp : Power",
+        "type": ""
+      },
+      {
+        "name": "Amp : Master",
+        "type": ""
+      },
+      {
+        "name": "Amp : Gain",
+        "type": ""
+      },
+      {
+        "name": "Amp : Mode",
+        "type": ""
+      },
+      {
+        "name": "Amp : Bass",
+        "type": ""
+      },
+      {
+        "name": "Amp : Mid",
+        "type": ""
+      },
+      {
+        "name": "Amp : Treble",
+        "type": ""
+      },
+      {
+        "name": "Amp : Presence",
+        "type": ""
+      },
+      {
+        "name": "Amp : Resonance",
+        "type": ""
+      },
+      {
+        "name": "Channel",
+        "type": ""
+      },
+      {
+        "name": "Cab A : LP",
+        "type": ""
+      },
+      {
+        "name": "Cab A : HP",
+        "type": ""
+      },
+      {
+        "name": "Cab A : Pan",
+        "type": ""
+      },
+      {
+        "name": "Cab A : Level",
+        "type": ""
+      },
+      {
+        "name": "Cab A : Phase",
+        "type": ""
+      },
+      {
+        "name": "Cab A : Cone/Edge",
+        "type": ""
+      },
+      {
+        "name": "Cab A : Far/Close",
+        "type": ""
+      },
+      {
+        "name": "Cab B : LP",
+        "type": ""
+      },
+      {
+        "name": "Cab B : HP",
+        "type": ""
+      },
+      {
+        "name": "Cab B : Pan",
+        "type": ""
+      },
+      {
+        "name": "Cab B :  Level",
+        "type": ""
+      },
+      {
+        "name": "Cab B : Phase",
+        "type": ""
+      },
+      {
+        "name": "Cab B : Cone/Edge",
+        "type": ""
+      },
+      {
+        "name": "Cab B : Far/Close",
+        "type": ""
+      },
+      {
+        "name": "Cab A-B Mix",
+        "type": ""
+      },
+      {
+        "name": "EQ : Power",
+        "type": ""
+      },
+      {
+        "name": "EQ : Band 1",
+        "type": ""
+      },
+      {
+        "name": "EQ : Band 2",
+        "type": ""
+      },
+      {
+        "name": "EQ : Band 3",
+        "type": ""
+      },
+      {
+        "name": "EQ : Band 4",
+        "type": ""
+      },
+      {
+        "name": "EQ : Band 5",
+        "type": ""
+      },
+      {
+        "name": "EQ : Band 6",
+        "type": ""
+      },
+      {
+        "name": "EQ : Band 7",
+        "type": ""
+      },
+      {
+        "name": "EQ : Band 8",
+        "type": ""
+      },
+      {
+        "name": "EQ : Band 9",
+        "type": ""
+      },
+      {
+        "name": "Delay : Amount",
+        "type": ""
+      },
+      {
+        "name": "Delay : Feedback",
+        "type": ""
+      },
+      {
+        "name": "Delay : Width",
+        "type": ""
+      },
+      {
+        "name": "Delay : Mix",
+        "type": ""
+      },
+      {
+        "name": "Delay : Power",
+        "type": ""
+      },
+      {
+        "name": "Delay : Sync",
+        "type": ""
+      },
+      {
+        "name": "Verb Power",
+        "type": ""
+      },
+      {
+        "name": "Verb : Size",
+        "type": ""
+      },
+      {
+        "name": "Verb : Decay",
+        "type": ""
+      },
+      {
+        "name": "Verb : Tone",
+        "type": ""
+      },
+      {
+        "name": "Verb : PreDelay",
+        "type": ""
+      },
+      {
+        "name": "Verb : Mix",
+        "type": ""
+      },
+      {
+        "name": "Chorus : Depth",
+        "type": ""
+      },
+      {
+        "name": "Chorus : Speed",
+        "type": ""
+      },
+      {
+        "name": "Chorus : Width",
+        "type": ""
+      },
+      {
+        "name": "Chorus : Mix",
+        "type": ""
+      },
+      {
+        "name": "Chorus : Power",
+        "type": ""
+      },
+      {
+        "name": "isUnique",
+        "type": ""
+      },
+      {
+        "name": "DoubleTrack",
+        "type": ""
+      },
+      {
+        "name": "---",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

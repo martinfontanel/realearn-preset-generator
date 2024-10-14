@@ -1,0 +1,129 @@
+{
+  "vstName": "Glitch",
+  "parameters": [
+    {
+      "name": "Preset",
+      "type": ""
+    },
+    {
+      "name": "Bypass",
+      "type": ""
+    },
+    {
+      "name": "Power",
+      "type": ""
+    },
+    {
+      "name": "Trim in",
+      "type": ""
+    },
+    {
+      "name": "Trim out",
+      "type": ""
+    },
+    {
+      "name": "Gate 1",
+      "type": ""
+    },
+    {
+      "name": "Gate 2",
+      "type": ""
+    },
+    {
+      "name": "Gate 3",
+      "type": ""
+    },
+    {
+      "name": "Gate 4",
+      "type": ""
+    },
+    {
+      "name": "Gate 5",
+      "type": ""
+    },
+    {
+      "name": "Gate 6",
+      "type": ""
+    },
+    {
+      "name": "Gate 7",
+      "type": ""
+    },
+    {
+      "name": "Gate 8",
+      "type": ""
+    },
+    {
+      "name": "Gate 9",
+      "type": ""
+    },
+    {
+      "name": "Gate 10",
+      "type": ""
+    },
+    {
+      "name": "Gate 11",
+      "type": ""
+    },
+    {
+      "name": "Gate 12",
+      "type": ""
+    },
+    {
+      "name": "Gate 13",
+      "type": ""
+    },
+    {
+      "name": "Gate 14",
+      "type": ""
+    },
+    {
+      "name": "Gate 15",
+      "type": ""
+    },
+    {
+      "name": "Gate 16",
+      "type": ""
+    },
+    {
+      "name": "Gate time",
+      "type": ""
+    },
+    {
+      "name": "Smooth",
+      "type": ""
+    },
+    {
+      "name": "HPF",
+      "type": ""
+    },
+    {
+      "name": "LPF",
+      "type": ""
+    },
+    {
+      "name": "Drive",
+      "type": ""
+    },
+    {
+      "name": "Glitch",
+      "type": ""
+    },
+    {
+      "name": "Space",
+      "type": ""
+    },
+    {
+      "name": "Bypass",
+      "type": ""
+    },
+    {
+      "name": "Wet",
+      "type": ""
+    },
+    {
+      "name": "Delta",
+      "type": ""
+    }
+  ]
+}

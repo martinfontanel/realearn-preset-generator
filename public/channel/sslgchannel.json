@@ -1,0 +1,228 @@
+{
+  "vstName": "SSLGChannel",
+  "parameters": [
+    {
+      "name": "Analog",
+      "type": "button",
+      "category": "Analog",
+      "part": ""
+    },
+    {
+      "name": "CompThresh",
+      "type": "knob",
+      "category": "Threshold",
+      "part": "Comp"
+    },
+    {
+      "name": "CompRatio",
+      "type": "knob",
+      "category": "Ratio",
+      "part": "Comp"
+    },
+    {
+      "name": "CompFast",
+      "type": "button",
+      "category": "Fast Attack",
+      "part": "Comp"
+    },
+    {
+      "name": "CompRelease",
+      "type": "knob",
+      "category": "Release",
+      "part": "Comp"
+    },
+    {
+      "name": "ExpAttack",
+      "type": "button",
+      "category": "Fast Attack",
+      "part": "Exp"
+    },
+    {
+      "name": "ExpRelease",
+      "type": "knob",
+      "category": "Release",
+      "part": "Exp"
+    },
+    {
+      "name": "ExpThresh",
+      "type": "knob",
+      "category": "Threshold",
+      "part": "Exp"
+    },
+    {
+      "name": "ExpRange",
+      "type": "knob",
+      "category": "Range",
+      "part": "Exp"
+    },
+    {
+      "name": "ExpGate",
+      "type": "button",
+      "category": "Type / Mode",
+      "part": "Exp"
+    },
+    {
+      "name": "EQBypass",
+      "type": "button",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "EQDynamic",
+      "type": "button",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "DynamicBypass",
+      "type": "button",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "DynaminCHOut",
+      "type": "button",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "FilterSplit",
+      "type": "button",
+      "category": "",
+      "part": "Filter"
+    },
+    {
+      "name": "HP Frq",
+      "type": "knob",
+      "category": "",
+      "part": "Filter"
+    },
+    {
+      "name": "LP Frq",
+      "type": "knob",
+      "category": "",
+      "part": "Filter"
+    },
+    {
+      "name": "LF Gain",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "LF Frq",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "LMF div3",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "LMF Gain",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "LMF Frq",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "LMF Q",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "HMF Gain",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "HMF Frq",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "HMF Q",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "HMF X3",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "HF Gain",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "HF Frq",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "Gain",
+      "type": "knob",
+      "category": "Output",
+      "part": ""
+    },
+    {
+      "name": "VUInOut",
+      "type": "button",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "PhaseReverse",
+      "type": "button",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "InputLevel",
+      "type": "knob",
+      "category": "Input",
+      "part": ""
+    },
+    {
+      "name": "Bypass",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Wet",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Delta",
+      "type": "",
+      "category": "",
+      "part": ""
+    }
+  ],
+  "type": "channel",
+  "parts": [
+    "Comp",
+    "Exp",
+    "Filter",
+    "EQ"
+  ]
+}

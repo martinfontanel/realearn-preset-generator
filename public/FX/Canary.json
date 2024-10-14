@@ -1,0 +1,57 @@
+{
+    "vstName": "Canary",
+    "parameters": [
+      {
+        "name": "Power",
+        "type": ""
+      },
+      {
+        "name": "Tune",
+        "type": ""
+      },
+      {
+        "name": "Filter",
+        "type": ""
+      },
+      {
+        "name": "FiltByp",
+        "type": ""
+      },
+      {
+        "name": "Attack",
+        "type": ""
+      },
+      {
+        "name": "AttMute",
+        "type": ""
+      },
+      {
+        "name": "Sustain",
+        "type": ""
+      },
+      {
+        "name": "SusMute",
+        "type": ""
+      },
+      {
+        "name": "Mix",
+        "type": ""
+      },
+      {
+        "name": "DryMute",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

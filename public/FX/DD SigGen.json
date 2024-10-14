@@ -1,0 +1,33 @@
+{
+    "vstName": "DD SigGen",
+    "parameters": [
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Freq",
+        "type": ""
+      },
+      {
+        "name": "Level",
+        "type": ""
+      },
+      {
+        "name": "Function",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

@@ -1,0 +1,345 @@
+{
+    "vstName": "bx_rockrack V3",
+    "parameters": [
+      {
+        "name": "Power",
+        "type": ""
+      },
+      {
+        "name": "Recording Chain",
+        "type": ""
+      },
+      {
+        "name": "Amplifier Type",
+        "type": ""
+      },
+      {
+        "name": "Noise Gate",
+        "type": ""
+      },
+      {
+        "name": "Noise Gate Threshold",
+        "type": ""
+      },
+      {
+        "name": "Noise Gate Range",
+        "type": ""
+      },
+      {
+        "name": "Shred",
+        "type": ""
+      },
+      {
+        "name": "Shred Amount",
+        "type": ""
+      },
+      {
+        "name": "Master Out",
+        "type": ""
+      },
+      {
+        "name": "Clean530 Gain",
+        "type": ""
+      },
+      {
+        "name": "Clean530 Bass",
+        "type": ""
+      },
+      {
+        "name": "Clean530 Mid",
+        "type": ""
+      },
+      {
+        "name": "Clean530 Treble",
+        "type": ""
+      },
+      {
+        "name": "Clean530 Presence",
+        "type": ""
+      },
+      {
+        "name": "Clean530 Gain Type",
+        "type": ""
+      },
+      {
+        "name": "Clean530 Bright",
+        "type": ""
+      },
+      {
+        "name": "Clean530 Volume",
+        "type": ""
+      },
+      {
+        "name": "Clean800 Gain",
+        "type": ""
+      },
+      {
+        "name": "Clean800 Bass",
+        "type": ""
+      },
+      {
+        "name": "Clean800 Mid",
+        "type": ""
+      },
+      {
+        "name": "Clean800 Treble",
+        "type": ""
+      },
+      {
+        "name": "Clean800 Presence",
+        "type": ""
+      },
+      {
+        "name": "Clean800 Volume",
+        "type": ""
+      },
+      {
+        "name": "Crunch800 Gain",
+        "type": ""
+      },
+      {
+        "name": "Crunch800 Bass",
+        "type": ""
+      },
+      {
+        "name": "Crunch800 Mid",
+        "type": ""
+      },
+      {
+        "name": "Crunch800 Treble",
+        "type": ""
+      },
+      {
+        "name": "Crunch800 Presence",
+        "type": ""
+      },
+      {
+        "name": "Crunch800 Volume",
+        "type": ""
+      },
+      {
+        "name": "ModernRock Gain",
+        "type": ""
+      },
+      {
+        "name": "ModernRock Bass",
+        "type": ""
+      },
+      {
+        "name": "ModernRock Mid",
+        "type": ""
+      },
+      {
+        "name": "ModernRock Treble",
+        "type": ""
+      },
+      {
+        "name": "ModernRock Presence",
+        "type": ""
+      },
+      {
+        "name": "ModernRock Volume",
+        "type": ""
+      },
+      {
+        "name": "Lead530 Gain",
+        "type": ""
+      },
+      {
+        "name": "Lead530 Bass",
+        "type": ""
+      },
+      {
+        "name": "Lead530 LoMid",
+        "type": ""
+      },
+      {
+        "name": "Lead530 HiMid",
+        "type": ""
+      },
+      {
+        "name": "Lead530 Treble",
+        "type": ""
+      },
+      {
+        "name": "Lead530 Contour",
+        "type": ""
+      },
+      {
+        "name": "Lead530 Presence",
+        "type": ""
+      },
+      {
+        "name": "Lead530 Gain Type",
+        "type": ""
+      },
+      {
+        "name": "Lead530 Volume",
+        "type": ""
+      },
+      {
+        "name": "JazzCrunch Gain",
+        "type": ""
+      },
+      {
+        "name": "JazzCrunch Bass",
+        "type": ""
+      },
+      {
+        "name": "JazzCrunch Mid",
+        "type": ""
+      },
+      {
+        "name": "JazzCrunch Treble",
+        "type": ""
+      },
+      {
+        "name": "JazzCrunch Warm",
+        "type": ""
+      },
+      {
+        "name": "JazzCrunch Presence",
+        "type": ""
+      },
+      {
+        "name": "JazzCrunch Volume",
+        "type": ""
+      },
+      {
+        "name": "JazzClean Gain",
+        "type": ""
+      },
+      {
+        "name": "JazzClean Bass",
+        "type": ""
+      },
+      {
+        "name": "JazzClean Mid",
+        "type": ""
+      },
+      {
+        "name": "JazzClean Treble",
+        "type": ""
+      },
+      {
+        "name": "JazzClean Presence",
+        "type": ""
+      },
+      {
+        "name": "JazzClean Bright",
+        "type": ""
+      },
+      {
+        "name": "JazzClean Volume",
+        "type": ""
+      },
+      {
+        "name": "Metal666 Gain",
+        "type": ""
+      },
+      {
+        "name": "Metal666 Bass",
+        "type": ""
+      },
+      {
+        "name": "Metal666 Mid",
+        "type": ""
+      },
+      {
+        "name": "Metal666 Treble",
+        "type": ""
+      },
+      {
+        "name": "Metal666 Shape",
+        "type": ""
+      },
+      {
+        "name": "Metal666 Presence",
+        "type": ""
+      },
+      {
+        "name": "Metal666 Volume",
+        "type": ""
+      },
+      {
+        "name": "EQ",
+        "type": ""
+      },
+      {
+        "name": "EQ Band 80 Hz",
+        "type": ""
+      },
+      {
+        "name": "EQ Band 240 Hz",
+        "type": ""
+      },
+      {
+        "name": "EQ Band 750 Hz",
+        "type": ""
+      },
+      {
+        "name": "EQ Band 2200 Hz",
+        "type": ""
+      },
+      {
+        "name": "EQ Band 6600 Hz",
+        "type": ""
+      },
+      {
+        "name": "Delay",
+        "type": ""
+      },
+      {
+        "name": "Delay Time",
+        "type": ""
+      },
+      {
+        "name": "Delay Mix",
+        "type": ""
+      },
+      {
+        "name": "Delay Feedback",
+        "type": ""
+      },
+      {
+        "name": "Delay LoFi",
+        "type": ""
+      },
+      {
+        "name": "Tight",
+        "type": ""
+      },
+      {
+        "name": "Tight Frequency",
+        "type": ""
+      },
+      {
+        "name": "Smooth",
+        "type": ""
+      },
+      {
+        "name": "Smooth Frequency",
+        "type": ""
+      },
+      {
+        "name": "Power",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

@@ -1,0 +1,1510 @@
+{
+  "vstName": "Scheps Omni Channel",
+  "parameters": [
+    {
+      "name": "Bypass",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Bank",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Invert L",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Input Gain",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Invert R",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Input Gain R",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Output Gain",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Output Gain R",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Monitor Gain",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Monitor Gain R",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Monitor",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Limit:Threshold",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Limit:On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Link Input Output",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "VU Select",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Change Notify",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Change Notify Insert",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Pre:On/Off",
+      "type": "",
+      "category": "",
+      "part": "Pre"
+    },
+    {
+      "name": "Pre:Size",
+      "type": "",
+      "category": "",
+      "part": "Pre"
+    },
+    {
+      "name": "Pre:Link",
+      "type": "",
+      "category": "",
+      "part": "Pre"
+    },
+    {
+      "name": "Pre:Saturation On/Off ",
+      "type": "",
+      "category": "",
+      "part": "Pre"
+    },
+    {
+      "name": "Pre:Pre Type",
+      "type": "",
+      "category": "",
+      "part": "Pre"
+    },
+    {
+      "name": "Pre:Saturation On/Off R",
+      "type": "",
+      "category": "",
+      "part": "Pre"
+    },
+    {
+      "name": "Pre:Pre Type R",
+      "type": "",
+      "category": "",
+      "part": "Pre"
+    },
+    {
+      "name": "Pre:Saturation",
+      "type": "",
+      "category": "",
+      "part": "Pre"
+    },
+    {
+      "name": "Pre:Saturation R",
+      "type": "",
+      "category": "",
+      "part": "Pre R"
+    },
+    {
+      "name": "Pre:Thump",
+      "type": "",
+      "category": "",
+      "part": "Pre"
+    },
+    {
+      "name": "Pre:Thump On",
+      "type": "",
+      "category": "",
+      "part": "Pre"
+    },
+    {
+      "name": "Pre:Thump R",
+      "type": "",
+      "category": "",
+      "part": "Pre R"
+    },
+    {
+      "name": "Pre:Thump On R",
+      "type": "",
+      "category": "",
+      "part": "Pre R"
+    },
+    {
+      "name": "Pre:HP On/Off",
+      "type": "",
+      "category": "",
+      "part": "Pre"
+    },
+    {
+      "name": "Pre:HP On/Off R",
+      "type": "",
+      "category": "",
+      "part": "Pre R"
+    },
+    {
+      "name": "Pre:HP Slope",
+      "type": "",
+      "category": "",
+      "part": "Pre"
+    },
+    {
+      "name": "Pre:HPF Slope R",
+      "type": "",
+      "category": "",
+      "part": "Pre R"
+    },
+    {
+      "name": "Pre:HP Cutoff Frequency",
+      "type": "",
+      "category": "",
+      "part": "Pre"
+    },
+    {
+      "name": "Pre:HP Cutoff Frequency R",
+      "type": "",
+      "category": "",
+      "part": "Pre R"
+    },
+    {
+      "name": "Pre:LP On/Off",
+      "type": "",
+      "category": "",
+      "part": "Pre"
+    },
+    {
+      "name": "Pre:LP On/Off R",
+      "type": "",
+      "category": "",
+      "part": "Pre R"
+    },
+    {
+      "name": "Pre:LP Slope",
+      "type": "",
+      "category": "",
+      "part": "Pre"
+    },
+    {
+      "name": "Pre:LP Slope R",
+      "type": "",
+      "category": "",
+      "part": "Pre R"
+    },
+    {
+      "name": "Pre:LP Cutoff Frequency",
+      "type": "",
+      "category": "",
+      "part": "Pre"
+    },
+    {
+      "name": "Pre:LP Cutoff Frequency R",
+      "type": "",
+      "category": "",
+      "part": "Pre R"
+    },
+    {
+      "name": "Pre:ST Mode",
+      "type": "",
+      "category": "",
+      "part": "Pre"
+    },
+    {
+      "name": "Gate:On/Off",
+      "type": "",
+      "category": "",
+      "part": "Gate"
+    },
+    {
+      "name": "Gate:Size",
+      "type": "",
+      "category": "",
+      "part": "Gate"
+    },
+    {
+      "name": "Gate:Control Link",
+      "type": "",
+      "category": "",
+      "part": "Gate"
+    },
+    {
+      "name": "Gate:Threshold",
+      "type": "",
+      "category": "",
+      "part": "Gate"
+    },
+    {
+      "name": "Gate:Threshold R",
+      "type": "",
+      "category": "",
+      "part": "Gate R"
+    },
+    {
+      "name": "Gate:Floor",
+      "type": "",
+      "category": "",
+      "part": "Gate"
+    },
+    {
+      "name": "Gate:Floor R",
+      "type": "",
+      "category": "",
+      "part": "Gate R"
+    },
+    {
+      "name": "Gate:Close",
+      "type": "",
+      "category": "",
+      "part": "Gate"
+    },
+    {
+      "name": "Gate:Close R",
+      "type": "",
+      "category": "",
+      "part": "Gate R"
+    },
+    {
+      "name": "Gate:Attack",
+      "type": "",
+      "category": "",
+      "part": "Gate"
+    },
+    {
+      "name": "Gate:Attack R",
+      "type": "",
+      "category": "",
+      "part": "Gate R"
+    },
+    {
+      "name": "Gate:Release",
+      "type": "",
+      "category": "",
+      "part": "Gate"
+    },
+    {
+      "name": "Gate:Release R",
+      "type": "",
+      "category": "",
+      "part": "Gate R"
+    },
+    {
+      "name": "Gate:Exp",
+      "type": "",
+      "category": "",
+      "part": "Gate"
+    },
+    {
+      "name": "Gate:Exp R",
+      "type": "",
+      "category": "",
+      "part": "Gate R"
+    },
+    {
+      "name": "Gate:Listen",
+      "type": "",
+      "category": "",
+      "part": "Gate"
+    },
+    {
+      "name": "Gate:Listen R",
+      "type": "",
+      "category": "",
+      "part": "Gate R"
+    },
+    {
+      "name": "Gate:ExtSC",
+      "type": "",
+      "category": "",
+      "part": "Gate"
+    },
+    {
+      "name": "Gate:HP On/Off",
+      "type": "",
+      "category": "",
+      "part": "Gate"
+    },
+    {
+      "name": "Gate:HP On/Off R",
+      "type": "",
+      "category": "",
+      "part": "Gate R"
+    },
+    {
+      "name": "Gate:HP F",
+      "type": "",
+      "category": "",
+      "part": "Gate"
+    },
+    {
+      "name": "Gate:HP F R",
+      "type": "",
+      "category": "",
+      "part": "Gate R"
+    },
+    {
+      "name": "Gate:LP On/Off",
+      "type": "",
+      "category": "",
+      "part": "Gate"
+    },
+    {
+      "name": "Gate:LP On/Off R",
+      "type": "",
+      "category": "",
+      "part": "Gate R"
+    },
+    {
+      "name": "Gate:LP F",
+      "type": "",
+      "category": "",
+      "part": "Gate"
+    },
+    {
+      "name": "Gate:LP F R",
+      "type": "",
+      "category": "",
+      "part": "Gate R"
+    },
+    {
+      "name": "Gate:Stereo Mode",
+      "type": "",
+      "category": "",
+      "part": "Gate"
+    },
+    {
+      "name": "Gate:Solo Activate",
+      "type": "",
+      "category": "",
+      "part": "Gate"
+    },
+    {
+      "name": "Comp:On/Off",
+      "type": "",
+      "category": "",
+      "part": "Comp"
+    },
+    {
+      "name": "Comp:Size",
+      "type": "",
+      "category": "",
+      "part": "Comp"
+    },
+    {
+      "name": "Comp:Type",
+      "type": "",
+      "category": "",
+      "part": "Comp"
+    },
+    {
+      "name": "Comp:Type R",
+      "type": "",
+      "category": "",
+      "part": "Comp R"
+    },
+    {
+      "name": "Comp:Ratio",
+      "type": "",
+      "category": "",
+      "part": "Comp"
+    },
+    {
+      "name": "Comp:Ratio R",
+      "type": "",
+      "category": "",
+      "part": "Comp R"
+    },
+    {
+      "name": "Comp:Attack",
+      "type": "",
+      "category": "",
+      "part": "Comp"
+    },
+    {
+      "name": "Comp:Attack R",
+      "type": "",
+      "category": "",
+      "part": "Comp R"
+    },
+    {
+      "name": "Comp:Release",
+      "type": "",
+      "category": "",
+      "part": "Comp"
+    },
+    {
+      "name": "Comp:Release R",
+      "type": "",
+      "category": "",
+      "part": "Comp R"
+    },
+    {
+      "name": "Comp:Threshold",
+      "type": "",
+      "category": "",
+      "part": "Comp"
+    },
+    {
+      "name": "Comp:Threshold R",
+      "type": "",
+      "category": "",
+      "part": "Comp"
+    },
+    {
+      "name": "Comp:Mix",
+      "type": "",
+      "category": "",
+      "part": "Comp"
+    },
+    {
+      "name": "Comp:Mix R",
+      "type": "",
+      "category": "",
+      "part": "Comp R"
+    },
+    {
+      "name": "Comp:SC HP F",
+      "type": "",
+      "category": "",
+      "part": "Comp"
+    },
+    {
+      "name": "Comp:SC HP F R",
+      "type": "",
+      "category": "",
+      "part": "Comp R"
+    },
+    {
+      "name": "Comp:SC Bell G",
+      "type": "",
+      "category": "",
+      "part": "Comp"
+    },
+    {
+      "name": "Comp:SC Bell G R",
+      "type": "",
+      "category": "",
+      "part": "Comp R"
+    },
+    {
+      "name": "Comp:SC Bell F",
+      "type": "",
+      "category": "",
+      "part": "Comp"
+    },
+    {
+      "name": "Comp:SC Bell F R",
+      "type": "",
+      "category": "",
+      "part": "Comp R"
+    },
+    {
+      "name": "Comp:SC Shelf G",
+      "type": "",
+      "category": "",
+      "part": "Comp"
+    },
+    {
+      "name": "Comp:SC Shelf G R",
+      "type": "",
+      "category": "",
+      "part": "Comp R"
+    },
+    {
+      "name": "Comp:SC Shelf F",
+      "type": "",
+      "category": "",
+      "part": "Comp"
+    },
+    {
+      "name": "Comp:SC Shelf F R",
+      "type": "",
+      "category": "",
+      "part": "Comp R"
+    },
+    {
+      "name": "Comp:SC HP On/Off",
+      "type": "",
+      "category": "",
+      "part": "Comp"
+    },
+    {
+      "name": "Comp:SC HP On/Off R",
+      "type": "",
+      "category": "",
+      "part": "Comp R"
+    },
+    {
+      "name": "Comp:SC Bell On/Off",
+      "type": "",
+      "category": "",
+      "part": "Comp"
+    },
+    {
+      "name": "Comp:SC Bell On/Off R",
+      "type": "",
+      "category": "",
+      "part": "Comp R"
+    },
+    {
+      "name": "Comp:SC Shelf On/Off",
+      "type": "",
+      "category": "",
+      "part": "Comp"
+    },
+    {
+      "name": "Comp:SC Shelf On/Off R",
+      "type": "",
+      "category": "",
+      "part": "Comp R"
+    },
+    {
+      "name": "Comp:ST Mode",
+      "type": "",
+      "category": "",
+      "part": "Comp"
+    },
+    {
+      "name": "Comp:Out Gain",
+      "type": "",
+      "category": "",
+      "part": "Comp"
+    },
+    {
+      "name": "Comp:Out Gain R",
+      "type": "",
+      "category": "",
+      "part": "Comp R"
+    },
+    {
+      "name": "Comp:ExtSC",
+      "type": "",
+      "category": "",
+      "part": "Comp"
+    },
+    {
+      "name": "Comp:SCMon",
+      "type": "",
+      "category": "",
+      "part": "Comp"
+    },
+    {
+      "name": "Comp:SCMon R",
+      "type": "",
+      "category": "",
+      "part": "Comp R"
+    },
+    {
+      "name": "Comp:Solo Activate",
+      "type": "",
+      "category": "",
+      "part": "Comp"
+    },
+    {
+      "name": "DeEsser:On/Off",
+      "type": "",
+      "category": "",
+      "part": "DeEsser 1"
+    },
+    {
+      "name": "DeEsser:Size",
+      "type": "",
+      "category": "",
+      "part": "DeEsser 1"
+    },
+    {
+      "name": "DeEsser:Link",
+      "type": "",
+      "category": "",
+      "part": "DeEsser 1"
+    },
+    {
+      "name": "DeEsser:1 Threshold",
+      "type": "",
+      "category": "",
+      "part": "DeEsser 1"
+    },
+    {
+      "name": "DeEsser:1 Threshold R",
+      "type": "",
+      "category": "",
+      "part": "DeEsser 1 R"
+    },
+    {
+      "name": "DeEsser:1 Type",
+      "type": "",
+      "category": "",
+      "part": "DeEsser 1"
+    },
+    {
+      "name": "DeEsser:1 Type R",
+      "type": "",
+      "category": "",
+      "part": "DeEsser 1 R"
+    },
+    {
+      "name": "DeEsser:1 Monitor",
+      "type": "",
+      "category": "",
+      "part": "DeEsser 1"
+    },
+    {
+      "name": "DeEsser:1 Monitor R",
+      "type": "",
+      "category": "",
+      "part": "DeEsser 1 R"
+    },
+    {
+      "name": "DeEsser:1 On/Off",
+      "type": "",
+      "category": "",
+      "part": "DeEsser 1"
+    },
+    {
+      "name": "DeEsser:1 Frequency",
+      "type": "",
+      "category": "",
+      "part": "DeEsser 1"
+    },
+    {
+      "name": "DeEsser:1 On/Off R",
+      "type": "",
+      "category": "",
+      "part": "DeEsser 1 R"
+    },
+    {
+      "name": "DeEsser:1 Frequency R",
+      "type": "",
+      "category": "",
+      "part": "DeEsser 1 R"
+    },
+    {
+      "name": "DeEsser:2 Threshold",
+      "type": "",
+      "category": "",
+      "part": "DeEsser 2"
+    },
+    {
+      "name": "DeEsser:2 Threshold R",
+      "type": "",
+      "category": "",
+      "part": "DeEsser 2 R"
+    },
+    {
+      "name": "DeEsser:2 Type",
+      "type": "",
+      "category": "",
+      "part": "DeEsser 2"
+    },
+    {
+      "name": "DeEsser:2 Type R",
+      "type": "",
+      "category": "",
+      "part": "DeEsser 2 R"
+    },
+    {
+      "name": "DeEsser:2 Monitor",
+      "type": "",
+      "category": "",
+      "part": "DeEsser 2"
+    },
+    {
+      "name": "DeEsser:2 Monitor R",
+      "type": "",
+      "category": "",
+      "part": "DeEsser 2 R"
+    },
+    {
+      "name": "DeEsser:2 On/Off",
+      "type": "",
+      "category": "",
+      "part": "DeEsser 2"
+    },
+    {
+      "name": "DeEsser:2 Frequency",
+      "type": "",
+      "category": "",
+      "part": "DeEsser 2"
+    },
+    {
+      "name": "DeEsser:2 On/Off R",
+      "type": "",
+      "category": "",
+      "part": "DeEsser 2 R"
+    },
+    {
+      "name": "DeEsser:2 Frequency R",
+      "type": "",
+      "category": "",
+      "part": "DeEsser 2 R"
+    },
+    {
+      "name": "DeEsser:Output",
+      "type": "",
+      "category": "",
+      "part": "DeEsser 1"
+    },
+    {
+      "name": "DeEsser:Output R",
+      "type": "",
+      "category": "",
+      "part": "DeEsser 1 R"
+    },
+    {
+      "name": "DeEsser:DeEsser Range",
+      "type": "",
+      "category": "",
+      "part": "DeEsser 1"
+    },
+    {
+      "name": "DeEsser:Attack",
+      "type": "",
+      "category": "",
+      "part": "DeEsser 1"
+    },
+    {
+      "name": "DeEsser:RefAtt",
+      "type": "",
+      "category": "",
+      "part": "DeEsser 1"
+    },
+    {
+      "name": "DeEsser:Release",
+      "type": "",
+      "category": "",
+      "part": "DeEsser 1"
+    },
+    {
+      "name": "DeEsser:ExtSC",
+      "type": "",
+      "category": "",
+      "part": "DeEsser 1"
+    },
+    {
+      "name": "DeEsser:Stereo Mode",
+      "type": "",
+      "category": "",
+      "part": "DeEsser 1"
+    },
+    {
+      "name": "DeEsser:Solo Activate",
+      "type": "",
+      "category": "",
+      "part": "DeEsser 1"
+    },
+    {
+      "name": "EQ:On/Off",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "EQ:Size",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "EQ:ST Mode",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "EQ:LF On/Off",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "EQ:LF Filter Type",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "EQ:LF Q",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "EQ:LF Frequency",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "EQ:LF Gain",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "EQ:Tone On/Off",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "EQ:Tone Filter Type",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "EQ:Tone Q",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "EQ:Tone Frequency",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "EQ:Tone Gain",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "EQ:Mid On/Off",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "EQ:Mid Filter Type",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "EQ:Mid Q",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "EQ:Mid Frequency",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "EQ:Mid Gain",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "EQ:HF On/Off",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "EQ:HF Filter Type",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "EQ:HF Q",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "EQ:HF Frequency",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "EQ:HF Gain",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "EQ:Solo Activate",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "EQ:Link",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "EQ:LF On/Off R",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "EQ:LF Filter Type R",
+      "type": "",
+      "category": "",
+      "part": "EQ"
+    },
+    {
+      "name": "EQ:LF Q R",
+      "type": "",
+      "category": "",
+      "part": "EQ R"
+    },
+    {
+      "name": "EQ:LF Frequency R",
+      "type": "",
+      "category": "",
+      "part": "EQ R"
+    },
+    {
+      "name": "EQ:LF Gain R",
+      "type": "",
+      "category": "",
+      "part": "EQ R"
+    },
+    {
+      "name": "EQ:Tone On/Off R",
+      "type": "",
+      "category": "",
+      "part": "EQ R"
+    },
+    {
+      "name": "EQ:Tone Filter Type R",
+      "type": "",
+      "category": "",
+      "part": "EQ R"
+    },
+    {
+      "name": "EQ:Tone Q R",
+      "type": "",
+      "category": "",
+      "part": "EQ R"
+    },
+    {
+      "name": "EQ:Tone Frequency R",
+      "type": "",
+      "category": "",
+      "part": "EQ R"
+    },
+    {
+      "name": "EQ:Tone Gain R",
+      "type": "",
+      "category": "",
+      "part": "EQ R"
+    },
+    {
+      "name": "EQ:Mid On/Off R",
+      "type": "",
+      "category": "",
+      "part": "EQ R"
+    },
+    {
+      "name": "EQ:Mid Filter Type R",
+      "type": "",
+      "category": "",
+      "part": "EQ R"
+    },
+    {
+      "name": "EQ:Mid Q R",
+      "type": "",
+      "category": "",
+      "part": "EQ R"
+    },
+    {
+      "name": "EQ:Mid Frequency R",
+      "type": "",
+      "category": "",
+      "part": "EQ R"
+    },
+    {
+      "name": "EQ:Mid Gain R",
+      "type": "",
+      "category": "",
+      "part": "EQ R"
+    },
+    {
+      "name": "EQ:HF On/Off R",
+      "type": "",
+      "category": "",
+      "part": "EQ R"
+    },
+    {
+      "name": "EQ:HF Filter Type R",
+      "type": "",
+      "category": "",
+      "part": "EQ R"
+    },
+    {
+      "name": "EQ:HF Q R",
+      "type": "",
+      "category": "",
+      "part": "EQ R"
+    },
+    {
+      "name": "EQ:HF Frequency R",
+      "type": "",
+      "category": "",
+      "part": "EQ R"
+    },
+    {
+      "name": "EQ:HF Gain R",
+      "type": "",
+      "category": "",
+      "part": "EQ R"
+    },
+    {
+      "name": "Insert::On/Off",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Pitch Bend",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "After Touch",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Bank Select",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Modulation Wheel",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Breath Controller",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Foot Controller",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Portamento Time",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Data Entry",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Channel Volume",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Balance",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Pan Position",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Expression Control",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Effect Control 1",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Effect Control 2",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "General Control 1",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "General Control 2",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "General Control 3",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "General Control 4",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Data Entry",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Sustain Pedal On/Off",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Portamento On/Off",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Sostenuto Pedal On/Off",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Soft Pedal On/Off",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Legato Pedal On/Off",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Hold2 Pedal On/Off",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Sound Variation",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Timbre",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Release Time",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Attack Time",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Brightness",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Sound Control 6",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Sound Control 7",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Sound Control 8",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Sound Control 9",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Sound Control 10",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "General Control 5",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "General Control 6",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "General Control 7",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "General Control 8",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Portamento Source",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Reverb Depth",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Tremolo Depth",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Chorus Depth",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Celeste Depth",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Phaser Depth",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Data Increment",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Data Decrement",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "NRPN 1",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "NRPN 2",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "RPN 1",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "RPN 2",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "All Sound Off",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Reset All",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Local Control On/Off",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "All Notes Off",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Omni Mode Off",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Omni Mode On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Mono Mode On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Poly Mode On",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Bypass",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Wet",
+      "type": "",
+      "category": "",
+      "part": ""
+    },
+    {
+      "name": "Delta",
+      "type": "",
+      "category": "",
+      "part": ""
+    }
+  ],
+  "parts": [
+    "General",
+    "Limit",
+    "Pre",
+    "Gate",
+    "Pre R",
+    "Gate R",
+    "Comp",
+    "Comp R",
+    "DeEsser 1",
+    "DeEsser 1 R",
+    "DeEsser 2",
+    "DeEsser 2 R",
+    "EQ",
+    "EQ R"
+  ],
+  "type": "channel"
+}

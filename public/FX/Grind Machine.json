@@ -1,0 +1,101 @@
+{
+    "vstName": "Grind Machine",
+    "parameters": [
+      {
+        "name": "Preset",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Gain",
+        "type": ""
+      },
+      {
+        "name": "Bass",
+        "type": ""
+      },
+      {
+        "name": "Mid",
+        "type": ""
+      },
+      {
+        "name": "Treble",
+        "type": ""
+      },
+      {
+        "name": "Depth",
+        "type": ""
+      },
+      {
+        "name": "Presence",
+        "type": ""
+      },
+      {
+        "name": "Amp",
+        "type": ""
+      },
+      {
+        "name": "Cab",
+        "type": ""
+      },
+      {
+        "name": "Input",
+        "type": ""
+      },
+      {
+        "name": "Output",
+        "type": ""
+      },
+      {
+        "name": "Highpass",
+        "type": ""
+      },
+      {
+        "name": "Lowpass",
+        "type": ""
+      },
+      {
+        "name": "Gate",
+        "type": ""
+      },
+      {
+        "name": "Pedal",
+        "type": ""
+      },
+      {
+        "name": "Pedal Gain",
+        "type": ""
+      },
+      {
+        "name": "Pedal Tighten",
+        "type": ""
+      },
+      {
+        "name": "Pedal Volume",
+        "type": ""
+      },
+      {
+        "name": "Cab Enabled",
+        "type": ""
+      },
+      {
+        "name": "Page",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }

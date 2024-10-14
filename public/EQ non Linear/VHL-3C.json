@@ -1,0 +1,33 @@
+{
+    "vstName": "VHL-3C",
+    "parameters": [
+      {
+        "name": "Power",
+        "type": ""
+      },
+      {
+        "name": "LoCutFrq",
+        "type": ""
+      },
+      {
+        "name": "HiCutFrq",
+        "type": ""
+      },
+      {
+        "name": "Load Z",
+        "type": ""
+      },
+      {
+        "name": "Bypass",
+        "type": ""
+      },
+      {
+        "name": "Wet",
+        "type": ""
+      },
+      {
+        "name": "Delta",
+        "type": ""
+      }
+    ]
+  }
