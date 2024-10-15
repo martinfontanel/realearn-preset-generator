@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 import { VstParameters } from '@interfaces/vst-parameters';
 import { Parameter } from '@interfaces/parameter';
 import { TypeVst } from '@enums/type-vst';
-import { DoubleClickModifyComponent } from '../../common/double-click-modify/double-click-modify.component';
+import { SmartInputComponent } from '@common/smart-input/smart-input.component';
 
 interface ParamsByPart {
   partName?: string;
@@ -19,7 +19,7 @@ interface ParamsByPart {
 @Component({
   selector: 'home',
   standalone: true,
-  imports: [ListSelectComponent, DoubleClickModifyComponent],
+  imports: [ListSelectComponent, SmartInputComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })

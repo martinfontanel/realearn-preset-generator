@@ -14,13 +14,13 @@ import {
 } from '@common/list-select/list-select.component';
 
 @Component({
-  selector: 'double-click-modify',
+  selector: 'smart-input',
   standalone: true,
   imports: [ListSelectComponent, FormsModule],
-  templateUrl: './double-click-modify.component.html',
-  styleUrl: './double-click-modify.component.scss',
+  templateUrl: './smart-input.component.html',
+  styleUrl: './smart-input.component.scss',
 })
-export class DoubleClickModifyComponent {
+export class SmartInputComponent {
   /** INPUTS */
   @Input() value: any; // la valeur à afficher ou modifier
   @Input() optionList?: ListSelect[]; // les options à affichersi présent on a une liste déroulante
@@ -36,19 +36,44 @@ export class DoubleClickModifyComponent {
 
   /** variables de gestion */
   valueModifiy: boolean = false; // true si la valeur est en cour de modification
+  addNewElement: boolean = false; // true si la valeur est vide
+  formerValue: any; // valeur d'origine en cas d'erreur
+
+  ngOnInit(): void {
+    this.formerValue = this.value;
+    this.verifValue();
+  }
+
+  /** on vérifie la veleur du champs */
+  verifValue(): boolean {
+    let toReturn: boolean;
+    switch (this.value) {
+      case undefined:
+        this.addNewElement = true;
+        toReturn = false;
+        break;
+      case '':
+        this.value = this.formerValue;
+        toReturn = false;
+        break;
+      default:
+        this.valueModifiy = false;
+        toReturn = true;
+    }
+    return toReturn;
+  }
 
   /** émission de la valeur vers le parent */
   change(value: any) {
-    if (this.valueModifiy) {
+    if (this.valueModifiy && this.verifValue()) {
       this.valueEmit.emit(value);
-      this.valueModifiy = false;
     }
   }
 
   /** annulation via touche escape */
   @HostListener('document:keydown.escape', ['$event'])
   onEscapeKeydown(event: KeyboardEvent) {
-    this.valueModifiy = false;
+    this.verifValue();
   }
 
   /** soumission avec la touche enter */
@@ -62,16 +87,16 @@ export class DoubleClickModifyComponent {
   onGlobalClick(event: Event): void {
     if (this.input) {
       if (!this.input.nativeElement.contains(event.target)) {
-        this.valueModifiy = false;
+        this.verifValue();
       }
     }
     if (this.listSelect) {
       if (!this.listSelect.nativeElement.contains(event.target)) {
-        this.valueModifiy = false;
+        this.verifValue();
       }
     }
   }
-
+  /** on gère le double clic sur les champs */
   @HostListener('dblclick', ['$event'])
   onDoubleClick(event: MouseEvent) {
     this.valueModifiy = true;
