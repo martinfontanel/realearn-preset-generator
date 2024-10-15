@@ -1,0 +1,23 @@
+:host {
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    background-color: rgb(182, 211, 201);
+  }
+  span,
+  input {
+    width: 50px;
+    height: 1em;
+  }
+  button {
+    height: 1em;
+    width: 1.5em;
+    border: none;
+    margin: 0 0.5em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    cursor: pointer;
+  }
+}

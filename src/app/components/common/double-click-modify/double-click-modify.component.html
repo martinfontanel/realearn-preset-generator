@@ -1,15 +1,31 @@
-@if (value === undefined || value === '' || valueModifiy){ @if(!optionList){
-<input [(ngModel)]="value" (change)="change($event)" />
+@if (valueModifiy){ @if(!optionList){
+<input [(ngModel)]="value" (change)="change($event)" #input />
 } @else {
-<list-select
-  [optionList]="optionList"
-  (valueEmit)="change($event)"
-  [inputSelect]="value"
-/>
+<span #listSelect>
+  <list-select
+    [optionList]="optionList"
+    (valueEmit)="change($event)"
+    [inputSelect]="value"
+  />
+</span>
+
+} @if(showButtons){
+<button
+  (click)="valueModifiy = true"
+  style="background-image: url(/img/check.svg)"
+></button>
+<button
+  (click)="valueModifiy = false"
+  style="background-image: url(/img/cancel.svg)"
+></button>
 } } @else {
 <span
-  (dblclick)="valueModifiy = true"
   title="{{ toolTipText ? toolTipText : 'double cliquez pour modifier' }}"
-  >{{ value }}</span
+  >{{ value === "" || value === undefined ? "..." : value }}</span
 >
-}
+@if(showButtons){
+<button
+  (click)="valueModifiy = true"
+  style="background-image: url(/img/edit.svg)"
+></button>
+} }
