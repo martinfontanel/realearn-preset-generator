@@ -87,13 +87,11 @@ export class HomeComponent {
       this.paramsByPart.push({ params: this.paramsWthoutPart });
       this.fileLoaded = true;
     }
-    console.log(this.vstHandler.loadedVst);
   }
 
   changeTypeVst(type: { value: any; id: any }) {
     const { value } = type;
     this.type = value;
-    if (this.vstHandler.loadedVst) this.vstHandler.loadedVst.type = value;
   }
 
   /** cette fonction buggue */
@@ -111,19 +109,5 @@ export class HomeComponent {
       this.vstHandler.loadedVst!.parameters[val].part = value;
     });
     this.vstHandler.loadedVst.parts = this.parts!;
-  }
-
-  setParamType(type: { value: any; id: any }) {
-    const { value, id } = type;
-    console.log(type);
-    console.log('this.vstHandler.loadedVst', this.vstHandler.loadedVst);
-    this.vstHandler.loadedVst.parameters[id].type = value;
-    this.initVst();
-  }
-
-  setParamPart(part: { value: any; id: any }) {
-    const { value, id } = part;
-    this.vstHandler.loadedVst.parameters[id].part = value;
-    this.initVst();
   }
 }

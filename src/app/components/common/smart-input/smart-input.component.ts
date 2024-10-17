@@ -53,10 +53,12 @@ export class SmartInputComponent {
         this.addNewElement = true;
         toReturn = false;
         break;
+      case '[object Event]':
       case '':
         this.value = this.formerValue;
         toReturn = false;
         break;
+
       default:
         this.valueModifiy = false;
         toReturn = true;
@@ -65,9 +67,10 @@ export class SmartInputComponent {
   }
 
   /** émission de la valeur vers le parent */
-  change(value: any) {
+  change(event: Event) {
+    this.value = event.toString();
     if (this.valueModifiy && this.verifValue()) {
-      this.valueEmit.emit({ value: value, id: this.id });
+      this.valueEmit.emit({ value: this.value, id: this.id });
     }
   }
 
