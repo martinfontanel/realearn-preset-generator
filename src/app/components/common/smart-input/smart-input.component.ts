@@ -26,6 +26,7 @@ export class SmartInputComponent {
   @Input() optionList?: ListSelect[]; // les options à affichersi présent on a une liste déroulante
   @Input() toolTipText?: string; // texte à afficher dans le tooltip
   @Input() showButtons?: boolean = false; // si true affiche les boutons
+  @Input() id?: any; // à transmettre au parent
 
   /** VIEWCHILDS */
   @ViewChild('input') input!: ElementRef;
@@ -66,7 +67,7 @@ export class SmartInputComponent {
   /** émission de la valeur vers le parent */
   change(value: any) {
     if (this.valueModifiy && this.verifValue()) {
-      this.valueEmit.emit(value);
+      this.valueEmit.emit({ value: value, id: this.id });
     }
   }
 

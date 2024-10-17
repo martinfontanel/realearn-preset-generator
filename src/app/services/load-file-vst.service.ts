@@ -24,9 +24,12 @@ export class LoadFileVstService {
           data.parameters[id] = { ...value, id };
         });
         /** on ordonne les parts */
-        data.parts.sort((a: any, b: any) => {
-          return a < b ? -1 : 1;
-        });
+        if (data.parts) {
+          data.parts.sort((a: any, b: any) => {
+            return a < b ? -1 : 1;
+          });
+        }
+
         return data;
       })
     );

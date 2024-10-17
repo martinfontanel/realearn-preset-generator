@@ -1,1 +1,1 @@
-export const typeParam: string[] = ['knob', 'button', 'indent', ''];
+export const typeParam: string[] = ['knob', 'button', 'indent'];

@@ -15,10 +15,19 @@
     <h2>Parties du VST</h2>
     @for(part of paramsByPart; track $index){
     <div class="part">
-      <smart-input (valueEmit)="changePart($event)" [value]="part.partName" />
+      <smart-input
+        (valueEmit)="changePart($event)"
+        [value]="part.partName"
+        [id]="$index"
+      />
     </div>
     }
     <h2>Paramètres sans partie</h2>
+    <parameter-list
+      [parameters]="paramsWthoutPart"
+      [parts]="parts!"
+      [initVstParent]="initVst"
+    />
     }
   </div>
 </div>

@@ -86,22 +86,13 @@
       "part": "General"
     },
     {
-      "name": "Bypass",
-      "type": "",
-      "category": "",
-      "part": ""
+      "name": "Bypass"
     },
     {
-      "name": "Wet",
-      "type": "",
-      "category": "",
-      "part": ""
+      "name": "Wet"
     },
     {
-      "name": "Delta",
-      "type": "",
-      "category": "",
-      "part": ""
+      "name": "Delta"
     }
   ],
   "type": "dyn",

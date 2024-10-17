@@ -1,0 +1,39 @@
+<ul>
+  <li class="parameter header">
+    <div>nom</div>
+    <div class="type">type</div>
+    <div>catégorie</div>
+    <div>Partie</div>
+  </li>
+  @for(param of parameters; track $index){
+  <li class="parameter">
+    <label [for]="param.name">{{ param.name }}</label>
+    <smart-input
+      [optionList]="typeParam"
+      [value]="param.type"
+      [id]="param.id"
+      (valueEmit)="setParamType($event)"
+    />
+    <div>
+      @if(param.type){
+      <smart-input
+        [optionList]="paramCatsFiltered()"
+        [value]="param.category"
+        [id]="param.id"
+        (valueEmit)="setParamCat($event)"
+      />
+      } @else {
+      <span>Choisissez un type avant</span>
+      }
+    </div>
+    <div>
+      <smart-input
+        [optionList]="partsForSelect"
+        [value]="param.part"
+        [id]="param.id"
+        (valueEmit)="setParamPart($event)"
+      />
+    </div>
+  </li>
+  }
+</ul>
