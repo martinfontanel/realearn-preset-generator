@@ -5,7 +5,7 @@
     <div>catégorie</div>
     <div>Partie</div>
   </li>
-  @for(param of parameters; track $index){
+  @for(param of parameters; track param.id){
   <li class="parameter">
     <label [for]="param.name">{{ param.name }}</label>
     <smart-input
