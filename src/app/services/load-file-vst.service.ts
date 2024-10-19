@@ -17,21 +17,6 @@ export class LoadFileVstService {
 
   /** vst info loader */
   getVSTData() {
-    return this.http.get<any>(this.url + '.json').pipe(
-      /** on ajoute un ID pour chaque paramètre pour l'ordre */
-      map((data: any) => {
-        data.parameters.map((value: any, id: number) => {
-          data.parameters[id] = { ...value, id };
-        });
-        /** on ordonne les parts */
-        if (data.parts) {
-          data.parts.sort((a: any, b: any) => {
-            return a < b ? -1 : 1;
-          });
-        }
-
-        return data;
-      })
-    );
+    return this.http.get<any>(this.url + '.json');
   }
 }

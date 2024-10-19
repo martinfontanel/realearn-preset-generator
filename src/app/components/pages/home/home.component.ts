@@ -6,7 +6,7 @@ import {
 import { Component } from '@angular/core';
 import { LoadFileVstService } from '@services/load-file-vst.service';
 import { files } from '@consts/files';
-import { Observable } from 'rxjs';
+import { BehaviorSubject, Observable } from 'rxjs';
 import { VstParameters } from '@interfaces/vst-parameters';
 import { Parameter } from '@interfaces/parameter';
 import { TypeVst } from '@enums/type-vst';
@@ -17,6 +17,9 @@ interface ParamsByPart {
   partName?: string;
   params: Parameter[];
 }
+
+const emptyParamsByBart: ParamsByPart[] = [];
+const emptyParameters: Parameter[] = [];
 
 @Component({
   selector: 'home',
@@ -42,8 +45,14 @@ export class HomeComponent {
   vstName: string = ''; // nom du VST
   type?: TypeVst; // type de VST
   parts?: string[]; // les parties du VST
-  paramsByPart: ParamsByPart[] = []; // tri des parametres de VST par partie
-  paramsWthoutPart: Parameter[] = []; // list des paramètres sans partie
+  //paramsByPart: ParamsByPart[] = []; // tri des parametres de VST par partie
+  paramsByPart: BehaviorSubject<ParamsByPart[]> = new BehaviorSubject(
+    emptyParamsByBart
+  ); // tri des parametres de VST par partie
+  //paramsWthoutPart: Parameter[] = []; // list des paramètres sans partie
+  paramsWthoutPart: BehaviorSubject<Parameter[]> = new BehaviorSubject(
+    emptyParameters
+  ); // list des paramètres sans partie
 
   constructor(
     loadFileVstService: LoadFileVstService,
@@ -67,12 +76,12 @@ export class HomeComponent {
 
   /** initialise les infos du Vst et les variables */
   initVst() {
-    this.paramsByPart = [];
-    this.paramsWthoutPart = [];
+    let myParamsByPart: ParamsByPart[] = [];
+    let myParamsWthoutPart: Parameter[] = [];
     if (this.vstHandler.loadedVst) {
       this.type = this.vstHandler.loadedVst.type;
       this.parts = this.vstHandler.loadedVst.parts;
-      this.paramsWthoutPart = [...this.vstHandler.loadedVst.parameters].filter(
+      myParamsWthoutPart = [...this.vstHandler.loadedVst.parameters].filter(
         (val) => val.part === '' || !val.part
       );
       if (this.vstHandler.loadedVst.parts) {
@@ -80,11 +89,12 @@ export class HomeComponent {
           let paramsArray: Parameter[] = [
             ...this.vstHandler.loadedVst.parameters,
           ].filter((val_) => val_.part === val);
-          this.paramsByPart.push({ partName: val, params: paramsArray });
+          myParamsByPart.push({ partName: val, params: paramsArray });
         });
       }
 
-      this.paramsByPart.push({ params: this.paramsWthoutPart });
+      this.paramsByPart.next(myParamsByPart);
+      this.paramsWthoutPart.next(myParamsWthoutPart);
       this.fileLoaded = true;
     }
   }
@@ -97,10 +107,11 @@ export class HomeComponent {
   /** cette fonction buggue */
   changePart(partChangeInfo: { value: any; id: any }) {
     const { value, id } = partChangeInfo;
+    let myParamsByPart: ParamsByPart[] = this.paramsByPart.value;
     let idParams: number[] = [];
-    this.paramsByPart[id].partName = value;
+    myParamsByPart[id].partName = value;
     this.parts![id] = value;
-    this.paramsByPart[id].params.map((val) => {
+    myParamsByPart[id].params.map((val) => {
       val.part = value;
       if (val.id) idParams.push(val.id);
     });
@@ -109,5 +120,6 @@ export class HomeComponent {
       this.vstHandler.loadedVst!.parameters[val].part = value;
     });
     this.vstHandler.loadedVst.parts = this.parts!;
+    this.paramsByPart.next(myParamsByPart);
   }
 }

@@ -4,7 +4,8 @@ import { Parameter } from './parameter';
 export interface VstParameters {
   vstName: string;
   type: TypeVst;
-  parts: string[];
+  parts?: string[];
   parameters: Parameter[];
-  linkPartParam: any[][];
+  paramsByPart?: any;
+  paramsWthoutPart?: any;
 }

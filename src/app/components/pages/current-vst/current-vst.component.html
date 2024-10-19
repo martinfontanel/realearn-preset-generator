@@ -1,0 +1,20 @@
+<list-select [optionList]="files" (valueEmit)="loadFile($event)" />
+@if(vstHandler.VstData){
+<div>
+  {{ (currentVst$ | async)?.vstName }}
+</div>
+<div>
+  {{ (currentVst$ | async)?.type }}
+</div>
+
+@for(part of parts; track $index ){
+<div>{{ part }}</div>
+} @if(vstHandler.paramsWthoutPart.getValue()){
+<h2>Paramètres sans partie</h2>
+<parameter-list
+  [parameters]="vstHandler.paramsWthoutPart.getValue()"
+  [parts]="parts"
+  [initVstParent]="setCurrentVstInfos"
+/>
+} }
+<button (click)="updateVst()">bonjour</button>
