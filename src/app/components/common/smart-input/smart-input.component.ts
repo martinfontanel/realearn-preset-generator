@@ -68,7 +68,7 @@ export class SmartInputComponent {
 
   /** émission de la valeur vers le parent */
   change(event: Event) {
-    this.value = event.toString();
+    if (this.listSelect) this.value = event;
     if (this.valueModifiy && this.verifValue()) {
       this.valueEmit.emit({ value: this.value, id: this.id });
     }
