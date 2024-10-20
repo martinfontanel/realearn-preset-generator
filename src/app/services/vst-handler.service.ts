@@ -10,6 +10,7 @@ interface ParamsByPart {
 }
 const paramByPart: ParamsByPart[] = [];
 const params: Parameter[] = [];
+const parts: string[] = [];
 
 @Injectable({
   providedIn: 'root',
@@ -21,20 +22,34 @@ export class VstHandlerService {
   currentVst!: VstParameters;
   loadFile: LoadFileVstService;
   VstData: boolean = false;
+
+  /** données dynamiques */
+  parts: BehaviorSubject<string[]> = new BehaviorSubject(parts);
   paramsByPart: BehaviorSubject<ParamsByPart[]> = new BehaviorSubject(
     paramByPart
   );
   paramsWthoutPart: BehaviorSubject<Parameter[]> = new BehaviorSubject(params);
+  type: BehaviorSubject<string> = new BehaviorSubject('');
 
   constructor(loadFile: LoadFileVstService) {
     this.loadFile = loadFile;
   }
+
+  /** on set les Behaviorsubject issues de l'ibservable pour un traitement dynamique */
   setParamsByPart(paramByPart: ParamsByPart[]) {
     this.paramsByPart.next(paramByPart);
   }
 
   setParamsWthoutPart(params: Parameter[]) {
     this.paramsWthoutPart.next(params);
+  }
+
+  setParts(parts: string[]) {
+    this.parts.next(parts);
+  }
+
+  setType(type: string) {
+    this.type.next(type);
   }
 
   initCurrentVst(url: string) {
@@ -61,22 +76,11 @@ export class VstHandlerService {
       data.parts.sort((a: any, b: any) => {
         return a < b ? -1 : 1;
       });
-      /** on crée le tableau des paramètres avec partie */
-      data.paramsByPart = [];
-      data.parts.map((val: any) => {
-        data.paramsByPart.push({
-          partName: val,
-          params: [...data.parameters].filter((val_) => val_.part === val),
-        });
-      });
     }
-    /** on crée le tableau des paramètres sans partie */
-    data.paramsWthoutPart = [...data.parameters].filter(
-      (val) => val.part === '' || !val.part
-    );
     return data;
   }
 
+  /** on applique les changements */
   setParamType(value: any, id: any) {
     this.currentVst.parameters[id].type = value;
     this.updateCurrentVst(of(this.currentVst));
@@ -84,6 +88,11 @@ export class VstHandlerService {
 
   setParamPart(value: any, id: any) {
     this.currentVst.parameters[id].part = value;
+    this.updateCurrentVst(of(this.currentVst));
+  }
+
+  setParamCat(value: any, id: any) {
+    this.currentVst.parameters[id].category = value;
     this.updateCurrentVst(of(this.currentVst));
   }
 }

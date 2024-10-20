@@ -1,26 +1,48 @@
 <list-select [optionList]="files" (valueEmit)="loadFile($event)" />
-@if(vstHandler.VstData){
-<div>
-  {{ (currentVst$ | async)?.vstName }}
-</div>
-<div>
-  {{ (currentVst$ | async)?.type }}
-</div>
+<div class="content">
+  <div class="form">
+    @if(vstHandler.VstData){
+    <h1>
+      {{ (currentVst$ | async)?.vstName }}
+    </h1>
+    <div>
+      type :
+      <smart-input
+        [optionList]="listVstTypes"
+        (valueEmit)="changeTypeVst($event)"
+        [value]="vstHandler.type.getValue()"
+      />
+    </div>
 
-@for(part of (currentVst$ | async)?.parts; track $index ){
-<div>{{ part }}</div>
-<parameter-list
-  [parameters]="vstHandler.paramsByPart.getValue()[$index].params"
-  [parts]="parts"
-  [initVstParent]="setCurrentVstInfos"
-/>
+    @for(part of vstHandler.paramsByPart.getValue(); track $index ){
+    <h2>
+      <smart-input
+        (valueEmit)="changePart($event)"
+        [value]="part.partName"
+        [id]="$index"
+      />
+    </h2>
+    <parameter-list
+      [parameters]="vstHandler.paramsByPart.getValue()[$index].params"
+      [parts]="parts"
+      [initVstParent]="setCurrentVstInfos"
+    />
 
-} @if(vstHandler.paramsWthoutPart.getValue()){
-<h2>Paramètres sans partie</h2>
-<parameter-list
-  [parameters]="vstHandler.paramsWthoutPart.getValue()"
-  [parts]="parts"
-  [initVstParent]="setCurrentVstInfos"
-/>
-} }
-<button (click)="updateVst()">bonjour</button>
+    }
+    <div>
+      <smart-input
+        (valueEmit)="addPart($event)"
+        [id]="vstHandler.paramsByPart.getValue().length"
+        [resetWhenSubmitted]="true"
+      />
+    </div>
+    @if(vstHandler.paramsWthoutPart.getValue().length > 0){
+    <h2>Paramètres sans partie</h2>
+    <parameter-list
+      [parameters]="vstHandler.paramsWthoutPart.getValue()"
+      [parts]="parts"
+      [initVstParent]="setCurrentVstInfos"
+    />
+    } }
+  </div>
+</div>

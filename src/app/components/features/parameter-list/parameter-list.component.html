@@ -17,7 +17,7 @@
     <div>
       @if(param.type){
       <smart-input
-        [optionList]="paramCatsFiltered()"
+        [optionList]="paramCatsFiltered(param.type)"
         [value]="param.category"
         [id]="param.id"
         (valueEmit)="setParamCat($event)"

@@ -42,6 +42,8 @@ export class CurrentVstComponent {
   url: string = ''; // url du fichier qui sera chargé avec loadFile
   fileLoaded: boolean = false; // true si un fichier est chargé
   currentVst!: VstParameters; // result from loading vst datas
+  listVstTypes: ListSelect[] = [{ children: Object.values(TypeVst) }]; // list des type de VST pour le champs select de type
+  newPartValue: undefined = undefined;
 
   /** */
   parts: string[] = [];
@@ -66,67 +68,73 @@ export class CurrentVstComponent {
       this.currentVst = value;
       this.parts = value.parts ? value.parts : [];
       this.paramsWthoutPart = value.paramsWthoutPart;
-      this.vstHandler.setParamsWthoutPart(value.paramsWthoutPart);
-      this.vstHandler.setParamsByPart(value.paramsByPart);
-      this.vstHandler.VstData = true;
+
+      /** on set les datas complexes */
+      /** paramsWthoutPart */
+      const paramsWthoutPart: Parameter[] = [...value.parameters].filter(
+        (val) => val.part === '' || !val.part
+      );
+      this.vstHandler.setParamsWthoutPart(paramsWthoutPart);
+
+      if (value.parts) {
+        /** parts */
+        this.vstHandler.setParts(value.parts);
+
+        /** paramsByPart */
+        let paramsByPart: ParamsByPart[] = [];
+        value.parts.map((val: any) => {
+          paramsByPart.push({
+            partName: val,
+            params: [...value.parameters].filter((val_) => val_.part === val),
+          });
+        });
+        this.vstHandler.setParamsByPart(paramsByPart);
+      }
+
+      /** type */
+      this.vstHandler.setType(value.type);
+
+      /** currentVst no observable */
       this.vstHandler.setVarCurrentVst(value);
-      console.log(this.vstHandler.paramsByPart.getValue());
+
+      this.vstHandler.VstData = true;
+      console.log('currentVst infos', value);
     });
   }
 
-  updateVst() {
-    this.currentVst = {
-      vstName: 'MJUCjr',
-      parameters: [
-        {
-          name: 'Compress',
-          type: 'knob',
-          category: 'Threshold',
-        },
-        {
-          name: 'Makeup',
-          type: 'knob',
-          category: 'Makeup Gain',
-        },
-        {
-          name: 'Timing',
-          type: 'indent',
-          category: '',
-        },
-        {
-          name: 'VuMode',
-          type: 'button',
-          category: 'VU/GR',
-        },
-        {
-          name: 'Bypass',
-          type: 'button',
-          category: 'Bypass',
-        },
-        {
-          name: 'Bypass',
-          type: 'button',
-          category: 'Bypass',
-        },
-        {
-          name: 'Bypass',
-          type: '',
-          category: '',
-        },
-        {
-          name: 'Wet',
-          type: '',
-          category: '',
-        },
-        {
-          name: 'Delta',
-          type: '',
-          category: '',
-        },
-      ],
-      type: TypeVst.Dyn,
-    };
-    this.vstHandler.updateCurrentVst(of(this.currentVst));
+  addPart(part: { value: any; id: any }) {
+    const { value, id } = part;
+    if (!this.vstHandler.currentVst.parts)
+      this.vstHandler.currentVst.parts = [];
+    this.newPartValue = undefined;
+    this.vstHandler.currentVst.parts.push(value);
+    this.vstHandler.updateCurrentVst(of(this.vstHandler.currentVst));
+    this.setCurrentVstInfos();
+  }
+
+  changeTypeVst(type: { value: any; id: any }) {
+    const { value } = type;
+    this.vstHandler.setType(value);
+    this.vstHandler.currentVst.type = value;
+    this.vstHandler.updateCurrentVst(of(this.vstHandler.currentVst));
+    this.setCurrentVstInfos();
+  }
+
+  changePart(partChangeInfo: { value: any; id: any }) {
+    const { value, id } = partChangeInfo;
+    let myParams: Parameter[] = [];
+    let idParams: number[] = [];
+    this.vstHandler.paramsByPart.getValue()[id].params.map((val) => {
+      if (val.id) idParams.push(val.id);
+    });
+    idParams.map((val) => {
+      this.vstHandler.currentVst.parameters[val].part = value;
+    });
+
+    if (this.vstHandler.currentVst.parts)
+      this.vstHandler.currentVst.parts[id] = value;
+
+    this.vstHandler.updateCurrentVst(of(this.vstHandler.currentVst));
     this.setCurrentVstInfos();
   }
 }

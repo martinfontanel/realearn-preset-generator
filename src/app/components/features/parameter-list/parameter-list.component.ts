@@ -6,7 +6,6 @@ import { SmartInputComponent } from '@common/smart-input/smart-input.component';
 import { typeParam } from '@consts/type-param';
 import { ListSelect } from '@common/list-select/list-select.component';
 import { paramCats } from '@consts/param-cat';
-import { of } from 'rxjs';
 
 @Component({
   selector: 'parameter-list',
@@ -38,8 +37,17 @@ export class ParameterListComponent {
     this.partsForSelect = [{ children: this.parts }];
   }
 
-  paramCatsFiltered(): ListSelect[] {
-    return [];
+  paramCatsFiltered(type: string): ListSelect[] {
+    let toReturn: ListSelect[] = [];
+    this.paramCats.map((value) => {
+      const groupName: string = value.categoryName;
+      let children: string[] = [];
+      value.childrenParam?.map((val) => {
+        if (val.type === type) children.push(val.paramName);
+      });
+      toReturn.push({ groupName: groupName, children: children });
+    });
+    return toReturn;
   }
 
   setParamType(type: { value: any; id: any }) {
@@ -50,16 +58,13 @@ export class ParameterListComponent {
 
   setParamCat(cat: { value: any; id: any }) {
     const { value, id } = cat;
-    //this.vstHandler.loadedVst.parameters[id].category = value;
+    this.vstHandler.setParamCat(value, id);
     this.initVstParent();
   }
 
-  async setParamPart(part: { value: any; id: any }) {
+  setParamPart(part: { value: any; id: any }) {
     const { value, id } = part;
-    //this.vstHandler.setParamPart(value, id);
-    this.vstHandler.VstData = false;
-    this.vstHandler.currentVst.parameters[id].part = value;
-    this.vstHandler.updateCurrentVst(of(this.vstHandler.currentVst));
+    this.vstHandler.setParamPart(value, id);
     this.initVstParent();
   }
 }

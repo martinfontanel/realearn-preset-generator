@@ -27,6 +27,7 @@ export class SmartInputComponent {
   @Input() toolTipText?: string; // texte à afficher dans le tooltip
   @Input() showButtons?: boolean = false; // si true affiche les boutons
   @Input() id?: any; // à transmettre au parent
+  @Input() resetWhenSubmitted: boolean = false; // reviens à undefined quand la valeur est définie
 
   /** VIEWCHILDS */
   @ViewChild('input') input!: ElementRef;
@@ -71,6 +72,10 @@ export class SmartInputComponent {
     if (this.listSelect) this.value = event;
     if (this.valueModifiy && this.verifValue()) {
       this.valueEmit.emit({ value: this.value, id: this.id });
+    }
+    if (this.resetWhenSubmitted) {
+      this.value = undefined;
+      this.addNewElement = true;
     }
   }
 
