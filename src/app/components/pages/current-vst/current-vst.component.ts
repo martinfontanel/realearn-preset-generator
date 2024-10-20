@@ -67,9 +67,10 @@ export class CurrentVstComponent {
       this.parts = value.parts ? value.parts : [];
       this.paramsWthoutPart = value.paramsWthoutPart;
       this.vstHandler.setParamsWthoutPart(value.paramsWthoutPart);
+      this.vstHandler.setParamsByPart(value.paramsByPart);
       this.vstHandler.VstData = true;
       this.vstHandler.setVarCurrentVst(value);
-      console.log(value);
+      console.log(this.vstHandler.paramsByPart.getValue());
     });
   }
 

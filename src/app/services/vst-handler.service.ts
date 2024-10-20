@@ -8,7 +8,7 @@ interface ParamsByPart {
   partName?: string;
   params: Parameter[];
 }
-const paramByPart: ParamsByPart = { partName: '', params: [] };
+const paramByPart: ParamsByPart[] = [];
 const params: Parameter[] = [];
 
 @Injectable({
@@ -21,7 +21,7 @@ export class VstHandlerService {
   currentVst!: VstParameters;
   loadFile: LoadFileVstService;
   VstData: boolean = false;
-  paramsByPart: BehaviorSubject<ParamsByPart> = new BehaviorSubject(
+  paramsByPart: BehaviorSubject<ParamsByPart[]> = new BehaviorSubject(
     paramByPart
   );
   paramsWthoutPart: BehaviorSubject<Parameter[]> = new BehaviorSubject(params);
@@ -29,7 +29,7 @@ export class VstHandlerService {
   constructor(loadFile: LoadFileVstService) {
     this.loadFile = loadFile;
   }
-  setParamsByPart(paramByPart: ParamsByPart) {
+  setParamsByPart(paramByPart: ParamsByPart[]) {
     this.paramsByPart.next(paramByPart);
   }
 

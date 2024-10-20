@@ -7,8 +7,14 @@
   {{ (currentVst$ | async)?.type }}
 </div>
 
-@for(part of parts; track $index ){
+@for(part of (currentVst$ | async)?.parts; track $index ){
 <div>{{ part }}</div>
+<parameter-list
+  [parameters]="vstHandler.paramsByPart.getValue()[$index].params"
+  [parts]="parts"
+  [initVstParent]="setCurrentVstInfos"
+/>
+
 } @if(vstHandler.paramsWthoutPart.getValue()){
 <h2>Paramètres sans partie</h2>
 <parameter-list
