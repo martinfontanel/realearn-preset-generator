@@ -24,7 +24,7 @@
     </h2>
     <parameter-list
       [parameters]="vstHandler.paramsByPart.getValue()[$index].params"
-      [parts]="parts"
+      [parts]="vstHandler.parts.getValue()"
       [initVstParent]="setCurrentVstInfos"
     />
 
@@ -40,7 +40,7 @@
     <h2>Paramètres sans partie</h2>
     <parameter-list
       [parameters]="vstHandler.paramsWthoutPart.getValue()"
-      [parts]="parts"
+      [parts]="vstHandler.parts.getValue()"
       [initVstParent]="setCurrentVstInfos"
     />
     } }

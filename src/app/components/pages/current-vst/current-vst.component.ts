@@ -4,9 +4,8 @@ import {
   ListSelect,
 } from '@common/list-select/list-select.component';
 import { Component } from '@angular/core';
-import { LoadFileVstService } from '@services/load-file-vst.service';
 import { files } from '@consts/files';
-import { BehaviorSubject, Observable, of } from 'rxjs';
+import { Observable, of } from 'rxjs';
 import { VstParameters } from '@interfaces/vst-parameters';
 import { Parameter } from '@interfaces/parameter';
 import { TypeVst } from '@enums/type-vst';
@@ -33,27 +32,15 @@ interface ParamsByPart {
 })
 export class CurrentVstComponent {
   /** pour manipuler les données */
-  loadFileVstService: LoadFileVstService; // loader vst service
   vstHandler: VstHandlerService;
   currentVst$!: Observable<VstParameters>; // result from loading vst datas
 
   /** variables de gestion */
   files: any = files; // noms des fichiers contenant les infos des VST pour le select
-  url: string = ''; // url du fichier qui sera chargé avec loadFile
-  fileLoaded: boolean = false; // true si un fichier est chargé
-  currentVst!: VstParameters; // result from loading vst datas
   listVstTypes: ListSelect[] = [{ children: Object.values(TypeVst) }]; // list des type de VST pour le champs select de type
   newPartValue: undefined = undefined;
 
-  /** */
-  parts: string[] = [];
-  paramsWthoutPart: Parameter[] = [];
-
-  constructor(
-    loadFileVstService: LoadFileVstService,
-    vstHandler: VstHandlerService
-  ) {
-    this.loadFileVstService = loadFileVstService;
+  constructor(vstHandler: VstHandlerService) {
     this.vstHandler = vstHandler;
   }
 
@@ -65,10 +52,6 @@ export class CurrentVstComponent {
   setCurrentVstInfos() {
     this.currentVst$ = this.vstHandler.currentVst$;
     this.currentVst$.subscribe((value) => {
-      this.currentVst = value;
-      this.parts = value.parts ? value.parts : [];
-      this.paramsWthoutPart = value.paramsWthoutPart;
-
       /** on set les datas complexes */
       /** paramsWthoutPart */
       const paramsWthoutPart: Parameter[] = [...value.parameters].filter(
