@@ -8,63 +8,65 @@ import { ListSelect } from '@common/list-select/list-select.component';
 import { paramCats } from '@consts/param-cat';
 
 @Component({
-  selector: 'parameter-list',
-  standalone: true,
-  imports: [SmartInputComponent],
-  templateUrl: './parameter-list.component.html',
-  styleUrl: './parameter-list.component.scss',
+	selector: 'parameter-list',
+	standalone: true,
+	imports: [SmartInputComponent],
+	templateUrl: './parameter-list.component.html',
+	styleUrl: './parameter-list.component.scss',
 })
 export class ParameterListComponent {
-  /** INPUTS */
-  @Input() parameters!: Parameter[]; // les parametres à afficher
-  @Input() parts!: string[]; // les parties
-  @Input() initVstParent!: () => void; // méthode changement de partie
+	/** INPUTS */
+	@Input() parameters!: Parameter[]; // les parametres à afficher
+	@Input() parts!: string[]; // les parties
+	@Input() initVstParent!: () => void; // méthode changement de partie
+	@Input() collapsable?: boolean = false; // retractable
 
-  /** variable de service */
-  vstHandler!: VstHandlerService;
+	/** variable de service */
+	vstHandler!: VstHandlerService;
 
-  /** variables de gestion */
-  paramCats: ParameterCategory[] = paramCats; // les catégories pour afficher dans la liste select (paramCatsFiltered)
+	/** variables de gestion */
+	paramCats: ParameterCategory[] = paramCats; // les catégories pour afficher dans la liste select (paramCatsFiltered)
+	collapsed: boolean = false;
+	typeParam: ListSelect[] = [{ children: typeParam }]; // les types à afficher dans la list select
+	partsForSelect!: ListSelect[]; // liste des parties pour le select
 
-  typeParam: ListSelect[] = [{ children: typeParam }]; // les types à afficher dans la list select
-  partsForSelect!: ListSelect[]; // liste des parties pour le select
+	constructor(vstHandler: VstHandlerService) {
+		this.vstHandler = vstHandler;
+	}
 
-  constructor(vstHandler: VstHandlerService) {
-    this.vstHandler = vstHandler;
-  }
+	ngOnInit(): void {
+		if (this.collapsable) this.collapsed = this.collapsable;
+		this.partsForSelect = [{ children: this.parts }];
+	}
 
-  ngOnInit(): void {
-    this.partsForSelect = [{ children: this.parts }];
-  }
+	paramCatsFiltered(type: string): ListSelect[] {
+		let toReturn: ListSelect[] = [];
+		this.paramCats.map((value) => {
+			const groupName: string = value.categoryName;
+			let children: string[] = [];
+			value.childrenParam?.map((val) => {
+				if (val.type === type) children.push(val.paramName);
+			});
+			toReturn.push({ groupName: groupName, children: children });
+		});
+		return toReturn;
+	}
 
-  paramCatsFiltered(type: string): ListSelect[] {
-    let toReturn: ListSelect[] = [];
-    this.paramCats.map((value) => {
-      const groupName: string = value.categoryName;
-      let children: string[] = [];
-      value.childrenParam?.map((val) => {
-        if (val.type === type) children.push(val.paramName);
-      });
-      toReturn.push({ groupName: groupName, children: children });
-    });
-    return toReturn;
-  }
+	setParamType(type: { value: any; id: any }) {
+		const { value, id } = type;
+		this.vstHandler.setParamType(value, id);
+		this.initVstParent();
+	}
 
-  setParamType(type: { value: any; id: any }) {
-    const { value, id } = type;
-    this.vstHandler.setParamType(value, id);
-    this.initVstParent();
-  }
+	setParamCat(cat: { value: any; id: any }) {
+		const { value, id } = cat;
+		this.vstHandler.setParamCat(value, id);
+		this.initVstParent();
+	}
 
-  setParamCat(cat: { value: any; id: any }) {
-    const { value, id } = cat;
-    this.vstHandler.setParamCat(value, id);
-    this.initVstParent();
-  }
-
-  setParamPart(part: { value: any; id: any }) {
-    const { value, id } = part;
-    this.vstHandler.setParamPart(value, id);
-    this.initVstParent();
-  }
+	setParamPart(part: { value: any; id: any }) {
+		const { value, id } = part;
+		this.vstHandler.setParamPart(value, id);
+		this.initVstParent();
+	}
 }

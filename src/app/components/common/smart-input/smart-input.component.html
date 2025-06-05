@@ -1,38 +1,37 @@
 @if(addNewElement){
 <button
-  (click)="valueModifiy = true; addNewElement = false"
-  style="background-image: url(/img/plus.svg)"
-  title="Ajouter un élément"
-  class="add"
+	(click)="valueModifiy = true; addNewElement = false"
+	style="background-image: url(/img/plus.svg)"
+	title="Ajouter un élément"
+	class="add"
 ></button>
 } @else { @if (valueModifiy){ @if(!optionList){
 <input [(ngModel)]="value" (change)="change($event)" #input />
 } @else {
 <span #listSelect>
-  <list-select
-    [optionList]="optionList"
-    (valueEmit)="change($event)"
-    [inputSelect]="value"
-  />
+	<list-select
+		[optionList]="optionList"
+		(valueEmit)="change($event)"
+		[inputSelect]="value"
+	/>
 </span>
 
 } @if(showButtons){
 <button
-  (click)="valueModifiy = true"
-  style="background-image: url(/img/check.svg)"
+	(click)="valueModifiy = true"
+	style="background-image: url(/img/check.svg)"
 ></button>
 <button
-  (click)="valueModifiy = false"
-  style="background-image: url(/img/cancel.svg)"
+	(click)="valueModifiy = false"
+	style="background-image: url(/img/cancel.svg)"
 ></button>
 } } @else {
-<span
-  title="{{ toolTipText ? toolTipText : 'double cliquez pour modifier' }}"
-  >{{ value }}</span
->
+<span [title]="toolTipText ? toolTipText : 'double cliquez pour modifier'">{{
+	value
+}}</span>
 @if(showButtons){
 <button
-  (click)="valueModifiy = true"
-  style="background-image: url(/img/edit.svg)"
+	(click)="valueModifiy = true"
+	style="background-image: url(/img/edit.svg)"
 ></button>
 } } }

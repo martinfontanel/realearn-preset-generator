@@ -1,0 +1,23 @@
+.collapsable {
+	transition: margin 0.5s ease;
+	.parameter {
+		transition: height 0.5s ease;
+		height: 25px;
+		overflow: hidden;
+	}
+	&.collapsed {
+		margin: 0;
+		.parameter {
+			height: 0;
+			border: none;
+			margin: 0;
+		}
+	}
+}
+.collapse-btn {
+	background: none;
+	border: none;
+	&.active {
+		transform: rotate(180deg);
+	}
+}
