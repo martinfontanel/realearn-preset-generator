@@ -27,6 +27,7 @@
 			[parts]="vstHandler.parts.getValue()"
 			[initVstParent]="setCurrentVstInfos"
 			[collapsable]="true"
+			[listName]="part.partName ? part.partName : ''"
 		/>
 
 		}
@@ -44,6 +45,7 @@
 			[parts]="vstHandler.parts.getValue()"
 			[initVstParent]="setCurrentVstInfos"
 			[collapsable]="true"
+			[listName]="'unknown'"
 		/>
 		} }
 	</div>

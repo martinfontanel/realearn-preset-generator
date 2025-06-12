@@ -5,7 +5,7 @@
 		height: 25px;
 		overflow: hidden;
 	}
-	&.collapsed {
+	&.not-collapsed {
 		margin: 0;
 		.parameter {
 			height: 0;

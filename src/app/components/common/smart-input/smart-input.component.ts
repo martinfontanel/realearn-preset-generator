@@ -54,7 +54,6 @@ export class SmartInputComponent {
 				toReturn = false;
 				break;
 			case '[object Event]':
-
 			default:
 				this.valueModifiy = false;
 				toReturn = true;
