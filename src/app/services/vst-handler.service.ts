@@ -80,12 +80,14 @@ export class VstHandlerService {
 			data.parameters[id] = { ...value, id };
 		});
 
+		if (!data.type) data.type = '';
+
 		if (data.parts) {
 			/** on ordonne les parts */
 			data.parts.sort((a: any, b: any) => {
 				return a < b ? -1 : 1;
 			});
-		}
+		} else data.parts = [];
 		return data;
 	}
 
