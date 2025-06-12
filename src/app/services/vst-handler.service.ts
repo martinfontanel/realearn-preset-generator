@@ -58,6 +58,7 @@ export class VstHandlerService {
 		/* d'abord on vide la mémoire des parties */
 		this.setParamsByPart([]);
 		this.setParamsWthoutPart([]);
+		this.setParts([]);
 
 		this.loadFile.setUrl(url);
 		this.currentVst$ = this.loadFile

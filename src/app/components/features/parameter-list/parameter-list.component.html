@@ -40,12 +40,16 @@
 			}
 		</div>
 		<div>
+			@if(parts.length > 0){
 			<smart-input
 				[optionList]="partsForSelect"
 				[value]="param.part"
 				[id]="param.id"
 				(valueEmit)="setParamPart($event)"
 			/>
+			} @else{
+			<span>Ajoutez une partie au VST</span>
+			}
 		</div>
 	</li>
 	}

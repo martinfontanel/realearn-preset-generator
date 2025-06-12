@@ -74,6 +74,8 @@ export class CurrentVstComponent {
 					});
 				});
 				this.vstHandler.setParamsByPart(paramsByPart);
+			} else {
+				value.parts = [];
 			}
 
 			/** type */
