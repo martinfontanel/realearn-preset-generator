@@ -1,23 +1,51 @@
+.parameter {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  &:hover:not(.header) {
+    background-color: beige;
+  }
+  & > * {
+    width: 30%;
+  }
+  .type {
+    width: 10%;
+  }
+  input,
+  select {
+    width: 100%;
+  }
+  &.header {
+    border-bottom: 1px #000000 solid;
+    margin-bottom: 1em;
+  }
+}
+.part {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
 .collapsable {
-	transition: margin 0.5s ease;
-	.parameter {
-		transition: height 0.5s ease;
-		height: 25px;
-		overflow: hidden;
-	}
-	&.not-collapsed {
-		margin: 0;
-		.parameter {
-			height: 0;
-			border: none;
-			margin: 0;
-		}
-	}
+  transition: margin 0.5s ease;
+  .parameter {
+    transition: height 0.5s ease;
+    height: 25px;
+    overflow: hidden;
+  }
+  &.not-collapsed {
+    margin: 0;
+    .parameter {
+      height: 0;
+      border: none;
+      margin: 0;
+    }
+  }
 }
 .collapse-btn {
-	background: none;
-	border: none;
-	&.active {
-		transform: rotate(180deg);
-	}
+  background: none;
+  border: none;
+  &.active {
+    transform: rotate(180deg);
+  }
 }

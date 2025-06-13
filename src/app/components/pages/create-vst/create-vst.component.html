@@ -1,0 +1,13 @@
+@for (vst of newVst; track $index){
+<smart-input
+  [textarea]="true"
+  (valueEmit)="submitNewVst($event)"
+  [value]="vst"
+/>
+<hr />
+}
+<smart-input
+  [textarea]="true"
+  (valueEmit)="submitNewVst($event)"
+  [resetWhenSubmitted]="true"
+/>

@@ -1,0 +1,12 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  gap: 2em;
+  .form {
+    flex: 2;
+  }
+  .export {
+    flex: 3;
+  }
+}

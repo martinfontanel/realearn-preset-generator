@@ -1,0 +1,19 @@
+@import "../../../../mixin.scss";
+:host {
+  height: 100%;
+  ul {
+    @include flex-align-center;
+    list-style: none;
+    gap: 2em;
+    height: 100%;
+    li > a {
+      font-weight: bold;
+      color: #000000;
+      text-decoration: none;
+      transition: color 0.5s;
+      &:hover {
+        color: #00000070;
+      }
+    }
+  }
+}
