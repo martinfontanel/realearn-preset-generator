@@ -1,4 +1,4 @@
 export interface GlobalParameter {
-  paramName: string;
-  type: string;
+	paramName: string;
+	type: string;
 }

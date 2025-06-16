@@ -3,7 +3,8 @@
 	(click)="toggleCollapse()"
 	[class]="
 		'collapse-btn' +
-		(!(paramListService.getState(datas) | async) ? ' active' : '')
+		(!(paramListService.getState(datas) | async) ? ' active' : '') +
+		(parameters.length > 0 ? '' : ' empty')
 	"
 >
 	<img src="/img/double_arrow_down.svg" />
@@ -12,7 +13,8 @@
 <ul
 	[class]="
 		(collapsable ? 'collapsable' : '') +
-		((paramListService.getState(datas) | async) ? '' : ' not-collapsed')
+		((paramListService.getState(datas) | async) ? '' : ' not-collapsed') +
+		(parameters.length > 0 ? '' : ' empty')
 	"
 >
 	<li class="parameter header">

@@ -85,6 +85,8 @@ export class ParameterListComponent {
 	setParamPart(part: { value: any; id: any }) {
 		const { value, id } = part;
 		this.vstHandler.setParamPart(value, id);
+
+		// on collapse la part qui reçoit le parametre
 		this.paramListService.setState({
 			vstName: this.vstName,
 			paramListName: value,
@@ -96,6 +98,7 @@ export class ParameterListComponent {
 
 	toggleCollapse() {
 		let collapsed;
+
 		// on récupère la valeur actuelle
 		this.paramListService.getState(this.datas).subscribe((val: boolean) => {
 			collapsed = val;
@@ -125,6 +128,7 @@ export class ParameterListComponent {
 				vstName: this.vstName,
 				paramListName: this.listName,
 				collapsed: this.collapsed,
+				collapsed$: of(this.collapsed),
 			});
 		} else {
 			this.collapsed = recordedList.collapsed
