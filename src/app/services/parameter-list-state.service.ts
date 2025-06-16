@@ -1,9 +1,11 @@
 import { Injectable } from '@angular/core';
+import { Observable, of } from 'rxjs';
 
 export interface VstParamListState {
 	vstName: string;
 	paramListName: string;
-	collapsed: boolean;
+	collapsed?: boolean;
+	collapsed$?: Observable<boolean>;
 }
 
 @Injectable({
@@ -15,6 +17,8 @@ export class ParameterListStateService {
 	constructor() {}
 
 	setState(data: VstParamListState) {
+		console.log('setstate', data);
+
 		let newState: VstParamListState[] = [];
 		if (this.verif(data)) {
 			this.globalState.map((val) => {
@@ -30,11 +34,21 @@ export class ParameterListStateService {
 			});
 			this.globalState = newState;
 		} else this.globalState.push(data);
+		console.log('getstate', this.getState(data));
 		return this.globalState.filter((val) => val.vstName === data.vstName);
 	}
 
 	getDatas() {
 		return this.globalState;
+	}
+
+	getState(data: VstParamListState) {
+		const toReturn = this.globalState.filter(
+			(val) =>
+				val.vstName === data.vstName &&
+				val.paramListName === data.paramListName
+		)[0].collapsed$;
+		return toReturn ? toReturn : of(false);
 	}
 
 	verif(data: VstParamListState) {

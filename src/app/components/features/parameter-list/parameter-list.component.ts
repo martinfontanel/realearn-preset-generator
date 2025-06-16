@@ -6,12 +6,17 @@ import { SmartInputComponent } from '@common/smart-input/smart-input.component';
 import { typeParam } from '@consts/type-param';
 import { ListSelect } from '@common/list-select/list-select.component';
 import { paramCats } from '@consts/param-cat';
-import { ParameterListStateService } from '@services/parameter-list-state.service';
+import {
+	ParameterListStateService,
+	VstParamListState,
+} from '@services/parameter-list-state.service';
+import { Observable, of, map } from 'rxjs';
+import { AsyncPipe } from '@angular/common';
 
 @Component({
 	selector: 'parameter-list',
 	standalone: true,
-	imports: [SmartInputComponent],
+	imports: [SmartInputComponent, AsyncPipe],
 	templateUrl: './parameter-list.component.html',
 	styleUrl: './parameter-list.component.scss',
 })
@@ -29,10 +34,12 @@ export class ParameterListComponent {
 	/** variables de gestion */
 	paramCats: ParameterCategory[] = paramCats; // les catégories pour afficher dans la liste select (paramCatsFiltered)
 	collapsed: boolean = false;
+	collapsed$: Observable<boolean> = of(false);
 	typeParam: ListSelect[] = [{ children: typeParam }]; // les types à afficher dans la list select
 	partsForSelect!: ListSelect[]; // liste des parties pour le select
 	paramListService;
 	vstName: string = '';
+	datas: VstParamListState = { vstName: '', paramListName: '' };
 
 	constructor(
 		vstHandler: VstHandlerService,
@@ -46,6 +53,7 @@ export class ParameterListComponent {
 		if (this.collapsable) this.collapsed = !this.collapsable;
 		this.partsForSelect = [{ children: this.parts }];
 		this.vstName = this.vstHandler.currentVst.vstName;
+		this.datas = { vstName: this.vstName, paramListName: this.listName };
 		this.handleParamListMemory();
 	}
 
@@ -77,15 +85,28 @@ export class ParameterListComponent {
 	setParamPart(part: { value: any; id: any }) {
 		const { value, id } = part;
 		this.vstHandler.setParamPart(value, id);
+		this.paramListService.setState({
+			vstName: this.vstName,
+			paramListName: value,
+			collapsed: true,
+			collapsed$: of(true),
+		});
 		this.initVstParent();
 	}
 
 	toggleCollapse() {
-		this.collapsed = !this.collapsed;
+		let collapsed;
+		// on récupère la valeur actuelle
+		this.paramListService.getState(this.datas).subscribe((val: boolean) => {
+			collapsed = val;
+		});
+
+		// on remplace par la nouvelle valeur
 		this.paramListService.setState({
 			vstName: this.vstName,
 			paramListName: this.listName,
-			collapsed: this.collapsed,
+			collapsed: !collapsed,
+			collapsed$: of(!collapsed),
 		});
 	}
 
@@ -106,7 +127,9 @@ export class ParameterListComponent {
 				collapsed: this.collapsed,
 			});
 		} else {
-			this.collapsed = recordedList.collapsed;
+			this.collapsed = recordedList.collapsed
+				? recordedList.collapsed
+				: false;
 		}
 	}
 }

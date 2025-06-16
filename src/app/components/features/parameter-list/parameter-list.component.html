@@ -1,14 +1,18 @@
 @if(collapsable){
 <button
 	(click)="toggleCollapse()"
-	[class]="'collapse-btn' + (!collapsed ? ' active' : '')"
+	[class]="
+		'collapse-btn' +
+		(!(paramListService.getState(datas) | async) ? ' active' : '')
+	"
 >
 	<img src="/img/double_arrow_down.svg" />
 </button>
 }
 <ul
 	[class]="
-		(collapsable ? 'collapsable' : '') + (collapsed ? '' : ' not-collapsed')
+		(collapsable ? 'collapsable' : '') +
+		((paramListService.getState(datas) | async) ? '' : ' not-collapsed')
 	"
 >
 	<li class="parameter header">
