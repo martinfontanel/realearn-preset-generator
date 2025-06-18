@@ -1,15 +1,21 @@
 <select [(ngModel)]="inputSelect" (change)="change()">
-  @for (group of optionList; track $index) { @if(group.groupName !== undefined){
-  <optgroup [label]="group.groupName ? group.groupName : ''">
-    @for(file of group.children; track $index){
-    <option [value]="group.groupName + '/' + file.toString()">
-      {{ file.toString() }}
-    </option>
-    }
-  </optgroup>
-  } @else{ @for(file of group.children; track $index){
-  <option [value]="file.toString()">
-    {{ file.toString() }}
-  </option>
-  } } }
+	@for (group of optionListToShow; track $index) { @if(group.groupName !==
+	undefined){
+	<optgroup [label]="group.groupName ? group.groupName : ''">
+		@for(file of group.children; track $index){
+		<option [value]="group.groupName + '/' + file.toString()">
+			{{ file.toString() }}
+		</option>
+		}
+	</optgroup>
+	} @else{ @for(file of group.children; track $index){
+	<option [value]="file.toString()">
+		{{ file.toString() }}
+	</option>
+	} @if (emptyLabel !== '' && emptyLabel !== undefined && emptyLabel !== null
+	&& invisibleValue !== 'unknown'){
+	<option [value]="'**EmptyLabel**'">
+		{{ emptyLabel }}
+	</option>
+	} } }
 </select>

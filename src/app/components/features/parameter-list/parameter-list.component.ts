@@ -89,7 +89,7 @@ export class ParameterListComponent {
 		// on collapse la part qui reçoit le parametre
 		this.paramListService.setState({
 			vstName: this.vstName,
-			paramListName: value,
+			paramListName: value !== '' ? value : 'unknown',
 			collapsed: true,
 			collapsed$: of(true),
 		});

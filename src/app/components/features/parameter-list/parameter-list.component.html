@@ -52,6 +52,8 @@
 				[value]="param.part"
 				[id]="param.id"
 				(valueEmit)="setParamPart($event)"
+				[emptyLabel]="'sans partie'"
+				[invisibleValue]="listName"
 			/>
 			} @else{
 			<span>Ajoutez une partie au VST</span>

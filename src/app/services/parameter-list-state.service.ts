@@ -17,8 +17,6 @@ export class ParameterListStateService {
 	constructor() {}
 
 	setState(data: VstParamListState) {
-		console.log('setstate', data);
-
 		let newState: VstParamListState[] = [];
 		if (this.verif(data)) {
 			this.globalState.map((val) => {
@@ -34,7 +32,6 @@ export class ParameterListStateService {
 			});
 			this.globalState = newState;
 		} else this.globalState.push(data);
-		console.log('getstate', this.getState(data));
 		return this.globalState.filter((val) => val.vstName === data.vstName);
 	}
 
