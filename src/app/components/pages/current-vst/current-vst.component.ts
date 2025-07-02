@@ -38,7 +38,6 @@ export class CurrentVstComponent {
 	/** variables de gestion */
 	files: any = files; // noms des fichiers contenant les infos des VST pour le select
 	listVstTypes: ListSelect[] = [{ children: Object.values(TypeVst) }]; // list des type de VST pour le champs select de type
-	newPartValue: undefined = undefined;
 
 	constructor(vstHandler: VstHandlerService) {
 		this.vstHandler = vstHandler;
@@ -90,7 +89,6 @@ export class CurrentVstComponent {
 		const { value, id } = part;
 		if (!this.vstHandler.currentVst.parts)
 			this.vstHandler.currentVst.parts = [];
-		this.newPartValue = undefined;
 		this.vstHandler.currentVst.parts.push(value);
 		this.vstHandler.updateCurrentVst(of(this.vstHandler.currentVst));
 		this.setCurrentVstInfos();
@@ -106,7 +104,7 @@ export class CurrentVstComponent {
 
 	changePart(partChangeInfo: { value: any; id: any }) {
 		const { value, id } = partChangeInfo;
-		let myParams: Parameter[] = [];
+
 		let idParams: number[] = [];
 		this.vstHandler.paramsByPart.getValue()[id].params.map((val) => {
 			if (val.id) idParams.push(val.id);
